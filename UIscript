@@ -1,11 +1,3 @@
--- Please do not touch, thank you.
--- will obfuscate this later...
-
--- Nikolai best scripter ever
-
-
---NikoBest
-
 -- Gui to Lua
 -- Version: 3.2
 
@@ -99,6 +91,7 @@ Core.BorderColor3 = Color3.fromRGB(154, 0, 77)
 Core.BorderSizePixel = 2
 Core.Position = UDim2.new(0.400681973, 0, 0.192649201, 0)
 Core.Size = UDim2.new(0, 413, 0, 523)
+Core.Visible = false
 
 Pattern.Name = "Pattern"
 Pattern.Parent = Core
@@ -683,7 +676,6 @@ Changelog.BorderColor3 = Color3.fromRGB(154, 0, 77)
 Changelog.BorderSizePixel = 2
 Changelog.Position = UDim2.new(0.458052814, 0, 0.308801621, 0)
 Changelog.Size = UDim2.new(0, 237, 0, 335)
-Changelog.Visible = false
 
 TopBar.Name = "TopBar"
 TopBar.Parent = Changelog
@@ -834,7 +826,7 @@ close_2.ImageRectSize = Vector2.new(24, 24)
 
 -- Scripts:
 
-local function VKPAT_fake_script() -- GunButton.LocalScript 
+local function LLIFOUM_fake_script() -- GunButton.LocalScript 
 	local script = Instance.new('LocalScript', GunButton)
 
 	-- Gun Button
@@ -857,8 +849,8 @@ local function VKPAT_fake_script() -- GunButton.LocalScript
 	
 	button.Activated:Connect(onButtonActivated)
 end
-coroutine.wrap(VKPAT_fake_script)()
-local function ZLRL_fake_script() -- ShadowsB.LocalScript 
+coroutine.wrap(LLIFOUM_fake_script)()
+local function ZNVTX_fake_script() -- ShadowsB.LocalScript 
 	local script = Instance.new('LocalScript', ShadowsB)
 
 	
@@ -888,8 +880,8 @@ local function ZLRL_fake_script() -- ShadowsB.LocalScript
 		end
 	end)
 end
-coroutine.wrap(ZLRL_fake_script)()
-local function MOTYFB_fake_script() -- arrow_drop_down.Dropdown 
+coroutine.wrap(ZNVTX_fake_script)()
+local function SNWXJL_fake_script() -- arrow_drop_down.Dropdown 
 	local script = Instance.new('LocalScript', arrow_drop_down)
 
 	
@@ -904,8 +896,8 @@ local function MOTYFB_fake_script() -- arrow_drop_down.Dropdown
 	end)
 	
 end
-coroutine.wrap(MOTYFB_fake_script)()
-local function CYIA_fake_script() -- arrow_drop_down.Arrow 
+coroutine.wrap(SNWXJL_fake_script)()
+local function VUUQW_fake_script() -- arrow_drop_down.Arrow 
 	local script = Instance.new('LocalScript', arrow_drop_down)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -915,8 +907,8 @@ local function CYIA_fake_script() -- arrow_drop_down.Arrow
 	end)
 	
 end
-coroutine.wrap(CYIA_fake_script)()
-local function QUVLE_fake_script() -- Vibe.LocalScript 
+coroutine.wrap(VUUQW_fake_script)()
+local function XJYRRLP_fake_script() -- Vibe.LocalScript 
 	local script = Instance.new('LocalScript', Vibe)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -941,8 +933,8 @@ local function QUVLE_fake_script() -- Vibe.LocalScript
 	end)
 	
 end
-coroutine.wrap(QUVLE_fake_script)()
-local function CNFK_fake_script() -- Minecraft.LocalScript 
+coroutine.wrap(XJYRRLP_fake_script)()
+local function YYRP_fake_script() -- Minecraft.LocalScript 
 	local script = Instance.new('LocalScript', Minecraft)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -968,8 +960,8 @@ local function CNFK_fake_script() -- Minecraft.LocalScript
 	end)
 	
 end
-coroutine.wrap(CNFK_fake_script)()
-local function EBLS_fake_script() -- Nebula.LocalScript 
+coroutine.wrap(YYRP_fake_script)()
+local function HWLOELS_fake_script() -- Nebula.LocalScript 
 	local script = Instance.new('LocalScript', Nebula)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -994,8 +986,8 @@ local function EBLS_fake_script() -- Nebula.LocalScript
 	end)
 	
 end
-coroutine.wrap(EBLS_fake_script)()
-local function YVICLB_fake_script() -- DarkNight.LocalScript 
+coroutine.wrap(HWLOELS_fake_script)()
+local function HDFMV_fake_script() -- DarkNight.LocalScript 
 	local script = Instance.new('LocalScript', DarkNight)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1020,8 +1012,8 @@ local function YVICLB_fake_script() -- DarkNight.LocalScript
 	
 	
 end
-coroutine.wrap(YVICLB_fake_script)()
-local function KBQYJ_fake_script() -- arrow_drop_up.Arrow 
+coroutine.wrap(HDFMV_fake_script)()
+local function QJKXHX_fake_script() -- arrow_drop_up.Arrow 
 	local script = Instance.new('LocalScript', arrow_drop_up)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1031,8 +1023,8 @@ local function KBQYJ_fake_script() -- arrow_drop_up.Arrow
 	end)
 	
 end
-coroutine.wrap(KBQYJ_fake_script)()
-local function XCWORT_fake_script() -- arrow_drop_up.Dropdown 
+coroutine.wrap(QJKXHX_fake_script)()
+local function VZAQXG_fake_script() -- arrow_drop_up.Dropdown 
 	local script = Instance.new('LocalScript', arrow_drop_up)
 
 	
@@ -1047,8 +1039,8 @@ local function XCWORT_fake_script() -- arrow_drop_up.Dropdown
 	end)
 	
 end
-coroutine.wrap(XCWORT_fake_script)()
-local function AQCYJ_fake_script() -- Day.LocalScript 
+coroutine.wrap(VZAQXG_fake_script)()
+local function DORL_fake_script() -- Day.LocalScript 
 	local script = Instance.new('LocalScript', Day)
 
 	
@@ -1079,16 +1071,16 @@ local function AQCYJ_fake_script() -- Day.LocalScript
 		end
 	end)
 end
-coroutine.wrap(AQCYJ_fake_script)()
-local function VZJXGSY_fake_script() -- RemoveTextures.LocalScript 
+coroutine.wrap(DORL_fake_script)()
+local function LFNLSV_fake_script() -- RemoveTextures.LocalScript 
 	local script = Instance.new('LocalScript', RemoveTextures)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Confirm.Visible = true
 		end)
 end
-coroutine.wrap(VZJXGSY_fake_script)()
-local function MOVK_fake_script() -- check.LocalScript 
+coroutine.wrap(LFNLSV_fake_script)()
+local function UCWU_fake_script() -- check.LocalScript 
 	local script = Instance.new('LocalScript', check)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1097,16 +1089,16 @@ local function MOVK_fake_script() -- check.LocalScript
 	end)
 	
 end
-coroutine.wrap(MOVK_fake_script)()
-local function VLRTTX_fake_script() -- close.LocalScript 
+coroutine.wrap(UCWU_fake_script)()
+local function XMRMO_fake_script() -- close.LocalScript 
 	local script = Instance.new('LocalScript', close)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Confirm.Visible = false
 	end)
 end
-coroutine.wrap(VLRTTX_fake_script)()
-local function CAZABT_fake_script() -- MainButton.LocalScript 
+coroutine.wrap(XMRMO_fake_script)()
+local function BDAIKX_fake_script() -- MainButton.LocalScript 
 	local script = Instance.new('LocalScript', MainButton)
 
 	-- Main Button
@@ -1131,8 +1123,8 @@ local function CAZABT_fake_script() -- MainButton.LocalScript
 	button.Activated:Connect(onButtonActivated)
 	
 end
-coroutine.wrap(CAZABT_fake_script)()
-local function YRVSY_fake_script() -- VisualsButton.LocalScript 
+coroutine.wrap(BDAIKX_fake_script)()
+local function ZUTRV_fake_script() -- VisualsButton.LocalScript 
 	local script = Instance.new('LocalScript', VisualsButton)
 
 	-- Visuals Button
@@ -1156,8 +1148,8 @@ local function YRVSY_fake_script() -- VisualsButton.LocalScript
 	
 	button.Activated:Connect(onButtonActivated)
 end
-coroutine.wrap(YRVSY_fake_script)()
-local function USYUF_fake_script() -- Core.Draggable 
+coroutine.wrap(ZUTRV_fake_script)()
+local function QAZLNG_fake_script() -- Core.Draggable 
 	local script = Instance.new('LocalScript', Core)
 
 	local UIS = game:GetService('UserInputService')
@@ -1231,8 +1223,8 @@ local function USYUF_fake_script() -- Core.Draggable
 	end)
 	
 end
-coroutine.wrap(USYUF_fake_script)()
-local function JUNUM_fake_script() -- Core.Keybind 
+coroutine.wrap(QAZLNG_fake_script)()
+local function YEEZYH_fake_script() -- Core.Keybind 
 	local script = Instance.new('LocalScript', Core)
 
 	local frame = script.Parent.Parent.Core
@@ -1254,8 +1246,8 @@ local function JUNUM_fake_script() -- Core.Keybind
 		end
 	end)
 end
-coroutine.wrap(JUNUM_fake_script)()
-local function FJAANIB_fake_script() -- close_2.LocalScript 
+coroutine.wrap(YEEZYH_fake_script)()
+local function FZOIYTI_fake_script() -- close_2.LocalScript 
 	local script = Instance.new('LocalScript', close_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1264,4 +1256,4 @@ local function FJAANIB_fake_script() -- close_2.LocalScript
 		script.Parent.Parent.Parent.Changelog:Destroy()
 	end)
 end
-coroutine.wrap(FJAANIB_fake_script)()
+coroutine.wrap(FZOIYTI_fake_script)()
