@@ -4,7 +4,12 @@
 -- Nikolai best scripter ever
 
 
-local Library = Instance.new("ScreenGui")
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
 local Core = Instance.new("Frame")
 local Pattern = Instance.new("ImageLabel")
 local TopFrame = Instance.new("Frame")
@@ -74,12 +79,11 @@ local close = Instance.new("ImageButton")
 
 --Properties:
 
-Library.Name = "Library"
-Library.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-Library.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Core.Name = "Core"
-Core.Parent = Library
+Core.Parent = ScreenGui
 Core.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
 Core.BorderColor3 = Color3.fromRGB(154, 0, 77)
 Core.BorderSizePixel = 2
@@ -578,7 +582,7 @@ Frame_6.Position = UDim2.new(0, 0, 1, 0)
 Frame_6.Size = UDim2.new(0, 60, 0, 0)
 
 Changelog.Name = "Changelog"
-Changelog.Parent = Library
+Changelog.Parent = ScreenGui
 Changelog.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
 Changelog.BorderColor3 = Color3.fromRGB(154, 0, 77)
 Changelog.BorderSizePixel = 2
@@ -734,7 +738,7 @@ close.ImageRectSize = Vector2.new(24, 24)
 
 -- Scripts:
 
-local function FJPNCKU_fake_script() -- GunButton.LocalScript 
+local function JDWJAV_fake_script() -- GunButton.LocalScript 
 	local script = Instance.new('LocalScript', GunButton)
 
 	-- Gun Button
@@ -757,8 +761,8 @@ local function FJPNCKU_fake_script() -- GunButton.LocalScript
 	
 	button.Activated:Connect(onButtonActivated)
 end
-coroutine.wrap(FJPNCKU_fake_script)()
-local function XASZC_fake_script() -- ShadowsB.LocalScript 
+coroutine.wrap(JDWJAV_fake_script)()
+local function MCEUAAN_fake_script() -- ShadowsB.LocalScript 
 	local script = Instance.new('LocalScript', ShadowsB)
 
 	
@@ -788,8 +792,8 @@ local function XASZC_fake_script() -- ShadowsB.LocalScript
 		end
 	end)
 end
-coroutine.wrap(XASZC_fake_script)()
-local function KWERMS_fake_script() -- arrow_drop_down.Dropdown 
+coroutine.wrap(MCEUAAN_fake_script)()
+local function KMEZV_fake_script() -- arrow_drop_down.Dropdown 
 	local script = Instance.new('LocalScript', arrow_drop_down)
 
 	
@@ -804,8 +808,8 @@ local function KWERMS_fake_script() -- arrow_drop_down.Dropdown
 	end)
 	
 end
-coroutine.wrap(KWERMS_fake_script)()
-local function QJTWDB_fake_script() -- arrow_drop_down.Arrow 
+coroutine.wrap(KMEZV_fake_script)()
+local function PCBHL_fake_script() -- arrow_drop_down.Arrow 
 	local script = Instance.new('LocalScript', arrow_drop_down)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -815,113 +819,113 @@ local function QJTWDB_fake_script() -- arrow_drop_down.Arrow
 	end)
 	
 end
-coroutine.wrap(QJTWDB_fake_script)()
-local function EUDQB_fake_script() -- Vibe.LocalScript 
+coroutine.wrap(PCBHL_fake_script)()
+local function PFYBQL_fake_script() -- Vibe.LocalScript 
 	local script = Instance.new('LocalScript', Vibe)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	
-			game.Lighting.Sky.SkyboxBk = ("http://www.roblox.com/asset/?id=2176109632")
+			game.Lighting.Sky2.SkyboxBk = ("http://www.roblox.com/asset/?id=2176109632")
 			wait()
-			game.Lighting.Sky.SkyboxUp = ("http://www.roblox.com/asset/?id=2176110058")
+			game.Lighting.Sky2.SkyboxUp = ("http://www.roblox.com/asset/?id=2176110058")
 			wait()
-			game.Lighting.Sky.SkyboxDn = ("http://www.roblox.com/asset/?id=1181585971")
+			game.Lighting.Sky2.SkyboxDn = ("http://www.roblox.com/asset/?id=1181585971")
 			wait()
-			game.Lighting.Sky.SkyboxFt =("http://www.roblox.com/asset/?id=2176109632")
+			game.Lighting.Sky2.SkyboxFt =("http://www.roblox.com/asset/?id=2176109632")
 			wait()
-			game.Lighting.Sky.SkyboxLf =("http://www.roblox.com/asset/?id=2176109632")
+			game.Lighting.Sky2.SkyboxLf =("http://www.roblox.com/asset/?id=2176109632")
 			wait()
-			game.Lighting.Sky.SkyboxRt =("http://www.roblox.com/asset/?id=2176109632")
+			game.Lighting.Sky2.SkyboxRt =("http://www.roblox.com/asset/?id=2176109632")
 			wait()
-			game.Lighting.Sky.StarCount = 0
+			game.Lighting.Sky2.StarCount = 0
 			wait()
-			game.Lighting.Sky.CelestialBodiesShown = false
+			game.Lighting.Sky2.CelestialBodiesShown = false
 	
 	end)
 	
 end
-coroutine.wrap(EUDQB_fake_script)()
-local function SOQAD_fake_script() -- Minecraft.LocalScript 
+coroutine.wrap(PFYBQL_fake_script)()
+local function BRVOKZL_fake_script() -- Minecraft.LocalScript 
 	local script = Instance.new('LocalScript', Minecraft)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	
 	
-			game.Lighting.Sky.SkyboxBk = ("http://www.roblox.com/asset/?id=599982473")
+			game.Lighting.Sky2.SkyboxBk = ("http://www.roblox.com/asset/?id=599982473")
 			wait()
-			game.Lighting.Sky.SkyboxUp = ("http://www.roblox.com/asset/?id=599982473")
+			game.Lighting.Sky2.SkyboxUp = ("http://www.roblox.com/asset/?id=599982473")
 			wait()
-			game.Lighting.Sky.SkyboxDn = ("http://www.roblox.com/asset/?id=599982473")
+			game.Lighting.Sky2.SkyboxDn = ("http://www.roblox.com/asset/?id=599982473")
 			wait()
-			game.Lighting.Sky.SkyboxFt =("http://www.roblox.com/asset/?id=599982473")
+			game.Lighting.Sky2.SkyboxFt =("http://www.roblox.com/asset/?id=599982473")
 			wait()
-			game.Lighting.Sky.SkyboxLf =("http://www.roblox.com/asset/?id=599982473")
+			game.Lighting.Sky2.SkyboxLf =("http://www.roblox.com/asset/?id=599982473")
 			wait()
-			game.Lighting.Sky.SkyboxRt =("http://www.roblox.com/asset/?id=599982473")
+			game.Lighting.Sky2.SkyboxRt =("http://www.roblox.com/asset/?id=599982473")
 			wait()
-			game.Lighting.Sky.StarCount = 0
+			game.Lighting.Sky2.StarCount = 0
 			wait()
-			game.Lighting.Sky.CelestialBodiesShown = true
+			game.Lighting.Sky2.CelestialBodiesShown = true
 			wait()
 		
 	end)
 	
 end
-coroutine.wrap(SOQAD_fake_script)()
-local function FIBFSE_fake_script() -- Nebula.LocalScript 
+coroutine.wrap(BRVOKZL_fake_script)()
+local function QAKP_fake_script() -- Nebula.LocalScript 
 	local script = Instance.new('LocalScript', Nebula)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	
 	
-			game.Lighting.Sky.SkyboxBk = ("http://www.roblox.com/asset/?id=159454299")
+			game.Lighting.Sky2.SkyboxBk = ("http://www.roblox.com/asset/?id=159454299")
 			wait()
-			game.Lighting.Sky.SkyboxUp = ("http://www.roblox.com/asset/?id=159454296")
+			game.Lighting.Sky2.SkyboxUp = ("http://www.roblox.com/asset/?id=159454296")
 			wait()
-			game.Lighting.Sky.SkyboxDn = ("http://www.roblox.com/asset/?id=159454293")
+			game.Lighting.Sky2.SkyboxDn = ("http://www.roblox.com/asset/?id=159454293")
 			wait()
-			game.Lighting.Sky.SkyboxFt =("http://www.roblox.com/asset/?id=159454286")
+			game.Lighting.Sky2.SkyboxFt =("http://www.roblox.com/asset/?id=159454286")
 			wait()
-			game.Lighting.Sky.SkyboxLf =("http://www.roblox.com/asset/?id=159454300")
+			game.Lighting.Sky2.SkyboxLf =("http://www.roblox.com/asset/?id=159454300")
 			wait()
-			game.Lighting.Sky.SkyboxRt =("http://www.roblox.com/asset/?id=159454288")
+			game.Lighting.Sky2.SkyboxRt =("http://www.roblox.com/asset/?id=159454288")
 			wait()
-			game.Lighting.Sky.StarCount = 0
+			game.Lighting.Sky2.StarCount = 0
 			wait()
-			game.Lighting.Sky.CelestialBodiesShown = false
+			game.Lighting.Sky2.CelestialBodiesShown = false
 			wait()
 	
 	end)
 	
 end
-coroutine.wrap(FIBFSE_fake_script)()
-local function RVAS_fake_script() -- DarkNight.LocalScript 
+coroutine.wrap(QAKP_fake_script)()
+local function FVCDSDZ_fake_script() -- DarkNight.LocalScript 
 	local script = Instance.new('LocalScript', DarkNight)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	
-		game.Lighting.Sky.SkyboxBk = ("http://www.roblox.com/asset/?id=154185004")
+		game.Lighting.Sky2.SkyboxBk = ("http://www.roblox.com/asset/?id=154185004")
 		wait()
-		game.Lighting.Sky.SkyboxUp = ("http://www.roblox.com/asset/?id=154185031")
+		game.Lighting.Sky2.SkyboxUp = ("http://www.roblox.com/asset/?id=154185031")
 		wait()
-		game.Lighting.Sky.SkyboxDn = ("http://www.roblox.com/asset/?id=154184960")
+		game.Lighting.Sky2.SkyboxDn = ("http://www.roblox.com/asset/?id=154184960")
 		wait()
-		game.Lighting.Sky.SkyboxFt =("http://www.roblox.com/asset/?id=154185021")
+		game.Lighting.Sky2.SkyboxFt =("http://www.roblox.com/asset/?id=154185021")
 		wait()
-		game.Lighting.Sky.SkyboxLf =("http://www.roblox.com/asset/?id=154184943")
+		game.Lighting.Sky2.SkyboxLf =("http://www.roblox.com/asset/?id=154184943")
 		wait()
-		game.Lighting.Sky.SkyboxRt =("http://www.roblox.com/asset/?id=154184972")
+		game.Lighting.Sky2.SkyboxRt =("http://www.roblox.com/asset/?id=154184972")
 		wait()
-		game.Lighting.Sky.StarCount = 0
+		game.Lighting.Sky2.StarCount = 0
 		wait()
-		game.Lighting.Sky.CelestialBodiesShown = false
+		game.Lighting.Sky2.CelestialBodiesShown = false
 	
 	end)
 	
 	
 end
-coroutine.wrap(RVAS_fake_script)()
-local function LDXB_fake_script() -- arrow_drop_up.Arrow 
+coroutine.wrap(FVCDSDZ_fake_script)()
+local function CPJP_fake_script() -- arrow_drop_up.Arrow 
 	local script = Instance.new('LocalScript', arrow_drop_up)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -931,8 +935,8 @@ local function LDXB_fake_script() -- arrow_drop_up.Arrow
 	end)
 	
 end
-coroutine.wrap(LDXB_fake_script)()
-local function NFHIE_fake_script() -- arrow_drop_up.Dropdown 
+coroutine.wrap(CPJP_fake_script)()
+local function TTTDR_fake_script() -- arrow_drop_up.Dropdown 
 	local script = Instance.new('LocalScript', arrow_drop_up)
 
 	
@@ -947,8 +951,8 @@ local function NFHIE_fake_script() -- arrow_drop_up.Dropdown
 	end)
 	
 end
-coroutine.wrap(NFHIE_fake_script)()
-local function CGDKNP_fake_script() -- Day.LocalScript 
+coroutine.wrap(TTTDR_fake_script)()
+local function WFNDZQH_fake_script() -- Day.LocalScript 
 	local script = Instance.new('LocalScript', Day)
 
 	
@@ -979,8 +983,8 @@ local function CGDKNP_fake_script() -- Day.LocalScript
 		end
 	end)
 end
-coroutine.wrap(CGDKNP_fake_script)()
-local function QEDS_fake_script() -- MainButton.LocalScript 
+coroutine.wrap(WFNDZQH_fake_script)()
+local function KZTFEN_fake_script() -- MainButton.LocalScript 
 	local script = Instance.new('LocalScript', MainButton)
 
 	-- Main Button
@@ -1005,8 +1009,8 @@ local function QEDS_fake_script() -- MainButton.LocalScript
 	button.Activated:Connect(onButtonActivated)
 	
 end
-coroutine.wrap(QEDS_fake_script)()
-local function LIZSRUI_fake_script() -- VisualsButton.LocalScript 
+coroutine.wrap(KZTFEN_fake_script)()
+local function WZEMY_fake_script() -- VisualsButton.LocalScript 
 	local script = Instance.new('LocalScript', VisualsButton)
 
 	-- Visuals Button
@@ -1030,8 +1034,8 @@ local function LIZSRUI_fake_script() -- VisualsButton.LocalScript
 	
 	button.Activated:Connect(onButtonActivated)
 end
-coroutine.wrap(LIZSRUI_fake_script)()
-local function KIUW_fake_script() -- Core.Draggable 
+coroutine.wrap(WZEMY_fake_script)()
+local function PJOU_fake_script() -- Core.Draggable 
 	local script = Instance.new('LocalScript', Core)
 
 	local UIS = game:GetService('UserInputService')
@@ -1105,8 +1109,8 @@ local function KIUW_fake_script() -- Core.Draggable
 	end)
 	
 end
-coroutine.wrap(KIUW_fake_script)()
-local function EWBHB_fake_script() -- Core.Keybind 
+coroutine.wrap(PJOU_fake_script)()
+local function WHPVENY_fake_script() -- Core.Keybind 
 	local script = Instance.new('LocalScript', Core)
 
 	local frame = script.Parent.Parent.Core
@@ -1128,8 +1132,8 @@ local function EWBHB_fake_script() -- Core.Keybind
 		end
 	end)
 end
-coroutine.wrap(EWBHB_fake_script)()
-local function AOLGM_fake_script() -- close.LocalScript 
+coroutine.wrap(WHPVENY_fake_script)()
+local function PTGBSY_fake_script() -- close.LocalScript 
 	local script = Instance.new('LocalScript', close)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1138,4 +1142,4 @@ local function AOLGM_fake_script() -- close.LocalScript
 		script.Parent.Parent.Parent.Changelog:Destroy()
 	end)
 end
-coroutine.wrap(AOLGM_fake_script)()
+coroutine.wrap(PTGBSY_fake_script)()
