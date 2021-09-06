@@ -1,9 +1,10 @@
--- Please do not touch than you
+-- Please do not touch, thank you.
 -- will obfuscate this later...
 
 -- Nikolai best scripter ever
 
-local ScreenGui = Instance.new("ScreenGui")
+
+local Library = Instance.new("ScreenGui")
 local Core = Instance.new("Frame")
 local Pattern = Instance.new("ImageLabel")
 local TopFrame = Instance.new("Frame")
@@ -55,25 +56,42 @@ local VisualsButton = Instance.new("TextButton")
 local Framevis = Instance.new("Frame")
 local TextLabel_15 = Instance.new("TextLabel")
 local Frame_6 = Instance.new("Frame")
+local Changelog = Instance.new("Frame")
+local TopBar = Instance.new("Frame")
+local TextLabel_16 = Instance.new("TextLabel")
+local Main = Instance.new("Frame")
+local v005 = Instance.new("TextLabel")
+local Added = Instance.new("TextLabel")
+local Skybox = Instance.new("TextLabel")
+local Skybox_2 = Instance.new("TextLabel")
+local Changes = Instance.new("TextLabel")
+local Titles = Instance.new("TextLabel")
+local Fixes = Instance.new("TextLabel")
+local Titles_2 = Instance.new("TextLabel")
+local v003 = Instance.new("TextLabel")
+local TextLabel_17 = Instance.new("TextLabel")
+local close = Instance.new("ImageButton")
 
 --Properties:
 
-ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Library.Name = "Library"
+Library.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Library.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Core.Name = "Core"
-Core.Parent = ScreenGui
+Core.Parent = Library
 Core.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
 Core.BorderColor3 = Color3.fromRGB(154, 0, 77)
 Core.BorderSizePixel = 2
 Core.Position = UDim2.new(0.400681973, 0, 0.192649201, 0)
 Core.Size = UDim2.new(0, 413, 0, 523)
+Core.Visible = false
 
 Pattern.Name = "Pattern"
 Pattern.Parent = Core
 Pattern.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Pattern.BackgroundTransparency = 1.000
-Pattern.Position = UDim2.new(1.1920929e-07, 0, -0.00096321106, 0)
+Pattern.Position = UDim2.new(-1.3341403, 0, 1.29157984, 0)
 Pattern.Size = UDim2.new(0, 413, 0, 523)
 Pattern.ZIndex = 9
 Pattern.Image = "rbxassetid://2151782136"
@@ -114,7 +132,7 @@ TextLabel_2.BackgroundTransparency = 1.000
 TextLabel_2.Position = UDim2.new(0.861650467, 0, 0, 0)
 TextLabel_2.Size = UDim2.new(0, 57, 0, 20)
 TextLabel_2.Font = Enum.Font.Code
-TextLabel_2.Text = "v0.0.3"
+TextLabel_2.Text = "v0.0.5"
 TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_2.TextSize = 10.000
 
@@ -194,6 +212,7 @@ Framemain.BorderColor3 = Color3.fromRGB(154, 0, 77)
 Framemain.LayoutOrder = 1
 Framemain.Position = UDim2.new(-0.0608695634, 0, 1.45833397, 0)
 Framemain.Size = UDim2.new(0, 387, 0, 423)
+Framemain.Visible = false
 
 TextLabel_4.Parent = Framemain
 TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -558,9 +577,164 @@ Frame_6.BorderColor3 = Color3.fromRGB(154, 0, 77)
 Frame_6.Position = UDim2.new(0, 0, 1, 0)
 Frame_6.Size = UDim2.new(0, 60, 0, 0)
 
+Changelog.Name = "Changelog"
+Changelog.Parent = Library
+Changelog.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+Changelog.BorderColor3 = Color3.fromRGB(154, 0, 77)
+Changelog.BorderSizePixel = 2
+Changelog.Position = UDim2.new(0.458052814, 0, 0.308801621, 0)
+Changelog.Size = UDim2.new(0, 237, 0, 335)
+
+TopBar.Name = "TopBar"
+TopBar.Parent = Changelog
+TopBar.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+TopBar.BorderSizePixel = 0
+TopBar.LayoutOrder = 1
+TopBar.Position = UDim2.new(0, 0, 0.00298507465, 0)
+TopBar.Size = UDim2.new(0, 237, 0, 17)
+
+TextLabel_16.Parent = TopBar
+TextLabel_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.BackgroundTransparency = 1.000
+TextLabel_16.BorderSizePixel = 0
+TextLabel_16.LayoutOrder = 1
+TextLabel_16.Position = UDim2.new(0, 0, 0.0158027206, 0)
+TextLabel_16.Size = UDim2.new(0, 75, 0, 16)
+TextLabel_16.Font = Enum.Font.Code
+TextLabel_16.Text = "Changelog"
+TextLabel_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.TextSize = 14.000
+
+Main.Name = "Main"
+Main.Parent = Changelog
+Main.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+Main.BorderColor3 = Color3.fromRGB(154, 0, 77)
+Main.Position = UDim2.new(0.0421940945, 0, 0.175437629, 0)
+Main.Size = UDim2.new(0, 217, 0, 257)
+
+v005.Name = "v0.0.5"
+v005.Parent = Main
+v005.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+v005.BackgroundTransparency = 1.000
+v005.Position = UDim2.new(0.0460829474, 0, 0, 0)
+v005.Size = UDim2.new(0, 74, 0, 18)
+v005.Font = Enum.Font.Code
+v005.Text = "v0.0.5 [New]"
+v005.TextColor3 = Color3.fromRGB(255, 255, 255)
+v005.TextSize = 11.000
+
+Added.Name = "Added"
+Added.Parent = v005
+Added.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Added.BackgroundTransparency = 1.000
+Added.Position = UDim2.new(0.0675675571, 0, 1, 0)
+Added.Size = UDim2.new(0, 50, 0, 17)
+Added.Font = Enum.Font.Code
+Added.Text = "[Added]"
+Added.TextColor3 = Color3.fromRGB(255, 255, 255)
+Added.TextSize = 11.000
+
+Skybox.Name = "Skybox"
+Skybox.Parent = Added
+Skybox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Skybox.BackgroundTransparency = 1.000
+Skybox.Position = UDim2.new(0.367567152, 0, 0.699346185, 0)
+Skybox.Size = UDim2.new(0, 89, 0, 17)
+Skybox.Font = Enum.Font.Code
+Skybox.Text = "Skybox Changer"
+Skybox.TextColor3 = Color3.fromRGB(255, 255, 255)
+Skybox.TextSize = 11.000
+
+Skybox_2.Name = "Skybox"
+Skybox_2.Parent = Added
+Skybox_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Skybox_2.BackgroundTransparency = 1.000
+Skybox_2.Position = UDim2.new(0.367567152, 0, 1.64052272, 0)
+Skybox_2.Size = UDim2.new(0, 61, 0, 10)
+Skybox_2.Font = Enum.Font.Code
+Skybox_2.Text = "Changelog"
+Skybox_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Skybox_2.TextSize = 11.000
+
+Changes.Name = "Changes"
+Changes.Parent = v005
+Changes.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Changes.BackgroundTransparency = 1.000
+Changes.Position = UDim2.new(0.0270270258, 0, 4.66666698, 0)
+Changes.Size = UDim2.new(0, 57, 0, 17)
+Changes.Font = Enum.Font.Code
+Changes.Text = "[Changes]"
+Changes.TextColor3 = Color3.fromRGB(255, 255, 255)
+Changes.TextSize = 11.000
+
+Titles.Name = "Titles"
+Titles.Parent = Changes
+Titles.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Titles.BackgroundTransparency = 1.000
+Titles.Position = UDim2.new(0.367567092, 0, 0.699346185, 0)
+Titles.Size = UDim2.new(0, 121, 0, 17)
+Titles.Font = Enum.Font.Code
+Titles.Text = "Changed some titles"
+Titles.TextColor3 = Color3.fromRGB(255, 255, 255)
+Titles.TextSize = 11.000
+
+Fixes.Name = "Fixes"
+Fixes.Parent = v005
+Fixes.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Fixes.BackgroundTransparency = 1.000
+Fixes.Position = UDim2.new(0, 0, 7.55555534, 0)
+Fixes.Size = UDim2.new(0, 62, 0, 17)
+Fixes.Font = Enum.Font.Code
+Fixes.Text = "[Fixes]"
+Fixes.TextColor3 = Color3.fromRGB(255, 255, 255)
+Fixes.TextSize = 11.000
+
+Titles_2.Name = "Titles"
+Titles_2.Parent = Fixes
+Titles_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Titles_2.BackgroundTransparency = 1.000
+Titles_2.Position = UDim2.new(0.367567003, 0, 0.699347973, 0)
+Titles_2.Size = UDim2.new(0, 154, 0, 17)
+Titles_2.Font = Enum.Font.Code
+Titles_2.Text = "Fixed Fullbright reseting after some time"
+Titles_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Titles_2.TextSize = 10.000
+
+v003.Name = "v0.0.3"
+v003.Parent = Main
+v003.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+v003.BackgroundTransparency = 1.000
+v003.Position = UDim2.new(0.0460829511, 0, 0.743190646, 0)
+v003.Size = UDim2.new(0, 43, 0, 18)
+v003.Font = Enum.Font.Code
+v003.Text = "v0.0.3"
+v003.TextColor3 = Color3.fromRGB(255, 255, 255)
+v003.TextSize = 11.000
+
+TextLabel_17.Parent = Changelog
+TextLabel_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.BackgroundTransparency = 1.000
+TextLabel_17.Position = UDim2.new(0.0759493634, 0, 0.0679749474, 0)
+TextLabel_17.Size = UDim2.new(0, 200, 0, 35)
+TextLabel_17.Font = Enum.Font.GothamBlack
+TextLabel_17.Text = "Nikolai"
+TextLabel_17.TextColor3 = Color3.fromRGB(154, 0, 77)
+TextLabel_17.TextSize = 26.000
+TextLabel_17.TextWrapped = true
+
+close.Name = "close"
+close.Parent = Changelog
+close.BackgroundTransparency = 1.000
+close.Position = UDim2.new(0.871308029, 0, -0.00218316913, 0)
+close.Size = UDim2.new(0, 20, 0, 20)
+close.ZIndex = 2
+close.Image = "rbxassetid://3926305904"
+close.ImageRectOffset = Vector2.new(284, 4)
+close.ImageRectSize = Vector2.new(24, 24)
+
 -- Scripts:
 
-local function IXNXKCX_fake_script() -- GunButton.LocalScript 
+local function FJPNCKU_fake_script() -- GunButton.LocalScript 
 	local script = Instance.new('LocalScript', GunButton)
 
 	-- Gun Button
@@ -583,8 +757,8 @@ local function IXNXKCX_fake_script() -- GunButton.LocalScript
 	
 	button.Activated:Connect(onButtonActivated)
 end
-coroutine.wrap(IXNXKCX_fake_script)()
-local function RMCDS_fake_script() -- ShadowsB.LocalScript 
+coroutine.wrap(FJPNCKU_fake_script)()
+local function XASZC_fake_script() -- ShadowsB.LocalScript 
 	local script = Instance.new('LocalScript', ShadowsB)
 
 	
@@ -614,8 +788,8 @@ local function RMCDS_fake_script() -- ShadowsB.LocalScript
 		end
 	end)
 end
-coroutine.wrap(RMCDS_fake_script)()
-local function IWMAHH_fake_script() -- arrow_drop_down.Dropdown 
+coroutine.wrap(XASZC_fake_script)()
+local function KWERMS_fake_script() -- arrow_drop_down.Dropdown 
 	local script = Instance.new('LocalScript', arrow_drop_down)
 
 	
@@ -630,8 +804,8 @@ local function IWMAHH_fake_script() -- arrow_drop_down.Dropdown
 	end)
 	
 end
-coroutine.wrap(IWMAHH_fake_script)()
-local function UCPJP_fake_script() -- arrow_drop_down.Arrow 
+coroutine.wrap(KWERMS_fake_script)()
+local function QJTWDB_fake_script() -- arrow_drop_down.Arrow 
 	local script = Instance.new('LocalScript', arrow_drop_down)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -641,8 +815,8 @@ local function UCPJP_fake_script() -- arrow_drop_down.Arrow
 	end)
 	
 end
-coroutine.wrap(UCPJP_fake_script)()
-local function WIEFRO_fake_script() -- Vibe.LocalScript 
+coroutine.wrap(QJTWDB_fake_script)()
+local function EUDQB_fake_script() -- Vibe.LocalScript 
 	local script = Instance.new('LocalScript', Vibe)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -666,8 +840,8 @@ local function WIEFRO_fake_script() -- Vibe.LocalScript
 	end)
 	
 end
-coroutine.wrap(WIEFRO_fake_script)()
-local function AIJIH_fake_script() -- Minecraft.LocalScript 
+coroutine.wrap(EUDQB_fake_script)()
+local function SOQAD_fake_script() -- Minecraft.LocalScript 
 	local script = Instance.new('LocalScript', Minecraft)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -693,8 +867,8 @@ local function AIJIH_fake_script() -- Minecraft.LocalScript
 	end)
 	
 end
-coroutine.wrap(AIJIH_fake_script)()
-local function NNSFY_fake_script() -- Nebula.LocalScript 
+coroutine.wrap(SOQAD_fake_script)()
+local function FIBFSE_fake_script() -- Nebula.LocalScript 
 	local script = Instance.new('LocalScript', Nebula)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -720,8 +894,8 @@ local function NNSFY_fake_script() -- Nebula.LocalScript
 	end)
 	
 end
-coroutine.wrap(NNSFY_fake_script)()
-local function GSFRX_fake_script() -- DarkNight.LocalScript 
+coroutine.wrap(FIBFSE_fake_script)()
+local function RVAS_fake_script() -- DarkNight.LocalScript 
 	local script = Instance.new('LocalScript', DarkNight)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -746,8 +920,8 @@ local function GSFRX_fake_script() -- DarkNight.LocalScript
 	
 	
 end
-coroutine.wrap(GSFRX_fake_script)()
-local function INJDDVD_fake_script() -- arrow_drop_up.Arrow 
+coroutine.wrap(RVAS_fake_script)()
+local function LDXB_fake_script() -- arrow_drop_up.Arrow 
 	local script = Instance.new('LocalScript', arrow_drop_up)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -757,8 +931,8 @@ local function INJDDVD_fake_script() -- arrow_drop_up.Arrow
 	end)
 	
 end
-coroutine.wrap(INJDDVD_fake_script)()
-local function LHXYP_fake_script() -- arrow_drop_up.Dropdown 
+coroutine.wrap(LDXB_fake_script)()
+local function NFHIE_fake_script() -- arrow_drop_up.Dropdown 
 	local script = Instance.new('LocalScript', arrow_drop_up)
 
 	
@@ -773,8 +947,8 @@ local function LHXYP_fake_script() -- arrow_drop_up.Dropdown
 	end)
 	
 end
-coroutine.wrap(LHXYP_fake_script)()
-local function RKEALG_fake_script() -- Day.LocalScript 
+coroutine.wrap(NFHIE_fake_script)()
+local function CGDKNP_fake_script() -- Day.LocalScript 
 	local script = Instance.new('LocalScript', Day)
 
 	
@@ -805,8 +979,8 @@ local function RKEALG_fake_script() -- Day.LocalScript
 		end
 	end)
 end
-coroutine.wrap(RKEALG_fake_script)()
-local function EJONG_fake_script() -- MainButton.LocalScript 
+coroutine.wrap(CGDKNP_fake_script)()
+local function QEDS_fake_script() -- MainButton.LocalScript 
 	local script = Instance.new('LocalScript', MainButton)
 
 	-- Main Button
@@ -831,8 +1005,8 @@ local function EJONG_fake_script() -- MainButton.LocalScript
 	button.Activated:Connect(onButtonActivated)
 	
 end
-coroutine.wrap(EJONG_fake_script)()
-local function WDOAYR_fake_script() -- VisualsButton.LocalScript 
+coroutine.wrap(QEDS_fake_script)()
+local function LIZSRUI_fake_script() -- VisualsButton.LocalScript 
 	local script = Instance.new('LocalScript', VisualsButton)
 
 	-- Visuals Button
@@ -856,8 +1030,8 @@ local function WDOAYR_fake_script() -- VisualsButton.LocalScript
 	
 	button.Activated:Connect(onButtonActivated)
 end
-coroutine.wrap(WDOAYR_fake_script)()
-local function IEPTUHQ_fake_script() -- Core.Draggable 
+coroutine.wrap(LIZSRUI_fake_script)()
+local function KIUW_fake_script() -- Core.Draggable 
 	local script = Instance.new('LocalScript', Core)
 
 	local UIS = game:GetService('UserInputService')
@@ -931,8 +1105,8 @@ local function IEPTUHQ_fake_script() -- Core.Draggable
 	end)
 	
 end
-coroutine.wrap(IEPTUHQ_fake_script)()
-local function DBNMMR_fake_script() -- Core.Keybind 
+coroutine.wrap(KIUW_fake_script)()
+local function EWBHB_fake_script() -- Core.Keybind 
 	local script = Instance.new('LocalScript', Core)
 
 	local frame = script.Parent.Parent.Core
@@ -954,4 +1128,14 @@ local function DBNMMR_fake_script() -- Core.Keybind
 		end
 	end)
 end
-coroutine.wrap(DBNMMR_fake_script)()
+coroutine.wrap(EWBHB_fake_script)()
+local function AOLGM_fake_script() -- close.LocalScript 
+	local script = Instance.new('LocalScript', close)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Core.Visible = true
+		wait()
+		script.Parent.Parent.Parent.Changelog:Destroy()
+	end)
+end
+coroutine.wrap(AOLGM_fake_script)()
