@@ -1,4 +1,7 @@
--- niko
+-- Please do not touch than you
+-- will obfuscate this later...
+
+-- Nikolai best scripter ever
 
 local ScreenGui = Instance.new("ScreenGui")
 local Core = Instance.new("Frame")
@@ -35,22 +38,23 @@ local TextLabel_11 = Instance.new("TextLabel")
 local Night = Instance.new("TextButton")
 local arrow_drop_down = Instance.new("ImageButton")
 local TextLabel_12 = Instance.new("TextLabel")
-local Frame_4 = Instance.new("Frame")
+local Dropdown = Instance.new("Frame")
 local UI = Instance.new("UIListLayout")
-local ShadowsB_2 = Instance.new("TextButton")
-local ShadowsB_3 = Instance.new("TextButton")
-local ShadowsB_4 = Instance.new("TextButton")
-local ShadowsB_5 = Instance.new("TextButton")
+local Vibe = Instance.new("TextButton")
+local Minecraft = Instance.new("TextButton")
+local Nebula = Instance.new("TextButton")
+local DarkNight = Instance.new("TextButton")
+local arrow_drop_up = Instance.new("ImageButton")
 local Day = Instance.new("TextButton")
 local TextLabel_13 = Instance.new("TextLabel")
 local Section3 = Instance.new("Frame")
 local TextLabel_14 = Instance.new("TextLabel")
+local Frame_4 = Instance.new("Frame")
 local Frame_5 = Instance.new("Frame")
-local Frame_6 = Instance.new("Frame")
 local VisualsButton = Instance.new("TextButton")
 local Framevis = Instance.new("Frame")
 local TextLabel_15 = Instance.new("TextLabel")
-local Frame_7 = Instance.new("Frame")
+local Frame_6 = Instance.new("Frame")
 
 --Properties:
 
@@ -69,7 +73,7 @@ Pattern.Name = "Pattern"
 Pattern.Parent = Core
 Pattern.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Pattern.BackgroundTransparency = 1.000
-Pattern.Position = UDim2.new(-1.29782081, 0, -0.00669933762, 0)
+Pattern.Position = UDim2.new(1.1920929e-07, 0, -0.00096321106, 0)
 Pattern.Size = UDim2.new(0, 413, 0, 523)
 Pattern.ZIndex = 9
 Pattern.Image = "rbxassetid://2151782136"
@@ -138,7 +142,7 @@ GunButton.LayoutOrder = 1
 GunButton.Position = UDim2.new(0.361856699, 0, 0.238329113, 0)
 GunButton.Size = UDim2.new(0, 115, 0, 24)
 GunButton.Font = Enum.Font.Code
-GunButton.Text = "Mods"
+GunButton.Text = "Player"
 GunButton.TextColor3 = Color3.fromRGB(255, 255, 252)
 GunButton.TextSize = 14.000
 
@@ -158,7 +162,7 @@ TextLabel_3.BackgroundTransparency = 1.000
 TextLabel_3.Position = UDim2.new(0.0236220472, 0, 0, 0)
 TextLabel_3.Size = UDim2.new(0, 60, 0, 24)
 TextLabel_3.Font = Enum.Font.Code
-TextLabel_3.Text = "Mods"
+TextLabel_3.Text = "Player"
 TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_3.TextSize = 14.000
 TextLabel_3.TextWrapped = true
@@ -190,7 +194,6 @@ Framemain.BorderColor3 = Color3.fromRGB(154, 0, 77)
 Framemain.LayoutOrder = 1
 Framemain.Position = UDim2.new(-0.0608695634, 0, 1.45833397, 0)
 Framemain.Size = UDim2.new(0, 387, 0, 423)
-Framemain.Visible = false
 
 TextLabel_4.Parent = Framemain
 TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -331,9 +334,9 @@ TextLabel_10.Parent = Section2
 TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_10.BackgroundTransparency = 1.000
 TextLabel_10.Position = UDim2.new(0.0387096778, 0, 0, 0)
-TextLabel_10.Size = UDim2.new(0, 52, 0, 21)
+TextLabel_10.Size = UDim2.new(0, 39, 0, 21)
 TextLabel_10.Font = Enum.Font.Code
-TextLabel_10.Text = "Lighting"
+TextLabel_10.Text = "World"
 TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_10.TextSize = 14.000
 
@@ -391,65 +394,78 @@ TextLabel_12.Text = "Skybox"
 TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_12.TextSize = 12.000
 
-Frame_4.Parent = Night
-Frame_4.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
-Frame_4.BorderColor3 = Color3.fromRGB(15, 15, 15)
-Frame_4.Position = UDim2.new(0, 0, 1.18333435, 0)
-Frame_4.Size = UDim2.new(0, 103, 0, 64)
+Dropdown.Name = "Dropdown"
+Dropdown.Parent = Night
+Dropdown.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+Dropdown.BorderColor3 = Color3.fromRGB(15, 15, 15)
+Dropdown.Position = UDim2.new(0, 0, 1.18333435, 0)
+Dropdown.Size = UDim2.new(0, 103, 0, 64)
+Dropdown.Visible = false
 
 UI.Name = "UI"
-UI.Parent = Frame_4
+UI.Parent = Dropdown
 UI.HorizontalAlignment = Enum.HorizontalAlignment.Center
 UI.SortOrder = Enum.SortOrder.LayoutOrder
 UI.Padding = UDim.new(0, 3)
 
-ShadowsB_2.Name = "ShadowsB"
-ShadowsB_2.Parent = Frame_4
-ShadowsB_2.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
-ShadowsB_2.BorderColor3 = Color3.fromRGB(15, 15, 15)
-ShadowsB_2.Position = UDim2.new(0.106796712, 0, 0, 0)
-ShadowsB_2.Size = UDim2.new(0, 91, 0, 13)
-ShadowsB_2.AutoButtonColor = false
-ShadowsB_2.Font = Enum.Font.Code
-ShadowsB_2.Text = "Dark night"
-ShadowsB_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-ShadowsB_2.TextSize = 12.000
+Vibe.Name = "Vibe"
+Vibe.Parent = Dropdown
+Vibe.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+Vibe.BorderColor3 = Color3.fromRGB(15, 15, 15)
+Vibe.Position = UDim2.new(0.0582524277, 0, 0.224137932, 0)
+Vibe.Size = UDim2.new(0, 91, 0, 13)
+Vibe.AutoButtonColor = false
+Vibe.Font = Enum.Font.Code
+Vibe.Text = "Vibe"
+Vibe.TextColor3 = Color3.fromRGB(255, 255, 255)
+Vibe.TextSize = 12.000
 
-ShadowsB_3.Name = "ShadowsB"
-ShadowsB_3.Parent = Frame_4
-ShadowsB_3.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
-ShadowsB_3.BorderColor3 = Color3.fromRGB(15, 15, 15)
-ShadowsB_3.Position = UDim2.new(0.0582524277, 0, 0.224137932, 0)
-ShadowsB_3.Size = UDim2.new(0, 91, 0, 13)
-ShadowsB_3.AutoButtonColor = false
-ShadowsB_3.Font = Enum.Font.Code
-ShadowsB_3.Text = "Vibe"
-ShadowsB_3.TextColor3 = Color3.fromRGB(255, 255, 255)
-ShadowsB_3.TextSize = 12.000
+Minecraft.Name = "Minecraft"
+Minecraft.Parent = Dropdown
+Minecraft.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+Minecraft.BorderColor3 = Color3.fromRGB(15, 15, 15)
+Minecraft.Position = UDim2.new(0.0582524277, 0, 0.224137932, 0)
+Minecraft.Size = UDim2.new(0, 91, 0, 13)
+Minecraft.AutoButtonColor = false
+Minecraft.Font = Enum.Font.Code
+Minecraft.Text = "Minecraft"
+Minecraft.TextColor3 = Color3.fromRGB(255, 255, 255)
+Minecraft.TextSize = 12.000
 
-ShadowsB_4.Name = "ShadowsB"
-ShadowsB_4.Parent = Frame_4
-ShadowsB_4.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
-ShadowsB_4.BorderColor3 = Color3.fromRGB(15, 15, 15)
-ShadowsB_4.Position = UDim2.new(0.0582524277, 0, 0.224137932, 0)
-ShadowsB_4.Size = UDim2.new(0, 91, 0, 13)
-ShadowsB_4.AutoButtonColor = false
-ShadowsB_4.Font = Enum.Font.Code
-ShadowsB_4.Text = "Minecraft"
-ShadowsB_4.TextColor3 = Color3.fromRGB(255, 255, 255)
-ShadowsB_4.TextSize = 12.000
+Nebula.Name = "Nebula"
+Nebula.Parent = Dropdown
+Nebula.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+Nebula.BorderColor3 = Color3.fromRGB(15, 15, 15)
+Nebula.Position = UDim2.new(0.0582524277, 0, 0.224137932, 0)
+Nebula.Size = UDim2.new(0, 91, 0, 13)
+Nebula.AutoButtonColor = false
+Nebula.Font = Enum.Font.Code
+Nebula.Text = "Nebula"
+Nebula.TextColor3 = Color3.fromRGB(255, 255, 255)
+Nebula.TextSize = 12.000
 
-ShadowsB_5.Name = "ShadowsB"
-ShadowsB_5.Parent = Frame_4
-ShadowsB_5.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
-ShadowsB_5.BorderColor3 = Color3.fromRGB(15, 15, 15)
-ShadowsB_5.Position = UDim2.new(0.0582524277, 0, 0.224137932, 0)
-ShadowsB_5.Size = UDim2.new(0, 91, 0, 13)
-ShadowsB_5.AutoButtonColor = false
-ShadowsB_5.Font = Enum.Font.Code
-ShadowsB_5.Text = "Nebula"
-ShadowsB_5.TextColor3 = Color3.fromRGB(255, 255, 255)
-ShadowsB_5.TextSize = 12.000
+DarkNight.Name = "DarkNight"
+DarkNight.Parent = Dropdown
+DarkNight.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+DarkNight.BorderColor3 = Color3.fromRGB(15, 15, 15)
+DarkNight.Position = UDim2.new(0.106796712, 0, 0, 0)
+DarkNight.Size = UDim2.new(0, 91, 0, 13)
+DarkNight.AutoButtonColor = false
+DarkNight.Font = Enum.Font.Code
+DarkNight.Text = "Dark night"
+DarkNight.TextColor3 = Color3.fromRGB(255, 255, 255)
+DarkNight.TextSize = 12.000
+
+arrow_drop_up.Name = "arrow_drop_up"
+arrow_drop_up.Parent = Night
+arrow_drop_up.BackgroundTransparency = 1.000
+arrow_drop_up.Position = UDim2.new(0.82099998, 0, -0.232999995, 0)
+arrow_drop_up.Size = UDim2.new(0, 15, 0, 17)
+arrow_drop_up.Visible = false
+arrow_drop_up.ZIndex = 2
+arrow_drop_up.Image = "rbxassetid://3926307971"
+arrow_drop_up.ImageRectOffset = Vector2.new(164, 484)
+arrow_drop_up.ImageRectSize = Vector2.new(36, 36)
 
 Day.Name = "Day"
 Day.Parent = Section2
@@ -490,17 +506,17 @@ TextLabel_14.Text = "Other"
 TextLabel_14.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_14.TextSize = 14.000
 
+Frame_4.Parent = Section3
+Frame_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_4.BorderColor3 = Color3.fromRGB(154, 0, 77)
+Frame_4.Position = UDim2.new(0, 0, 1, 0)
+Frame_4.Size = UDim2.new(0, 155, 0, 0)
+
 Frame_5.Parent = Section3
 Frame_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Frame_5.BorderColor3 = Color3.fromRGB(154, 0, 77)
-Frame_5.Position = UDim2.new(0, 0, 1, 0)
+Frame_5.Position = UDim2.new(0, 0, -0.173854664, 0)
 Frame_5.Size = UDim2.new(0, 155, 0, 0)
-
-Frame_6.Parent = Section3
-Frame_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Frame_6.BorderColor3 = Color3.fromRGB(154, 0, 77)
-Frame_6.Position = UDim2.new(0, 0, -0.173854664, 0)
-Frame_6.Size = UDim2.new(0, 155, 0, 0)
 
 VisualsButton.Name = "VisualsButton"
 VisualsButton.Parent = Tabs
@@ -536,16 +552,15 @@ TextLabel_15.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_15.TextSize = 14.000
 TextLabel_15.TextWrapped = true
 
-Frame_7.Parent = TextLabel_15
-Frame_7.BackgroundColor3 = Color3.fromRGB(154, 0, 77)
-Frame_7.BorderColor3 = Color3.fromRGB(154, 0, 77)
-Frame_7.Position = UDim2.new(0, 0, 1, 0)
-Frame_7.Size = UDim2.new(0, 60, 0, 0)
+Frame_6.Parent = TextLabel_15
+Frame_6.BackgroundColor3 = Color3.fromRGB(154, 0, 77)
+Frame_6.BorderColor3 = Color3.fromRGB(154, 0, 77)
+Frame_6.Position = UDim2.new(0, 0, 1, 0)
+Frame_6.Size = UDim2.new(0, 60, 0, 0)
 
 -- Scripts:
 
-coroutine.wrap(SMYAWVL_fake_script)()
-local function BNVA_fake_script() -- GunButton.LocalScript 
+local function IXNXKCX_fake_script() -- GunButton.LocalScript 
 	local script = Instance.new('LocalScript', GunButton)
 
 	-- Gun Button
@@ -568,8 +583,8 @@ local function BNVA_fake_script() -- GunButton.LocalScript
 	
 	button.Activated:Connect(onButtonActivated)
 end
-coroutine.wrap(BNVA_fake_script)()
-local function OAVCKC_fake_script() -- ShadowsB.LocalScript 
+coroutine.wrap(IXNXKCX_fake_script)()
+local function RMCDS_fake_script() -- ShadowsB.LocalScript 
 	local script = Instance.new('LocalScript', ShadowsB)
 
 	
@@ -599,50 +614,167 @@ local function OAVCKC_fake_script() -- ShadowsB.LocalScript
 		end
 	end)
 end
-coroutine.wrap(OAVCKC_fake_script)()
-local function KXEG_fake_script() -- Night.LocalScript 
-	local script = Instance.new('LocalScript', Night)
+coroutine.wrap(RMCDS_fake_script)()
+local function IWMAHH_fake_script() -- arrow_drop_down.Dropdown 
+	local script = Instance.new('LocalScript', arrow_drop_down)
 
-	local drop = script.Parent
-	local menu = drop.Menu
-	local open = menu.Open.Value
-	local selection = drop.Selection
 	
-	selection.MouseButton1Click:Connect(function()
-		if not open then
-			menu:TweenSize(UDim2.new(1, 0, 5, 0), "Out", "Sine", 0.15, true)
-			for _, button in pairs(menu:GetChildren()) do
-				if button:IsA("TextButton") then
-					button.Visible = true
-				end
-			end
-			open = true
+	local frame = script.Parent.Parent.Dropdown
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if frame.Visible == false then
+			frame.Visible = true
 		else
-			menu:TweenSize(UDim2.new(1, 0, 0, 0), "Out", "Sine", 0.15, true)
-			wait(0.05)
-			for _, button in pairs(menu:GetChildren()) do
-				if button:IsA("TextButton") then
-					button.Visible = false
-				end
-			end
-			open = false
+			frame.Visible = false
 		end
 	end)
 	
-	for _, button in pairs(menu:GetChildren()) do
-		if button:IsA("TextButton") then
-			button.MouseEnter:Connect(function()
-				button.BackgroundTransparency = 0.8
-			end)
-			button.MouseLeave:Connect(function()
-				button.BackgroundTransparency = 1
-			end)
-		end
-	end
+end
+coroutine.wrap(IWMAHH_fake_script)()
+local function UCPJP_fake_script() -- arrow_drop_down.Arrow 
+	local script = Instance.new('LocalScript', arrow_drop_down)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.arrow_drop_down.Visible = false
+		script.Parent.Parent.arrow_drop_up.Visible = true
+		
+	end)
 	
 end
-coroutine.wrap(KXEG_fake_script)()
-local function POHOH_fake_script() -- Day.LocalScript 
+coroutine.wrap(UCPJP_fake_script)()
+local function WIEFRO_fake_script() -- Vibe.LocalScript 
+	local script = Instance.new('LocalScript', Vibe)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+			game.Lighting.Sky.SkyboxBk = ("http://www.roblox.com/asset/?id=2176109632")
+			wait()
+			game.Lighting.Sky.SkyboxUp = ("http://www.roblox.com/asset/?id=2176110058")
+			wait()
+			game.Lighting.Sky.SkyboxDn = ("http://www.roblox.com/asset/?id=1181585971")
+			wait()
+			game.Lighting.Sky.SkyboxFt =("http://www.roblox.com/asset/?id=2176109632")
+			wait()
+			game.Lighting.Sky.SkyboxLf =("http://www.roblox.com/asset/?id=2176109632")
+			wait()
+			game.Lighting.Sky.SkyboxRt =("http://www.roblox.com/asset/?id=2176109632")
+			wait()
+			game.Lighting.Sky.StarCount = 0
+			wait()
+			game.Lighting.Sky.CelestialBodiesShown = false
+	
+	end)
+	
+end
+coroutine.wrap(WIEFRO_fake_script)()
+local function AIJIH_fake_script() -- Minecraft.LocalScript 
+	local script = Instance.new('LocalScript', Minecraft)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+	
+			game.Lighting.Sky.SkyboxBk = ("http://www.roblox.com/asset/?id=599982473")
+			wait()
+			game.Lighting.Sky.SkyboxUp = ("http://www.roblox.com/asset/?id=599982473")
+			wait()
+			game.Lighting.Sky.SkyboxDn = ("http://www.roblox.com/asset/?id=599982473")
+			wait()
+			game.Lighting.Sky.SkyboxFt =("http://www.roblox.com/asset/?id=599982473")
+			wait()
+			game.Lighting.Sky.SkyboxLf =("http://www.roblox.com/asset/?id=599982473")
+			wait()
+			game.Lighting.Sky.SkyboxRt =("http://www.roblox.com/asset/?id=599982473")
+			wait()
+			game.Lighting.Sky.StarCount = 0
+			wait()
+			game.Lighting.Sky.CelestialBodiesShown = true
+			wait()
+		
+	end)
+	
+end
+coroutine.wrap(AIJIH_fake_script)()
+local function NNSFY_fake_script() -- Nebula.LocalScript 
+	local script = Instance.new('LocalScript', Nebula)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+	
+			game.Lighting.Sky.SkyboxBk = ("http://www.roblox.com/asset/?id=159454299")
+			wait()
+			game.Lighting.Sky.SkyboxUp = ("http://www.roblox.com/asset/?id=159454296")
+			wait()
+			game.Lighting.Sky.SkyboxDn = ("http://www.roblox.com/asset/?id=159454293")
+			wait()
+			game.Lighting.Sky.SkyboxFt =("http://www.roblox.com/asset/?id=159454286")
+			wait()
+			game.Lighting.Sky.SkyboxLf =("http://www.roblox.com/asset/?id=159454300")
+			wait()
+			game.Lighting.Sky.SkyboxRt =("http://www.roblox.com/asset/?id=159454288")
+			wait()
+			game.Lighting.Sky.StarCount = 0
+			wait()
+			game.Lighting.Sky.CelestialBodiesShown = false
+			wait()
+	
+	end)
+	
+end
+coroutine.wrap(NNSFY_fake_script)()
+local function GSFRX_fake_script() -- DarkNight.LocalScript 
+	local script = Instance.new('LocalScript', DarkNight)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		game.Lighting.Sky.SkyboxBk = ("http://www.roblox.com/asset/?id=154185004")
+		wait()
+		game.Lighting.Sky.SkyboxUp = ("http://www.roblox.com/asset/?id=154185031")
+		wait()
+		game.Lighting.Sky.SkyboxDn = ("http://www.roblox.com/asset/?id=154184960")
+		wait()
+		game.Lighting.Sky.SkyboxFt =("http://www.roblox.com/asset/?id=154185021")
+		wait()
+		game.Lighting.Sky.SkyboxLf =("http://www.roblox.com/asset/?id=154184943")
+		wait()
+		game.Lighting.Sky.SkyboxRt =("http://www.roblox.com/asset/?id=154184972")
+		wait()
+		game.Lighting.Sky.StarCount = 0
+		wait()
+		game.Lighting.Sky.CelestialBodiesShown = false
+	
+	end)
+	
+	
+end
+coroutine.wrap(GSFRX_fake_script)()
+local function INJDDVD_fake_script() -- arrow_drop_up.Arrow 
+	local script = Instance.new('LocalScript', arrow_drop_up)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.arrow_drop_down.Visible = true
+		script.Parent.Parent.arrow_drop_up.Visible = false
+		
+	end)
+	
+end
+coroutine.wrap(INJDDVD_fake_script)()
+local function LHXYP_fake_script() -- arrow_drop_up.Dropdown 
+	local script = Instance.new('LocalScript', arrow_drop_up)
+
+	
+	local frame = script.Parent.Parent.Dropdown
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if frame.Visible == false then
+			frame.Visible = true
+		else
+			frame.Visible = false
+		end
+	end)
+	
+end
+coroutine.wrap(LHXYP_fake_script)()
+local function RKEALG_fake_script() -- Day.LocalScript 
 	local script = Instance.new('LocalScript', Day)
 
 	
@@ -673,8 +805,8 @@ local function POHOH_fake_script() -- Day.LocalScript
 		end
 	end)
 end
-coroutine.wrap(POHOH_fake_script)()
-local function ZNWV_fake_script() -- MainButton.LocalScript 
+coroutine.wrap(RKEALG_fake_script)()
+local function EJONG_fake_script() -- MainButton.LocalScript 
 	local script = Instance.new('LocalScript', MainButton)
 
 	-- Main Button
@@ -699,8 +831,8 @@ local function ZNWV_fake_script() -- MainButton.LocalScript
 	button.Activated:Connect(onButtonActivated)
 	
 end
-coroutine.wrap(ZNWV_fake_script)()
-local function YCDCNL_fake_script() -- VisualsButton.LocalScript 
+coroutine.wrap(EJONG_fake_script)()
+local function WDOAYR_fake_script() -- VisualsButton.LocalScript 
 	local script = Instance.new('LocalScript', VisualsButton)
 
 	-- Visuals Button
@@ -724,8 +856,8 @@ local function YCDCNL_fake_script() -- VisualsButton.LocalScript
 	
 	button.Activated:Connect(onButtonActivated)
 end
-coroutine.wrap(YCDCNL_fake_script)()
-local function NLOE_fake_script() -- Core.Draggable 
+coroutine.wrap(WDOAYR_fake_script)()
+local function IEPTUHQ_fake_script() -- Core.Draggable 
 	local script = Instance.new('LocalScript', Core)
 
 	local UIS = game:GetService('UserInputService')
@@ -799,8 +931,8 @@ local function NLOE_fake_script() -- Core.Draggable
 	end)
 	
 end
-coroutine.wrap(NLOE_fake_script)()
-local function MWQZ_fake_script() -- Core.LocalScript 
+coroutine.wrap(IEPTUHQ_fake_script)()
+local function DBNMMR_fake_script() -- Core.Keybind 
 	local script = Instance.new('LocalScript', Core)
 
 	local frame = script.Parent.Parent.Core
@@ -822,4 +954,4 @@ local function MWQZ_fake_script() -- Core.LocalScript
 		end
 	end)
 end
-coroutine.wrap(MWQZ_fake_script)()
+coroutine.wrap(DBNMMR_fake_script)()
