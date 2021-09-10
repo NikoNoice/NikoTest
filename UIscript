@@ -16,28 +16,36 @@ local GunButton = Instance.new("TextButton")
 local Framegun = Instance.new("Frame")
 local TextLabel_3 = Instance.new("TextLabel")
 local Frame = Instance.new("Frame")
-local MainButton = Instance.new("TextButton")
-local Framemain = Instance.new("Frame")
+local Section1 = Instance.new("Frame")
 local TextLabel_4 = Instance.new("TextLabel")
 local Frame_2 = Instance.new("Frame")
-local Section1 = Instance.new("Frame")
 local TextLabel_5 = Instance.new("TextLabel")
-local Frame_3 = Instance.new("Frame")
-local EnableB = Instance.new("TextButton")
-local TextLabel_6 = Instance.new("TextLabel")
-local WallCheck = Instance.new("TextButton")
-local TextLabel_7 = Instance.new("TextLabel")
-local TeamCheck = Instance.new("TextButton")
-local TextLabel_8 = Instance.new("TextLabel")
-local FovSlider = Instance.new("TextButton")
-local TextLabel_9 = Instance.new("TextLabel")
 local Section2 = Instance.new("Frame")
+local TextLabel_6 = Instance.new("TextLabel")
+local Frame_3 = Instance.new("Frame")
+local Section3 = Instance.new("Frame")
+local TextLabel_7 = Instance.new("TextLabel")
+local Frame_4 = Instance.new("Frame")
+local InfJump = Instance.new("TextButton")
+local TextLabel_8 = Instance.new("TextLabel")
+local Ctrl = Instance.new("TextButton")
+local TextLabel_9 = Instance.new("TextLabel")
+local MainButton = Instance.new("TextButton")
+local Framemain = Instance.new("Frame")
 local TextLabel_10 = Instance.new("TextLabel")
-local ShadowsB = Instance.new("TextButton")
+local Frame_5 = Instance.new("Frame")
+local Section1_2 = Instance.new("Frame")
 local TextLabel_11 = Instance.new("TextLabel")
+local Frame_6 = Instance.new("Frame")
+local EnableB = Instance.new("TextButton")
+local TextLabel_12 = Instance.new("TextLabel")
+local Section2_2 = Instance.new("Frame")
+local TextLabel_13 = Instance.new("TextLabel")
+local ShadowsB = Instance.new("TextButton")
+local TextLabel_14 = Instance.new("TextLabel")
 local Night = Instance.new("TextButton")
 local arrow_drop_down = Instance.new("ImageButton")
-local TextLabel_12 = Instance.new("TextLabel")
+local TextLabel_15 = Instance.new("TextLabel")
 local Dropdown = Instance.new("Frame")
 local UI = Instance.new("UIListLayout")
 local Vibe = Instance.new("TextButton")
@@ -46,26 +54,91 @@ local Nebula = Instance.new("TextButton")
 local DarkNight = Instance.new("TextButton")
 local arrow_drop_up = Instance.new("ImageButton")
 local Day = Instance.new("TextButton")
-local TextLabel_13 = Instance.new("TextLabel")
-local RemoveTextures = Instance.new("TextButton")
-local TextLabel_14 = Instance.new("TextLabel")
+local TextLabel_16 = Instance.new("TextLabel")
 local Confirm = Instance.new("Frame")
 local Title = Instance.new("TextLabel")
 local Desc = Instance.new("TextLabel")
 local check = Instance.new("ImageButton")
 local close = Instance.new("ImageButton")
 local Desc_2 = Instance.new("TextLabel")
-local Section3 = Instance.new("Frame")
-local TextLabel_15 = Instance.new("TextLabel")
-local Frame_4 = Instance.new("Frame")
-local Frame_5 = Instance.new("Frame")
+local RemoveTextures = Instance.new("TextButton")
+local TextLabel_17 = Instance.new("TextLabel")
+local Section3_2 = Instance.new("Frame")
+local TextLabel_18 = Instance.new("TextLabel")
+local Frame_7 = Instance.new("Frame")
+local Frame_8 = Instance.new("Frame")
+local ShadowsB_2 = Instance.new("TextButton")
+local TextLabel_19 = Instance.new("TextLabel")
+local ShadowsB_3 = Instance.new("TextButton")
+local TextLabel_20 = Instance.new("TextLabel")
+local Section4 = Instance.new("Frame")
+local TextLabel_21 = Instance.new("TextLabel")
+local Frame_9 = Instance.new("Frame")
+local EnableB_2 = Instance.new("TextButton")
+local TextLabel_22 = Instance.new("TextLabel")
+local EnableB_3 = Instance.new("TextButton")
+local TextLabel_23 = Instance.new("TextLabel")
+local Section5 = Instance.new("Frame")
+local TextLabel_24 = Instance.new("TextLabel")
+local Frame_10 = Instance.new("Frame")
+local EnableB_4 = Instance.new("TextButton")
+local TextLabel_25 = Instance.new("TextLabel")
+local EnableB_5 = Instance.new("TextButton")
+local TextLabel_26 = Instance.new("TextLabel")
 local VisualsButton = Instance.new("TextButton")
 local Framevis = Instance.new("Frame")
-local TextLabel_16 = Instance.new("TextLabel")
-local Frame_6 = Instance.new("Frame")
+local TextLabel_27 = Instance.new("TextLabel")
+local Frame_11 = Instance.new("Frame")
+local Section1_3 = Instance.new("Frame")
+local TextLabel_28 = Instance.new("TextLabel")
+local Frame_12 = Instance.new("Frame")
+local Skeleton = Instance.new("TextButton")
+local TextLabel_29 = Instance.new("TextLabel")
+local _3D = Instance.new("TextButton")
+local TextLabel_30 = Instance.new("TextLabel")
+local _2D = Instance.new("TextButton")
+local TextLabel_31 = Instance.new("TextLabel")
+local Tracers = Instance.new("TextButton")
+local TextLabel_32 = Instance.new("TextLabel")
+local Section2_3 = Instance.new("Frame")
+local TextLabel_33 = Instance.new("TextLabel")
+local Frame_13 = Instance.new("Frame")
+local SettingsButton = Instance.new("TextButton")
+local Settingsvis = Instance.new("Frame")
+local TextLabel_34 = Instance.new("TextLabel")
+local Frame_14 = Instance.new("Frame")
+local Section2_4 = Instance.new("Frame")
+local TextLabel_35 = Instance.new("TextLabel")
+local Frame_15 = Instance.new("Frame")
+local EnableB_6 = Instance.new("TextButton")
+local EnableB_7 = Instance.new("TextButton")
+local EnableB_8 = Instance.new("TextButton")
+local TextLabel_36 = Instance.new("TextLabel")
+local Section1_4 = Instance.new("Frame")
+local TextLabel_37 = Instance.new("TextLabel")
+local Frame_16 = Instance.new("Frame")
+local DestroyB = Instance.new("TextButton")
+local TextLabel_38 = Instance.new("TextLabel")
+local DestroyB_2 = Instance.new("TextButton")
+local TextLabel_39 = Instance.new("TextLabel")
+local Section3_3 = Instance.new("Frame")
+local TextLabel_40 = Instance.new("TextLabel")
+local Frame_17 = Instance.new("Frame")
+local DestroyB_3 = Instance.new("TextButton")
+local TextLabel_41 = Instance.new("TextLabel")
+local TextBox = Instance.new("TextBox")
+local TextLabel_42 = Instance.new("TextLabel")
+local Section3_4 = Instance.new("Frame")
+local TextLabel_43 = Instance.new("TextLabel")
+local Frame_18 = Instance.new("Frame")
+local TextLabel_44 = Instance.new("TextLabel")
+local brightness_1 = Instance.new("ImageButton")
+local HUD = Instance.new("Frame")
+local TextLabel_45 = Instance.new("TextLabel")
+local TextLabel_46 = Instance.new("TextLabel")
 local Changelog = Instance.new("Frame")
 local TopBar = Instance.new("Frame")
-local TextLabel_17 = Instance.new("TextLabel")
+local TextLabel_47 = Instance.new("TextLabel")
 local Main = Instance.new("Frame")
 local v005 = Instance.new("TextLabel")
 local Added = Instance.new("TextLabel")
@@ -76,13 +149,14 @@ local Titles = Instance.new("TextLabel")
 local Fixes = Instance.new("TextLabel")
 local Titles_2 = Instance.new("TextLabel")
 local v003 = Instance.new("TextLabel")
-local TextLabel_18 = Instance.new("TextLabel")
+local TextLabel_48 = Instance.new("TextLabel")
 local close_2 = Instance.new("ImageButton")
 
 --Properties:
 
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.ResetOnSpawn = false
 
 Core.Name = "Core"
 Core.Parent = ScreenGui
@@ -91,7 +165,6 @@ Core.BorderColor3 = Color3.fromRGB(154, 0, 77)
 Core.BorderSizePixel = 2
 Core.Position = UDim2.new(0.400681973, 0, 0.192649201, 0)
 Core.Size = UDim2.new(0, 413, 0, 523)
-Core.Visible = false
 
 Pattern.Name = "Pattern"
 Pattern.Parent = Core
@@ -119,7 +192,7 @@ TextLabel.BackgroundTransparency = 1.000
 TextLabel.Position = UDim2.new(0.0194174759, 0, 0, 0)
 TextLabel.Size = UDim2.new(0, 123, 0, 21)
 TextLabel.Font = Enum.Font.Code
-TextLabel.Text = "Niko's Library V2"
+TextLabel.Text = "CocaineWare |  KAT"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextSize = 14.000
 TextLabel.TextXAlignment = Enum.TextXAlignment.Left
@@ -163,8 +236,8 @@ GunButton.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
 GunButton.BorderColor3 = Color3.fromRGB(154, 0, 77)
 GunButton.BorderSizePixel = 0
 GunButton.LayoutOrder = 1
-GunButton.Position = UDim2.new(0.361856699, 0, 0.238329113, 0)
-GunButton.Size = UDim2.new(0, 115, 0, 24)
+GunButton.Position = UDim2.new(0.272050887, 0, 0.374692738, 0)
+GunButton.Size = UDim2.new(0, 87, 0, 18)
 GunButton.Font = Enum.Font.Code
 GunButton.Text = "Player"
 GunButton.TextColor3 = Color3.fromRGB(255, 255, 252)
@@ -176,8 +249,8 @@ Framegun.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
 Framegun.BackgroundTransparency = 0.350
 Framegun.BorderColor3 = Color3.fromRGB(154, 0, 77)
 Framegun.LayoutOrder = 1
-Framegun.Position = UDim2.new(-1.15664649, 0, 1.45833397, 0)
-Framegun.Size = UDim2.new(0, 387, 0, 423)
+Framegun.Position = UDim2.new(-1.11510742, 0, 1.45833421, 0)
+Framegun.Size = UDim2.new(0, 379, 0, 423)
 Framegun.Visible = false
 
 TextLabel_3.Parent = Framegun
@@ -197,14 +270,137 @@ Frame.BorderColor3 = Color3.fromRGB(154, 0, 77)
 Frame.Position = UDim2.new(0, 0, 1, 0)
 Frame.Size = UDim2.new(0, 60, 0, 0)
 
+Section1.Name = "Section1"
+Section1.Parent = Framegun
+Section1.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+Section1.BorderColor3 = Color3.fromRGB(33, 33, 33)
+Section1.Position = UDim2.new(0.0517579727, 0, 0.0978654027, 0)
+Section1.Size = UDim2.new(0, 164, 0, 139)
+
+TextLabel_4.Parent = Section1
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderColor3 = Color3.fromRGB(33, 33, 33)
+TextLabel_4.Size = UDim2.new(0, 49, 0, 21)
+TextLabel_4.Font = Enum.Font.Code
+TextLabel_4.Text = "Main"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 14.000
+
+Frame_2.Parent = Section1
+Frame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_2.BorderColor3 = Color3.fromRGB(154, 0, 77)
+Frame_2.Position = UDim2.new(0, 0, 0.999999881, 0)
+Frame_2.Size = UDim2.new(0, 164, 0, 0)
+
+TextLabel_5.Parent = Section1
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(0.0365853645, 0, 0.244604319, 0)
+TextLabel_5.Size = UDim2.new(0, 151, 0, 50)
+TextLabel_5.Font = Enum.Font.Code
+TextLabel_5.Text = "Soon Man!"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 14.000
+
+Section2.Name = "Section2"
+Section2.Parent = Framegun
+Section2.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+Section2.BorderColor3 = Color3.fromRGB(33, 33, 33)
+Section2.Position = UDim2.new(0.516137898, 0, 0.0955013335, 0)
+Section2.Size = UDim2.new(0, 164, 0, 271)
+
+TextLabel_6.Parent = Section2
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.BorderColor3 = Color3.fromRGB(33, 33, 33)
+TextLabel_6.Size = UDim2.new(0, 36, 0, 21)
+TextLabel_6.Font = Enum.Font.Code
+TextLabel_6.Text = "IDK"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextSize = 14.000
+
+Frame_3.Parent = Section2
+Frame_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_3.BorderColor3 = Color3.fromRGB(154, 0, 77)
+Frame_3.Position = UDim2.new(0, 0, 0.999999881, 0)
+Frame_3.Size = UDim2.new(0, 164, 0, 0)
+
+Section3.Name = "Section3"
+Section3.Parent = Framegun
+Section3.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+Section3.BorderColor3 = Color3.fromRGB(33, 33, 33)
+Section3.Position = UDim2.new(0.0517579727, 0, 0.464295655, 0)
+Section3.Size = UDim2.new(0, 164, 0, 177)
+
+TextLabel_7.Parent = Section3
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.BorderColor3 = Color3.fromRGB(33, 33, 33)
+TextLabel_7.Size = UDim2.new(0, 49, 0, 21)
+TextLabel_7.Font = Enum.Font.Code
+TextLabel_7.Text = "Misc"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextSize = 14.000
+
+Frame_4.Parent = Section3
+Frame_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_4.BorderColor3 = Color3.fromRGB(154, 0, 77)
+Frame_4.Position = UDim2.new(0, 0, 0.999999881, 0)
+Frame_4.Size = UDim2.new(0, 164, 0, 0)
+
+InfJump.Name = "InfJump"
+InfJump.Parent = Section3
+InfJump.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+InfJump.BorderColor3 = Color3.fromRGB(15, 15, 15)
+InfJump.Position = UDim2.new(0.105782814, 0, 0.155208513, 0)
+InfJump.Size = UDim2.new(0, 12, 0, 12)
+InfJump.AutoButtonColor = false
+InfJump.Font = Enum.Font.SourceSans
+InfJump.Text = ""
+InfJump.TextColor3 = Color3.fromRGB(0, 0, 0)
+InfJump.TextSize = 14.000
+
+TextLabel_8.Parent = InfJump
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.Position = UDim2.new(1.83333337, 0, 0, 0)
+TextLabel_8.Size = UDim2.new(0, 109, 0, 12)
+TextLabel_8.Font = Enum.Font.SourceSans
+TextLabel_8.Text = "Inf Jump [Kinda Works]"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextSize = 14.000
+
+Ctrl.Name = "Ctrl"
+Ctrl.Parent = Section3
+Ctrl.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+Ctrl.BorderColor3 = Color3.fromRGB(15, 15, 15)
+Ctrl.Position = UDim2.new(0.105782814, 0, 0.296451449, 0)
+Ctrl.Size = UDim2.new(0, 12, 0, 12)
+Ctrl.AutoButtonColor = false
+Ctrl.Font = Enum.Font.SourceSans
+Ctrl.Text = ""
+Ctrl.TextColor3 = Color3.fromRGB(0, 0, 0)
+Ctrl.TextSize = 14.000
+
+TextLabel_9.Parent = Ctrl
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.Position = UDim2.new(1, 0, 0, 0)
+TextLabel_9.Size = UDim2.new(0, 119, 0, 12)
+TextLabel_9.Font = Enum.Font.SourceSans
+TextLabel_9.Text = "Ctrl TP [Kinda Works]"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextSize = 14.000
+
 MainButton.Name = "MainButton"
 MainButton.Parent = Tabs
 MainButton.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
 MainButton.BorderColor3 = Color3.fromRGB(154, 0, 77)
 MainButton.BorderSizePixel = 0
 MainButton.LayoutOrder = 1
-MainButton.Position = UDim2.new(0.0559966415, 0, 0.238329113, 0)
-MainButton.Size = UDim2.new(0, 115, 0, 24)
+MainButton.Position = UDim2.new(0.0365791693, 0, 0.374692738, 0)
+MainButton.Size = UDim2.new(0, 87, 0, 18)
 MainButton.Font = Enum.Font.Code
 MainButton.Text = "Main"
 MainButton.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -216,55 +412,55 @@ Framemain.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
 Framemain.BackgroundTransparency = 0.350
 Framemain.BorderColor3 = Color3.fromRGB(154, 0, 77)
 Framemain.LayoutOrder = 1
-Framemain.Position = UDim2.new(-0.0608695634, 0, 1.45833397, 0)
-Framemain.Size = UDim2.new(0, 387, 0, 423)
+Framemain.Position = UDim2.new(0, 0, 1.45833421, 0)
+Framemain.Size = UDim2.new(0, 377, 0, 423)
 Framemain.Visible = false
 
-TextLabel_4.Parent = Framemain
-TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_4.BackgroundTransparency = 1.000
-TextLabel_4.Position = UDim2.new(0.0236220472, 0, 0, 0)
-TextLabel_4.Size = UDim2.new(0, 60, 0, 24)
-TextLabel_4.Font = Enum.Font.Code
-TextLabel_4.Text = "Main"
-TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_4.TextSize = 14.000
-TextLabel_4.TextWrapped = true
+TextLabel_10.Parent = Framemain
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.Position = UDim2.new(0.0236220472, 0, 0, 0)
+TextLabel_10.Size = UDim2.new(0, 60, 0, 24)
+TextLabel_10.Font = Enum.Font.Code
+TextLabel_10.Text = "Main"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextSize = 14.000
+TextLabel_10.TextWrapped = true
 
-Frame_2.Parent = TextLabel_4
-Frame_2.BackgroundColor3 = Color3.fromRGB(154, 0, 77)
-Frame_2.BorderColor3 = Color3.fromRGB(154, 0, 77)
-Frame_2.Position = UDim2.new(0, 0, 1, 0)
-Frame_2.Size = UDim2.new(0, 60, 0, 0)
+Frame_5.Parent = TextLabel_10
+Frame_5.BackgroundColor3 = Color3.fromRGB(154, 0, 77)
+Frame_5.BorderColor3 = Color3.fromRGB(154, 0, 77)
+Frame_5.Position = UDim2.new(0, 0, 1, 0)
+Frame_5.Size = UDim2.new(0, 60, 0, 0)
 
-Section1.Name = "Section1"
-Section1.Parent = Framemain
-Section1.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
-Section1.BorderColor3 = Color3.fromRGB(33, 33, 33)
-Section1.Position = UDim2.new(0.0280112047, 0, 0.0931372568, 0)
-Section1.Size = UDim2.new(0, 164, 0, 331)
+Section1_2.Name = "Section1"
+Section1_2.Parent = Framemain
+Section1_2.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+Section1_2.BorderColor3 = Color3.fromRGB(33, 33, 33)
+Section1_2.Position = UDim2.new(0.0280112512, 0, 0.0931372643, 0)
+Section1_2.Size = UDim2.new(0, 164, 0, 99)
 
-TextLabel_5.Parent = Section1
-TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_5.BackgroundTransparency = 1.000
-TextLabel_5.BorderColor3 = Color3.fromRGB(33, 33, 33)
-TextLabel_5.Size = UDim2.new(0, 58, 0, 21)
-TextLabel_5.Font = Enum.Font.Code
-TextLabel_5.Text = "Aimbot"
-TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_5.TextSize = 14.000
+TextLabel_11.Parent = Section1_2
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.BorderColor3 = Color3.fromRGB(33, 33, 33)
+TextLabel_11.Size = UDim2.new(0, 86, 0, 21)
+TextLabel_11.Font = Enum.Font.Code
+TextLabel_11.Text = "Silent Aim"
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.TextSize = 14.000
 
-Frame_3.Parent = Section1
-Frame_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Frame_3.BorderColor3 = Color3.fromRGB(154, 0, 77)
-Frame_3.Position = UDim2.new(0, 0, 0.999999881, 0)
-Frame_3.Size = UDim2.new(0, 164, 0, 0)
+Frame_6.Parent = Section1_2
+Frame_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_6.BorderColor3 = Color3.fromRGB(154, 0, 77)
+Frame_6.Position = UDim2.new(0, 0, 0.999999881, 0)
+Frame_6.Size = UDim2.new(0, 164, 0, 0)
 
 EnableB.Name = "EnableB"
-EnableB.Parent = Section1
+EnableB.Parent = Section1_2
 EnableB.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
 EnableB.BorderColor3 = Color3.fromRGB(15, 15, 15)
-EnableB.Position = UDim2.new(0.0741485581, 0, 0.0860563591, 0)
+EnableB.Position = UDim2.new(0.0741485581, 0, 0.277975559, 0)
 EnableB.Size = UDim2.new(0, 12, 0, 12)
 EnableB.AutoButtonColor = false
 EnableB.Font = Enum.Font.SourceSans
@@ -272,101 +468,35 @@ EnableB.Text = ""
 EnableB.TextColor3 = Color3.fromRGB(0, 0, 0)
 EnableB.TextSize = 14.000
 
-TextLabel_6.Parent = EnableB
-TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_6.BackgroundTransparency = 1.000
-TextLabel_6.Position = UDim2.new(1, 0, 0, 0)
-TextLabel_6.Size = UDim2.new(0, 56, 0, 12)
-TextLabel_6.Font = Enum.Font.Code
-TextLabel_6.Text = "Enabled"
-TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_6.TextSize = 14.000
+TextLabel_12.Parent = EnableB
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.BackgroundTransparency = 1.000
+TextLabel_12.Position = UDim2.new(1, 0, 0, 0)
+TextLabel_12.Size = UDim2.new(0, 61, 0, 12)
+TextLabel_12.Font = Enum.Font.Code
+TextLabel_12.Text = "Enabled"
+TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.TextSize = 14.000
 
-WallCheck.Name = "WallCheck"
-WallCheck.Parent = Section1
-WallCheck.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
-WallCheck.BorderColor3 = Color3.fromRGB(15, 15, 15)
-WallCheck.Position = UDim2.new(0.0741485581, 0, 0.2582618, 0)
-WallCheck.Size = UDim2.new(0, 12, 0, 12)
-WallCheck.AutoButtonColor = false
-WallCheck.Font = Enum.Font.SourceSans
-WallCheck.Text = ""
-WallCheck.TextColor3 = Color3.fromRGB(0, 0, 0)
-WallCheck.TextSize = 14.000
+Section2_2.Name = "Section2"
+Section2_2.Parent = Framemain
+Section2_2.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+Section2_2.BorderColor3 = Color3.fromRGB(33, 33, 33)
+Section2_2.Position = UDim2.new(0.518207431, 0, 0.0931372643, 0)
+Section2_2.Size = UDim2.new(0, 155, 0, 216)
 
-TextLabel_7.Parent = WallCheck
-TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_7.BackgroundTransparency = 1.000
-TextLabel_7.Position = UDim2.new(1, 0, 0, 0)
-TextLabel_7.Size = UDim2.new(0, 80, 0, 12)
-TextLabel_7.Font = Enum.Font.Code
-TextLabel_7.Text = "Wall Check"
-TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_7.TextSize = 14.000
-
-TeamCheck.Name = "TeamCheck"
-TeamCheck.Parent = Section1
-TeamCheck.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
-TeamCheck.BorderColor3 = Color3.fromRGB(15, 15, 15)
-TeamCheck.Position = UDim2.new(0.0741485581, 0, 0.342853934, 0)
-TeamCheck.Size = UDim2.new(0, 12, 0, 12)
-TeamCheck.AutoButtonColor = false
-TeamCheck.Font = Enum.Font.SourceSans
-TeamCheck.Text = ""
-TeamCheck.TextColor3 = Color3.fromRGB(0, 0, 0)
-TeamCheck.TextSize = 14.000
-
-TextLabel_8.Parent = TeamCheck
-TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_8.BackgroundTransparency = 1.000
-TextLabel_8.Position = UDim2.new(1, 0, 0, 0)
-TextLabel_8.Size = UDim2.new(0, 80, 0, 12)
-TextLabel_8.Font = Enum.Font.Code
-TextLabel_8.Text = "Team Check"
-TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_8.TextSize = 14.000
-
-FovSlider.Name = "FovSlider"
-FovSlider.Parent = Section1
-FovSlider.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
-FovSlider.BorderColor3 = Color3.fromRGB(15, 15, 15)
-FovSlider.Position = UDim2.new(0.0741484091, 0, 0.203881115, 0)
-FovSlider.Size = UDim2.new(0, 140, 0, 7)
-FovSlider.AutoButtonColor = false
-FovSlider.Font = Enum.Font.SourceSans
-FovSlider.Text = ""
-FovSlider.TextColor3 = Color3.fromRGB(0, 0, 0)
-FovSlider.TextSize = 14.000
-
-TextLabel_9.Parent = FovSlider
-TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_9.BackgroundTransparency = 1.000
-TextLabel_9.Position = UDim2.new(0, 0, -2.14285707, 0)
-TextLabel_9.Size = UDim2.new(0, 25, 0, 15)
-TextLabel_9.Font = Enum.Font.Code
-TextLabel_9.Text = "FOV"
-TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_9.TextSize = 14.000
-
-Section2.Name = "Section2"
-Section2.Parent = Framemain
-Section2.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
-Section2.BorderColor3 = Color3.fromRGB(33, 33, 33)
-Section2.Position = UDim2.new(0.518207431, 0, 0.0931372643, 0)
-Section2.Size = UDim2.new(0, 155, 0, 216)
-
-TextLabel_10.Parent = Section2
-TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_10.BackgroundTransparency = 1.000
-TextLabel_10.Position = UDim2.new(0.0387096778, 0, 0, 0)
-TextLabel_10.Size = UDim2.new(0, 39, 0, 21)
-TextLabel_10.Font = Enum.Font.Code
-TextLabel_10.Text = "World"
-TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_10.TextSize = 14.000
+TextLabel_13.Parent = Section2_2
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.BackgroundTransparency = 1.000
+TextLabel_13.Position = UDim2.new(0.0451608971, 0, 0, 0)
+TextLabel_13.Size = UDim2.new(0, 29, 0, 21)
+TextLabel_13.Font = Enum.Font.Code
+TextLabel_13.Text = "World"
+TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.TextSize = 14.000
 
 ShadowsB.Name = "ShadowsB"
-ShadowsB.Parent = Section2
+ShadowsB.Parent = Section2_2
 ShadowsB.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
 ShadowsB.BorderColor3 = Color3.fromRGB(15, 15, 15)
 ShadowsB.Position = UDim2.new(0.0387096778, 0, 0.130604416, 0)
@@ -377,18 +507,18 @@ ShadowsB.Text = ""
 ShadowsB.TextColor3 = Color3.fromRGB(0, 0, 0)
 ShadowsB.TextSize = 14.000
 
-TextLabel_11.Parent = ShadowsB
-TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_11.BackgroundTransparency = 1.000
-TextLabel_11.Position = UDim2.new(1.03059006, 0, 0, 0)
-TextLabel_11.Size = UDim2.new(0, 112, 0, 12)
-TextLabel_11.Font = Enum.Font.Code
-TextLabel_11.Text = "Global Shadows"
-TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_11.TextSize = 14.000
+TextLabel_14.Parent = ShadowsB
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.BackgroundTransparency = 1.000
+TextLabel_14.Position = UDim2.new(1.03059006, 0, 0, 0)
+TextLabel_14.Size = UDim2.new(0, 112, 0, 12)
+TextLabel_14.Font = Enum.Font.Code
+TextLabel_14.Text = "Global Shadows"
+TextLabel_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.TextSize = 14.000
 
 Night.Name = "Night"
-Night.Parent = Section2
+Night.Parent = Section2_2
 Night.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
 Night.BorderColor3 = Color3.fromRGB(15, 15, 15)
 Night.Position = UDim2.new(0.0451608971, 0, 0.344220638, 0)
@@ -410,14 +540,14 @@ arrow_drop_down.Image = "rbxassetid://3926307971"
 arrow_drop_down.ImageRectOffset = Vector2.new(324, 524)
 arrow_drop_down.ImageRectSize = Vector2.new(36, 36)
 
-TextLabel_12.Parent = Night
-TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_12.BackgroundTransparency = 1.000
-TextLabel_12.Size = UDim2.new(0, 40, 0, 11)
-TextLabel_12.Font = Enum.Font.Code
-TextLabel_12.Text = "Skybox"
-TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_12.TextSize = 12.000
+TextLabel_15.Parent = Night
+TextLabel_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.BackgroundTransparency = 1.000
+TextLabel_15.Size = UDim2.new(0, 40, 0, 11)
+TextLabel_15.Font = Enum.Font.Code
+TextLabel_15.Text = "Skybox"
+TextLabel_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.TextSize = 12.000
 
 Dropdown.Name = "Dropdown"
 Dropdown.Parent = Night
@@ -493,7 +623,7 @@ arrow_drop_up.ImageRectOffset = Vector2.new(164, 484)
 arrow_drop_up.ImageRectSize = Vector2.new(36, 36)
 
 Day.Name = "Day"
-Day.Parent = Section2
+Day.Parent = Section2_2
 Day.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
 Day.BorderColor3 = Color3.fromRGB(15, 15, 15)
 Day.Position = UDim2.new(0.0387096405, 0, 0.239954278, 0)
@@ -504,40 +634,18 @@ Day.Text = ""
 Day.TextColor3 = Color3.fromRGB(0, 0, 0)
 Day.TextSize = 14.000
 
-TextLabel_13.Parent = Day
-TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_13.BackgroundTransparency = 1.000
-TextLabel_13.Position = UDim2.new(1.83333337, 0, 0, 0)
-TextLabel_13.Size = UDim2.new(0, 62, 0, 12)
-TextLabel_13.Font = Enum.Font.Code
-TextLabel_13.Text = "Fullbright"
-TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_13.TextSize = 14.000
-
-RemoveTextures.Name = "RemoveTextures"
-RemoveTextures.Parent = Section2
-RemoveTextures.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
-RemoveTextures.BorderColor3 = Color3.fromRGB(15, 15, 15)
-RemoveTextures.Position = UDim2.new(0.0387096778, 0, 0.74171561, 0)
-RemoveTextures.Size = UDim2.new(0, 12, 0, 12)
-RemoveTextures.AutoButtonColor = false
-RemoveTextures.Font = Enum.Font.SourceSans
-RemoveTextures.Text = ""
-RemoveTextures.TextColor3 = Color3.fromRGB(0, 0, 0)
-RemoveTextures.TextSize = 14.000
-
-TextLabel_14.Parent = RemoveTextures
-TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_14.BackgroundTransparency = 1.000
-TextLabel_14.Position = UDim2.new(1.28058875, 0, 0, 0)
-TextLabel_14.Size = UDim2.new(0, 112, 0, 12)
-TextLabel_14.Font = Enum.Font.Code
-TextLabel_14.Text = "Remove Textures"
-TextLabel_14.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_14.TextSize = 14.000
+TextLabel_16.Parent = Day
+TextLabel_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.BackgroundTransparency = 1.000
+TextLabel_16.Position = UDim2.new(1.83333337, 0, 0, 0)
+TextLabel_16.Size = UDim2.new(0, 62, 0, 12)
+TextLabel_16.Font = Enum.Font.Code
+TextLabel_16.Text = "Fullbright"
+TextLabel_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.TextSize = 14.000
 
 Confirm.Name = "Confirm"
-Confirm.Parent = Section2
+Confirm.Parent = Section2_2
 Confirm.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
 Confirm.BorderColor3 = Color3.fromRGB(154, 0, 77)
 Confirm.BorderSizePixel = 2
@@ -600,34 +708,234 @@ Desc_2.Text = "Only Press Once!"
 Desc_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 Desc_2.TextSize = 12.000
 
-Section3.Name = "Section3"
-Section3.Parent = Framemain
-Section3.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
-Section3.BorderColor3 = Color3.fromRGB(33, 33, 33)
-Section3.Position = UDim2.new(0.518207431, 0, 0.643078089, 0)
-Section3.Size = UDim2.new(0, 155, 0, 93)
+RemoveTextures.Name = "RemoveTextures"
+RemoveTextures.Parent = Section2_2
+RemoveTextures.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+RemoveTextures.BorderColor3 = Color3.fromRGB(15, 15, 15)
+RemoveTextures.Position = UDim2.new(0.0451608971, 0, 0.848197103, 0)
+RemoveTextures.Size = UDim2.new(0, 102, 0, 12)
+RemoveTextures.AutoButtonColor = false
+RemoveTextures.Font = Enum.Font.SourceSans
+RemoveTextures.Text = ""
+RemoveTextures.TextColor3 = Color3.fromRGB(0, 0, 0)
+RemoveTextures.TextSize = 14.000
 
-TextLabel_15.Parent = Section3
-TextLabel_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_15.BackgroundTransparency = 1.000
-TextLabel_15.Position = UDim2.new(0.0387096778, 0, 0, 0)
-TextLabel_15.Size = UDim2.new(0, 30, 0, 21)
-TextLabel_15.Font = Enum.Font.Code
-TextLabel_15.Text = "Other"
-TextLabel_15.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_15.TextSize = 14.000
+TextLabel_17.Parent = RemoveTextures
+TextLabel_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.BackgroundTransparency = 1.000
+TextLabel_17.Position = UDim2.new(0.0256867409, 0, 0, 0)
+TextLabel_17.Size = UDim2.new(0, 95, 0, 12)
+TextLabel_17.Font = Enum.Font.Code
+TextLabel_17.Text = "Remove Water"
+TextLabel_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.TextSize = 14.000
 
-Frame_4.Parent = Section3
-Frame_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Frame_4.BorderColor3 = Color3.fromRGB(154, 0, 77)
-Frame_4.Position = UDim2.new(0, 0, 1, 0)
-Frame_4.Size = UDim2.new(0, 155, 0, 0)
+Section3_2.Name = "Section3"
+Section3_2.Parent = Framemain
+Section3_2.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+Section3_2.BorderColor3 = Color3.fromRGB(33, 33, 33)
+Section3_2.Position = UDim2.new(0.518207431, 0, 0.643078089, 0)
+Section3_2.Size = UDim2.new(0, 155, 0, 93)
 
-Frame_5.Parent = Section3
-Frame_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Frame_5.BorderColor3 = Color3.fromRGB(154, 0, 77)
-Frame_5.Position = UDim2.new(0, 0, -0.173854664, 0)
-Frame_5.Size = UDim2.new(0, 155, 0, 0)
+TextLabel_18.Parent = Section3_2
+TextLabel_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.BackgroundTransparency = 1.000
+TextLabel_18.Position = UDim2.new(0.0387096778, 0, 0, 0)
+TextLabel_18.Size = UDim2.new(0, 30, 0, 21)
+TextLabel_18.Font = Enum.Font.Code
+TextLabel_18.Text = "Other"
+TextLabel_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.TextSize = 14.000
+
+Frame_7.Parent = Section3_2
+Frame_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_7.BorderColor3 = Color3.fromRGB(154, 0, 77)
+Frame_7.Position = UDim2.new(0, 0, 1, 0)
+Frame_7.Size = UDim2.new(0, 155, 0, 0)
+
+Frame_8.Parent = Section3_2
+Frame_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_8.BorderColor3 = Color3.fromRGB(154, 0, 77)
+Frame_8.Position = UDim2.new(0, 0, -0.173854664, 0)
+Frame_8.Size = UDim2.new(0, 155, 0, 0)
+
+ShadowsB_2.Name = "ShadowsB"
+ShadowsB_2.Parent = Section3_2
+ShadowsB_2.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+ShadowsB_2.BorderColor3 = Color3.fromRGB(15, 15, 15)
+ShadowsB_2.Position = UDim2.new(0.0645157397, 0, 0.293836355, 0)
+ShadowsB_2.Size = UDim2.new(0, 77, 0, 12)
+ShadowsB_2.AutoButtonColor = false
+ShadowsB_2.Font = Enum.Font.SourceSans
+ShadowsB_2.Text = ""
+ShadowsB_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ShadowsB_2.TextSize = 14.000
+
+TextLabel_19.Parent = ShadowsB_2
+TextLabel_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.BackgroundTransparency = 1.000
+TextLabel_19.Position = UDim2.new(0.186433077, 0, 0, 0)
+TextLabel_19.Size = UDim2.new(0, 48, 0, 12)
+TextLabel_19.Font = Enum.Font.Code
+TextLabel_19.Text = "BTools"
+TextLabel_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.TextSize = 14.000
+
+ShadowsB_3.Name = "ShadowsB"
+ShadowsB_3.Parent = Section3_2
+ShadowsB_3.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+ShadowsB_3.BorderColor3 = Color3.fromRGB(15, 15, 15)
+ShadowsB_3.Position = UDim2.new(0.0645157397, 0, 0.51964283, 0)
+ShadowsB_3.Size = UDim2.new(0, 77, 0, 12)
+ShadowsB_3.AutoButtonColor = false
+ShadowsB_3.Font = Enum.Font.SourceSans
+ShadowsB_3.Text = ""
+ShadowsB_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+ShadowsB_3.TextSize = 14.000
+
+TextLabel_20.Parent = ShadowsB_3
+TextLabel_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.BackgroundTransparency = 1.000
+TextLabel_20.Position = UDim2.new(0.186433077, 0, 0, 0)
+TextLabel_20.Size = UDim2.new(0, 48, 0, 12)
+TextLabel_20.Font = Enum.Font.Code
+TextLabel_20.Text = "Anti-AFK"
+TextLabel_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.TextSize = 14.000
+
+Section4.Name = "Section4"
+Section4.Parent = Framemain
+Section4.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+Section4.BorderColor3 = Color3.fromRGB(33, 33, 33)
+Section4.Position = UDim2.new(0.0280112512, 0, 0.367368937, 0)
+Section4.Size = UDim2.new(0, 164, 0, 137)
+
+TextLabel_21.Parent = Section4
+TextLabel_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.BackgroundTransparency = 1.000
+TextLabel_21.BorderColor3 = Color3.fromRGB(33, 33, 33)
+TextLabel_21.Size = UDim2.new(0, 105, 0, 21)
+TextLabel_21.Font = Enum.Font.Code
+TextLabel_21.Text = "Knife Features"
+TextLabel_21.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.TextSize = 14.000
+
+Frame_9.Parent = Section4
+Frame_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_9.BorderColor3 = Color3.fromRGB(154, 0, 77)
+Frame_9.Position = UDim2.new(0, 0, 0.999999881, 0)
+Frame_9.Size = UDim2.new(0, 164, 0, 0)
+
+EnableB_2.Name = "EnableB"
+EnableB_2.Parent = Section4
+EnableB_2.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+EnableB_2.BorderColor3 = Color3.fromRGB(15, 15, 15)
+EnableB_2.Position = UDim2.new(0.0741485581, 0, 0.234937131, 0)
+EnableB_2.Size = UDim2.new(0, 12, 0, 12)
+EnableB_2.AutoButtonColor = false
+EnableB_2.Font = Enum.Font.SourceSans
+EnableB_2.Text = ""
+EnableB_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+EnableB_2.TextSize = 14.000
+
+TextLabel_22.Parent = EnableB_2
+TextLabel_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_22.BackgroundTransparency = 1.000
+TextLabel_22.Position = UDim2.new(1, 0, 0, 0)
+TextLabel_22.Size = UDim2.new(0, 139, 0, 12)
+TextLabel_22.Font = Enum.Font.Code
+TextLabel_22.Text = "Remove Knife Delay"
+TextLabel_22.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_22.TextSize = 14.000
+
+EnableB_3.Name = "EnableB"
+EnableB_3.Parent = Section4
+EnableB_3.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+EnableB_3.BorderColor3 = Color3.fromRGB(15, 15, 15)
+EnableB_3.Position = UDim2.new(0.0741485581, 0, 0.410119623, 0)
+EnableB_3.Size = UDim2.new(0, 12, 0, 12)
+EnableB_3.AutoButtonColor = false
+EnableB_3.Font = Enum.Font.SourceSans
+EnableB_3.Text = ""
+EnableB_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+EnableB_3.TextSize = 14.000
+
+TextLabel_23.Parent = EnableB_3
+TextLabel_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_23.BackgroundTransparency = 1.000
+TextLabel_23.Position = UDim2.new(1, 0, 0, 0)
+TextLabel_23.Size = UDim2.new(0, 80, 0, 12)
+TextLabel_23.Font = Enum.Font.Code
+TextLabel_23.Text = "Spam Knife"
+TextLabel_23.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_23.TextSize = 14.000
+
+Section5.Name = "Section5"
+Section5.Parent = Framemain
+Section5.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+Section5.BorderColor3 = Color3.fromRGB(33, 33, 33)
+Section5.Position = UDim2.new(0.0280112512, 0, 0.72186482, 0)
+Section5.Size = UDim2.new(0, 164, 0, 102)
+
+TextLabel_24.Parent = Section5
+TextLabel_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_24.BackgroundTransparency = 1.000
+TextLabel_24.BorderColor3 = Color3.fromRGB(33, 33, 33)
+TextLabel_24.Size = UDim2.new(0, 99, 0, 21)
+TextLabel_24.Font = Enum.Font.Code
+TextLabel_24.Text = "Gun Features"
+TextLabel_24.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_24.TextSize = 14.000
+
+Frame_10.Parent = Section5
+Frame_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_10.BorderColor3 = Color3.fromRGB(154, 0, 77)
+Frame_10.Position = UDim2.new(0, 0, 0.999999881, 0)
+Frame_10.Size = UDim2.new(0, 164, 0, 0)
+
+EnableB_4.Name = "EnableB"
+EnableB_4.Parent = Section5
+EnableB_4.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+EnableB_4.BorderColor3 = Color3.fromRGB(15, 15, 15)
+EnableB_4.Position = UDim2.new(0.0741485581, 0, 0.259657651, 0)
+EnableB_4.Size = UDim2.new(0, 12, 0, 12)
+EnableB_4.AutoButtonColor = false
+EnableB_4.Font = Enum.Font.SourceSans
+EnableB_4.Text = ""
+EnableB_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+EnableB_4.TextSize = 14.000
+
+TextLabel_25.Parent = EnableB_4
+TextLabel_25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_25.BackgroundTransparency = 1.000
+TextLabel_25.Position = UDim2.new(1.58333337, 0, 0, 0)
+TextLabel_25.Size = UDim2.new(0, 54, 0, 12)
+TextLabel_25.Font = Enum.Font.Code
+TextLabel_25.Text = "Inf Ammo"
+TextLabel_25.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_25.TextSize = 14.000
+
+EnableB_5.Name = "EnableB"
+EnableB_5.Parent = Section5
+EnableB_5.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+EnableB_5.BorderColor3 = Color3.fromRGB(15, 15, 15)
+EnableB_5.Position = UDim2.new(0.0741485581, 0, 0.465539992, 0)
+EnableB_5.Size = UDim2.new(0, 12, 0, 12)
+EnableB_5.AutoButtonColor = false
+EnableB_5.Font = Enum.Font.SourceSans
+EnableB_5.Text = ""
+EnableB_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+EnableB_5.TextSize = 14.000
+
+TextLabel_26.Parent = EnableB_5
+TextLabel_26.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_26.BackgroundTransparency = 1.000
+TextLabel_26.Position = UDim2.new(1.58333337, 0, 0, 0)
+TextLabel_26.Size = UDim2.new(0, 85, 0, 12)
+TextLabel_26.Font = Enum.Font.Code
+TextLabel_26.Text = "Fast FireRate"
+TextLabel_26.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_26.TextSize = 14.000
 
 VisualsButton.Name = "VisualsButton"
 VisualsButton.Parent = Tabs
@@ -635,8 +943,8 @@ VisualsButton.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
 VisualsButton.BorderColor3 = Color3.fromRGB(154, 0, 77)
 VisualsButton.BorderSizePixel = 0
 VisualsButton.LayoutOrder = 1
-VisualsButton.Position = UDim2.new(0.67897445, 0, 0.238329113, 0)
-VisualsButton.Size = UDim2.new(0, 115, 0, 24)
+VisualsButton.Position = UDim2.new(0.51149869, 0, 0.374692738, 0)
+VisualsButton.Size = UDim2.new(0, 87, 0, 18)
 VisualsButton.Font = Enum.Font.Code
 VisualsButton.Text = "Visuals"
 VisualsButton.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -648,26 +956,478 @@ Framevis.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
 Framevis.BackgroundTransparency = 0.350
 Framevis.BorderColor3 = Color3.fromRGB(154, 0, 77)
 Framevis.LayoutOrder = 1
-Framevis.Position = UDim2.new(-2.29275537, 0, 1.45833397, 0)
-Framevis.Size = UDim2.new(0, 387, 0, 423)
-Framevis.Visible = false
+Framevis.Position = UDim2.new(-2.24904442, 0, 1.45833421, 0)
+Framevis.Size = UDim2.new(0, 379, 0, 423)
 
-TextLabel_16.Parent = Framevis
-TextLabel_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_16.BackgroundTransparency = 1.000
-TextLabel_16.Position = UDim2.new(0.0236220472, 0, 0, 0)
-TextLabel_16.Size = UDim2.new(0, 60, 0, 24)
-TextLabel_16.Font = Enum.Font.Code
-TextLabel_16.Text = "Visuals"
-TextLabel_16.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_16.TextSize = 14.000
-TextLabel_16.TextWrapped = true
+TextLabel_27.Parent = Framevis
+TextLabel_27.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_27.BackgroundTransparency = 1.000
+TextLabel_27.Position = UDim2.new(0.0236220472, 0, 0, 0)
+TextLabel_27.Size = UDim2.new(0, 60, 0, 24)
+TextLabel_27.Font = Enum.Font.Code
+TextLabel_27.Text = "Visuals"
+TextLabel_27.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_27.TextSize = 14.000
+TextLabel_27.TextWrapped = true
 
-Frame_6.Parent = TextLabel_16
-Frame_6.BackgroundColor3 = Color3.fromRGB(154, 0, 77)
-Frame_6.BorderColor3 = Color3.fromRGB(154, 0, 77)
-Frame_6.Position = UDim2.new(0, 0, 1, 0)
-Frame_6.Size = UDim2.new(0, 60, 0, 0)
+Frame_11.Parent = TextLabel_27
+Frame_11.BackgroundColor3 = Color3.fromRGB(154, 0, 77)
+Frame_11.BorderColor3 = Color3.fromRGB(154, 0, 77)
+Frame_11.Position = UDim2.new(0, 0, 1, 0)
+Frame_11.Size = UDim2.new(0, 60, 0, 0)
+
+Section1_3.Name = "Section1"
+Section1_3.Parent = Framevis
+Section1_3.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+Section1_3.BorderColor3 = Color3.fromRGB(33, 33, 33)
+Section1_3.Position = UDim2.new(0.0556622669, 0, 0.0780141801, 0)
+Section1_3.Size = UDim2.new(0, 152, 0, 221)
+
+TextLabel_28.Parent = Section1_3
+TextLabel_28.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_28.BackgroundTransparency = 1.000
+TextLabel_28.BorderColor3 = Color3.fromRGB(33, 33, 33)
+TextLabel_28.Size = UDim2.new(0, 38, 0, 21)
+TextLabel_28.Font = Enum.Font.Code
+TextLabel_28.Text = "ESP"
+TextLabel_28.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_28.TextSize = 14.000
+
+Frame_12.Parent = Section1_3
+Frame_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_12.BorderColor3 = Color3.fromRGB(154, 0, 77)
+Frame_12.Position = UDim2.new(0, 0, 0.999999881, 0)
+Frame_12.Size = UDim2.new(0, 152, 0, 0)
+
+Skeleton.Name = "Skeleton"
+Skeleton.Parent = Section1_3
+Skeleton.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+Skeleton.BorderColor3 = Color3.fromRGB(15, 15, 15)
+Skeleton.Position = UDim2.new(0.120315813, 0, 0.362425327, 0)
+Skeleton.Size = UDim2.new(0, 12, 0, 12)
+Skeleton.AutoButtonColor = false
+Skeleton.Font = Enum.Font.SourceSans
+Skeleton.Text = ""
+Skeleton.TextColor3 = Color3.fromRGB(0, 0, 0)
+Skeleton.TextSize = 14.000
+
+TextLabel_29.Parent = Skeleton
+TextLabel_29.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_29.BackgroundTransparency = 1.000
+TextLabel_29.Position = UDim2.new(1.6776315, 0, -0.0411010385, 0)
+TextLabel_29.Size = UDim2.new(0, 37, 0, 12)
+TextLabel_29.Font = Enum.Font.SourceSans
+TextLabel_29.Text = "Skeleton"
+TextLabel_29.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_29.TextSize = 14.000
+
+_3D.Name = "3D"
+_3D.Parent = Section1_3
+_3D.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+_3D.BorderColor3 = Color3.fromRGB(15, 15, 15)
+_3D.Position = UDim2.new(0.120315813, 0, 0.249303162, 0)
+_3D.Size = UDim2.new(0, 12, 0, 12)
+_3D.AutoButtonColor = false
+_3D.Font = Enum.Font.SourceSans
+_3D.Text = ""
+_3D.TextColor3 = Color3.fromRGB(0, 0, 0)
+_3D.TextSize = 14.000
+
+TextLabel_30.Parent = _3D
+TextLabel_30.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_30.BackgroundTransparency = 1.000
+TextLabel_30.Position = UDim2.new(1.67763269, 0, -0.0411020927, 0)
+TextLabel_30.Size = UDim2.new(0, 27, 0, 12)
+TextLabel_30.Font = Enum.Font.SourceSans
+TextLabel_30.Text = "3D Box"
+TextLabel_30.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_30.TextSize = 14.000
+
+_2D.Name = "2D"
+_2D.Parent = Section1_3
+_2D.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+_2D.BorderColor3 = Color3.fromRGB(15, 15, 15)
+_2D.Position = UDim2.new(0.120315813, 0, 0.136180997, 0)
+_2D.Size = UDim2.new(0, 12, 0, 12)
+_2D.AutoButtonColor = false
+_2D.Font = Enum.Font.SourceSans
+_2D.Text = ""
+_2D.TextColor3 = Color3.fromRGB(0, 0, 0)
+_2D.TextSize = 14.000
+
+TextLabel_31.Parent = _2D
+TextLabel_31.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_31.BackgroundTransparency = 1.000
+TextLabel_31.Position = UDim2.new(1.67763269, 0, -0.0411020927, 0)
+TextLabel_31.Size = UDim2.new(0, 27, 0, 12)
+TextLabel_31.Font = Enum.Font.SourceSans
+TextLabel_31.Text = "2D Box"
+TextLabel_31.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_31.TextSize = 14.000
+
+Tracers.Name = "Tracers"
+Tracers.Parent = Section1_3
+Tracers.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+Tracers.BorderColor3 = Color3.fromRGB(15, 15, 15)
+Tracers.Position = UDim2.new(0.120315813, 0, 0.471022606, 0)
+Tracers.Size = UDim2.new(0, 12, 0, 12)
+Tracers.AutoButtonColor = false
+Tracers.Font = Enum.Font.SourceSans
+Tracers.Text = ""
+Tracers.TextColor3 = Color3.fromRGB(0, 0, 0)
+Tracers.TextSize = 14.000
+
+TextLabel_32.Parent = Tracers
+TextLabel_32.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_32.BackgroundTransparency = 1.000
+TextLabel_32.Position = UDim2.new(1.67763269, 0, -0.0411020927, 0)
+TextLabel_32.Size = UDim2.new(0, 27, 0, 12)
+TextLabel_32.Font = Enum.Font.SourceSans
+TextLabel_32.Text = "Tracers"
+TextLabel_32.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_32.TextSize = 14.000
+
+Section2_3.Name = "Section2"
+Section2_3.Parent = Framevis
+Section2_3.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+Section2_3.BorderColor3 = Color3.fromRGB(33, 33, 33)
+Section2_3.Position = UDim2.new(0.514765143, 0, 0.0780141801, 0)
+Section2_3.Size = UDim2.new(0, 152, 0, 221)
+
+TextLabel_33.Parent = Section2_3
+TextLabel_33.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_33.BackgroundTransparency = 1.000
+TextLabel_33.BorderColor3 = Color3.fromRGB(33, 33, 33)
+TextLabel_33.Size = UDim2.new(0, 65, 0, 21)
+TextLabel_33.Font = Enum.Font.Code
+TextLabel_33.Text = "Visuals"
+TextLabel_33.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_33.TextSize = 14.000
+
+Frame_13.Parent = Section2_3
+Frame_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_13.BorderColor3 = Color3.fromRGB(154, 0, 77)
+Frame_13.Position = UDim2.new(0, 0, 0.999999881, 0)
+Frame_13.Size = UDim2.new(0, 152, 0, 0)
+
+SettingsButton.Name = "SettingsButton"
+SettingsButton.Parent = Tabs
+SettingsButton.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+SettingsButton.BorderColor3 = Color3.fromRGB(154, 0, 77)
+SettingsButton.BorderSizePixel = 0
+SettingsButton.LayoutOrder = 1
+SettingsButton.Position = UDim2.new(0.746935666, 0, 0.374692738, 0)
+SettingsButton.Size = UDim2.new(0, 85, 0, 18)
+SettingsButton.Font = Enum.Font.Code
+SettingsButton.Text = "Settings"
+SettingsButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+SettingsButton.TextSize = 14.000
+
+Settingsvis.Name = "Settingsvis"
+Settingsvis.Parent = SettingsButton
+Settingsvis.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+Settingsvis.BackgroundTransparency = 0.350
+Settingsvis.BorderColor3 = Color3.fromRGB(154, 0, 77)
+Settingsvis.LayoutOrder = 1
+Settingsvis.Position = UDim2.new(-3.44313955, 0, 1.45833421, 0)
+Settingsvis.Size = UDim2.new(0, 377, 0, 423)
+Settingsvis.Visible = false
+
+TextLabel_34.Parent = Settingsvis
+TextLabel_34.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_34.BackgroundTransparency = 1.000
+TextLabel_34.Position = UDim2.new(0.0236220472, 0, 0, 0)
+TextLabel_34.Size = UDim2.new(0, 60, 0, 24)
+TextLabel_34.Font = Enum.Font.Code
+TextLabel_34.Text = "Settings"
+TextLabel_34.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_34.TextSize = 14.000
+TextLabel_34.TextWrapped = true
+
+Frame_14.Parent = TextLabel_34
+Frame_14.BackgroundColor3 = Color3.fromRGB(154, 0, 77)
+Frame_14.BorderColor3 = Color3.fromRGB(154, 0, 77)
+Frame_14.Position = UDim2.new(0, 0, 1, 0)
+Frame_14.Size = UDim2.new(0, 60, 0, 0)
+
+Section2_4.Name = "Section2"
+Section2_4.Parent = Settingsvis
+Section2_4.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+Section2_4.BorderColor3 = Color3.fromRGB(33, 33, 33)
+Section2_4.Position = UDim2.new(0.534101665, 0, 0.113527261, 0)
+Section2_4.Size = UDim2.new(0, 152, 0, 199)
+
+TextLabel_35.Parent = Section2_4
+TextLabel_35.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_35.BackgroundTransparency = 1.000
+TextLabel_35.Position = UDim2.new(0.0387096778, 0, 0, 0)
+TextLabel_35.Size = UDim2.new(0, 34, 0, 21)
+TextLabel_35.Font = Enum.Font.Code
+TextLabel_35.Text = "Themes"
+TextLabel_35.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_35.TextSize = 14.000
+
+Frame_15.Parent = Section2_4
+Frame_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_15.BorderColor3 = Color3.fromRGB(154, 0, 77)
+Frame_15.Position = UDim2.new(0, 0, 1, 0)
+Frame_15.Size = UDim2.new(0, 152, 0, 0)
+
+EnableB_6.Name = "EnableB"
+EnableB_6.Parent = Section2_4
+EnableB_6.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+EnableB_6.BorderColor3 = Color3.fromRGB(15, 15, 15)
+EnableB_6.Position = UDim2.new(0.135438979, 0, 0.19131951, 0)
+EnableB_6.Size = UDim2.new(0, 90, 0, 12)
+EnableB_6.AutoButtonColor = false
+EnableB_6.Font = Enum.Font.Code
+EnableB_6.Text = "Pride"
+EnableB_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+EnableB_6.TextSize = 12.000
+
+EnableB_7.Name = "EnableB"
+EnableB_7.Parent = Section2_4
+EnableB_7.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+EnableB_7.BorderColor3 = Color3.fromRGB(15, 15, 15)
+EnableB_7.Position = UDim2.new(0.135438979, 0, 0.316319525, 0)
+EnableB_7.Size = UDim2.new(0, 90, 0, 12)
+EnableB_7.AutoButtonColor = false
+EnableB_7.Font = Enum.Font.Code
+EnableB_7.Text = "Orange"
+EnableB_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+EnableB_7.TextSize = 12.000
+EnableB_7.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+EnableB_8.Name = "EnableB"
+EnableB_8.Parent = Section2_4
+EnableB_8.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+EnableB_8.BorderColor3 = Color3.fromRGB(15, 15, 15)
+EnableB_8.Position = UDim2.new(0.135438979, 0, 0.454477429, 0)
+EnableB_8.Size = UDim2.new(0, 90, 0, 12)
+EnableB_8.AutoButtonColor = false
+EnableB_8.Font = Enum.Font.Code
+EnableB_8.Text = "Gucci"
+EnableB_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+EnableB_8.TextSize = 12.000
+EnableB_8.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+TextLabel_36.Parent = Section2_4
+TextLabel_36.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+TextLabel_36.BackgroundTransparency = 0.250
+TextLabel_36.Position = UDim2.new(0.0387095772, 0, 0.132911399, 0)
+TextLabel_36.Size = UDim2.new(0, 119, 0, 129)
+TextLabel_36.Font = Enum.Font.SourceSans
+TextLabel_36.Text = "Comming soon"
+TextLabel_36.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_36.TextSize = 14.000
+
+Section1_4.Name = "Section1"
+Section1_4.Parent = Settingsvis
+Section1_4.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+Section1_4.BorderColor3 = Color3.fromRGB(33, 33, 33)
+Section1_4.Position = UDim2.new(0.060757339, 0, 0.113527261, 0)
+Section1_4.Size = UDim2.new(0, 163, 0, 199)
+
+TextLabel_37.Parent = Section1_4
+TextLabel_37.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_37.BackgroundTransparency = 1.000
+TextLabel_37.Position = UDim2.new(-0.00102552399, 0, 0, 0)
+TextLabel_37.Size = UDim2.new(0, 52, 0, 21)
+TextLabel_37.Font = Enum.Font.Code
+TextLabel_37.Text = "Other"
+TextLabel_37.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_37.TextSize = 14.000
+
+Frame_16.Parent = Section1_4
+Frame_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_16.BorderColor3 = Color3.fromRGB(154, 0, 77)
+Frame_16.Position = UDim2.new(0, 0, 1, 0)
+Frame_16.Size = UDim2.new(0, 163, 0, 0)
+
+DestroyB.Name = "DestroyB"
+DestroyB.Parent = Section1_4
+DestroyB.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+DestroyB.BorderColor3 = Color3.fromRGB(15, 15, 15)
+DestroyB.Position = UDim2.new(0.0775453672, 0, 0.136150271, 0)
+DestroyB.Size = UDim2.new(0, 111, 0, 13)
+DestroyB.AutoButtonColor = false
+DestroyB.Font = Enum.Font.Code
+DestroyB.Text = ""
+DestroyB.TextColor3 = Color3.fromRGB(255, 255, 255)
+DestroyB.TextSize = 11.000
+
+TextLabel_38.Parent = DestroyB
+TextLabel_38.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_38.BackgroundTransparency = 1.000
+TextLabel_38.Position = UDim2.new(0.0657892972, 0, 0, 0)
+TextLabel_38.Size = UDim2.new(0, 103, 0, 12)
+TextLabel_38.Font = Enum.Font.Code
+TextLabel_38.Text = "Desroy GUI"
+TextLabel_38.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_38.TextSize = 12.000
+TextLabel_38.TextWrapped = true
+
+DestroyB_2.Name = "DestroyB"
+DestroyB_2.Parent = Section1_4
+DestroyB_2.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+DestroyB_2.BorderColor3 = Color3.fromRGB(15, 15, 15)
+DestroyB_2.Position = UDim2.new(0.0775453672, 0, 0.271385312, 0)
+DestroyB_2.Size = UDim2.new(0, 111, 0, 12)
+DestroyB_2.AutoButtonColor = false
+DestroyB_2.Font = Enum.Font.Code
+DestroyB_2.Text = ""
+DestroyB_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+DestroyB_2.TextSize = 12.000
+
+TextLabel_39.Parent = DestroyB_2
+TextLabel_39.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_39.BackgroundTransparency = 1.000
+TextLabel_39.Position = UDim2.new(0.248696059, 0, 0, 0)
+TextLabel_39.Size = UDim2.new(0, 55, 0, 12)
+TextLabel_39.Font = Enum.Font.Code
+TextLabel_39.Text = "FPS Boost"
+TextLabel_39.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_39.TextSize = 13.000
+
+Section3_3.Name = "Section3"
+Section3_3.Parent = Settingsvis
+Section3_3.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+Section3_3.BorderColor3 = Color3.fromRGB(33, 33, 33)
+Section3_3.Position = UDim2.new(0.0593005903, 0, 0.612345278, 0)
+Section3_3.Size = UDim2.new(0, 164, 0, 143)
+
+TextLabel_40.Parent = Section3_3
+TextLabel_40.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_40.BackgroundTransparency = 1.000
+TextLabel_40.Position = UDim2.new(0.0387095772, 0, 0, 0)
+TextLabel_40.Size = UDim2.new(0, 52, 0, 21)
+TextLabel_40.Font = Enum.Font.Code
+TextLabel_40.Text = "Settings"
+TextLabel_40.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_40.TextSize = 14.000
+
+Frame_17.Parent = Section3_3
+Frame_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_17.BorderColor3 = Color3.fromRGB(154, 0, 77)
+Frame_17.Position = UDim2.new(0, 0, 1, 0)
+Frame_17.Size = UDim2.new(0, 164, 0, 0)
+
+DestroyB_3.Name = "DestroyB"
+DestroyB_3.Parent = Section3_3
+DestroyB_3.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+DestroyB_3.BorderColor3 = Color3.fromRGB(15, 15, 15)
+DestroyB_3.Position = UDim2.new(0.057677865, 0, 0.234519258, 0)
+DestroyB_3.Size = UDim2.new(0, 12, 0, 12)
+DestroyB_3.AutoButtonColor = false
+DestroyB_3.Font = Enum.Font.Code
+DestroyB_3.Text = ""
+DestroyB_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+DestroyB_3.TextSize = 12.000
+
+TextLabel_41.Parent = DestroyB_3
+TextLabel_41.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_41.BackgroundTransparency = 1.000
+TextLabel_41.Position = UDim2.new(1.59193921, 0, 0, 0)
+TextLabel_41.Size = UDim2.new(0, 68, 0, 12)
+TextLabel_41.Font = Enum.Font.Code
+TextLabel_41.Text = "Status Bar"
+TextLabel_41.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_41.TextSize = 14.000
+
+TextBox.Parent = Section3_3
+TextBox.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+TextBox.BorderColor3 = Color3.fromRGB(15, 15, 15)
+TextBox.Position = UDim2.new(0.05596973, 0, 0.405594409, 0)
+TextBox.Size = UDim2.new(0, 61, 0, 12)
+TextBox.ClearTextOnFocus = false
+TextBox.Font = Enum.Font.SourceSans
+TextBox.Text = "Right Shift"
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextSize = 12.000
+
+TextLabel_42.Parent = TextBox
+TextLabel_42.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_42.BackgroundTransparency = 1.000
+TextLabel_42.Position = UDim2.new(1.11475408, 0, -0.0110727949, 0)
+TextLabel_42.Size = UDim2.new(0, 65, 0, 12)
+TextLabel_42.Font = Enum.Font.Code
+TextLabel_42.Text = "Toggle Key"
+TextLabel_42.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_42.TextSize = 14.000
+
+Section3_4.Name = "Section3"
+Section3_4.Parent = Settingsvis
+Section3_4.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+Section3_4.BorderColor3 = Color3.fromRGB(33, 33, 33)
+Section3_4.Position = UDim2.new(0.534101665, 0, 0.612345278, 0)
+Section3_4.Size = UDim2.new(0, 153, 0, 130)
+
+TextLabel_43.Parent = Section3_4
+TextLabel_43.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_43.BackgroundTransparency = 1.000
+TextLabel_43.Position = UDim2.new(0.0387094542, 0, 0, 0)
+TextLabel_43.Size = UDim2.new(0, 42, 0, 21)
+TextLabel_43.Font = Enum.Font.Code
+TextLabel_43.Text = "Status"
+TextLabel_43.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_43.TextSize = 14.000
+
+Frame_18.Parent = Section3_4
+Frame_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_18.BorderColor3 = Color3.fromRGB(154, 0, 77)
+Frame_18.Position = UDim2.new(0, 0, 1, 0)
+Frame_18.Size = UDim2.new(0, 153, 0, 0)
+
+TextLabel_44.Parent = Section3_4
+TextLabel_44.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_44.BackgroundTransparency = 1.000
+TextLabel_44.Position = UDim2.new(0.215686277, 0, 0.161538467, 0)
+TextLabel_44.Size = UDim2.new(0, 53, 0, 24)
+TextLabel_44.Font = Enum.Font.Code
+TextLabel_44.Text = "Script Status:"
+TextLabel_44.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_44.TextSize = 13.000
+
+brightness_1.Name = "brightness_1"
+brightness_1.Parent = Section3_4
+brightness_1.BackgroundTransparency = 1.000
+brightness_1.Position = UDim2.new(0.722221851, 0, 0.184615284, 0)
+brightness_1.Size = UDim2.new(0, 17, 0, 17)
+brightness_1.ZIndex = 2
+brightness_1.Image = "rbxassetid://3926307971"
+brightness_1.ImageColor3 = Color3.fromRGB(74, 198, 21)
+brightness_1.ImageRectOffset = Vector2.new(644, 44)
+brightness_1.ImageRectSize = Vector2.new(36, 36)
+
+HUD.Name = "HUD"
+HUD.Parent = Core
+HUD.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+HUD.BorderColor3 = Color3.fromRGB(154, 0, 77)
+HUD.BorderSizePixel = 0
+HUD.Position = UDim2.new(-1.41646469, 0, -0.292543024, 0)
+HUD.Size = UDim2.new(0, 240, 0, 18)
+HUD.Visible = false
+
+TextLabel_45.Parent = HUD
+TextLabel_45.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_45.BackgroundTransparency = 1.000
+TextLabel_45.Position = UDim2.new(0.720833361, 0, 0.055555556, 0)
+TextLabel_45.Size = UDim2.new(0, 22, 0, 15)
+TextLabel_45.Font = Enum.Font.Code
+TextLabel_45.Text = "0"
+TextLabel_45.TextColor3 = Color3.fromRGB(255, 0, 128)
+TextLabel_45.TextSize = 14.000
+
+TextLabel_46.Parent = HUD
+TextLabel_46.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_46.BackgroundTransparency = 1.000
+TextLabel_46.Position = UDim2.new(0.04667487, 0, 0, 0)
+TextLabel_46.Size = UDim2.new(0, 73, 0, 16)
+TextLabel_46.Font = Enum.Font.Code
+TextLabel_46.Text = "CocianeWare"
+TextLabel_46.TextColor3 = Color3.fromRGB(255, 0, 128)
+TextLabel_46.TextSize = 14.000
+TextLabel_46.TextXAlignment = Enum.TextXAlignment.Left
 
 Changelog.Name = "Changelog"
 Changelog.Parent = ScreenGui
@@ -676,6 +1436,7 @@ Changelog.BorderColor3 = Color3.fromRGB(154, 0, 77)
 Changelog.BorderSizePixel = 2
 Changelog.Position = UDim2.new(0.458052814, 0, 0.308801621, 0)
 Changelog.Size = UDim2.new(0, 237, 0, 335)
+Changelog.Visible = false
 
 TopBar.Name = "TopBar"
 TopBar.Parent = Changelog
@@ -685,17 +1446,17 @@ TopBar.LayoutOrder = 1
 TopBar.Position = UDim2.new(0, 0, 0.00298507465, 0)
 TopBar.Size = UDim2.new(0, 237, 0, 17)
 
-TextLabel_17.Parent = TopBar
-TextLabel_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_17.BackgroundTransparency = 1.000
-TextLabel_17.BorderSizePixel = 0
-TextLabel_17.LayoutOrder = 1
-TextLabel_17.Position = UDim2.new(0, 0, 0.0158027206, 0)
-TextLabel_17.Size = UDim2.new(0, 75, 0, 16)
-TextLabel_17.Font = Enum.Font.Code
-TextLabel_17.Text = "Changelog"
-TextLabel_17.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_17.TextSize = 14.000
+TextLabel_47.Parent = TopBar
+TextLabel_47.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_47.BackgroundTransparency = 1.000
+TextLabel_47.BorderSizePixel = 0
+TextLabel_47.LayoutOrder = 1
+TextLabel_47.Position = UDim2.new(0, 0, 0.0158027206, 0)
+TextLabel_47.Size = UDim2.new(0, 75, 0, 16)
+TextLabel_47.Font = Enum.Font.Code
+TextLabel_47.Text = "Changelog"
+TextLabel_47.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_47.TextSize = 14.000
 
 Main.Name = "Main"
 Main.Parent = Changelog
@@ -803,16 +1564,16 @@ v003.Text = "v0.0.3"
 v003.TextColor3 = Color3.fromRGB(255, 255, 255)
 v003.TextSize = 11.000
 
-TextLabel_18.Parent = Changelog
-TextLabel_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_18.BackgroundTransparency = 1.000
-TextLabel_18.Position = UDim2.new(0.0759493634, 0, 0.0679749474, 0)
-TextLabel_18.Size = UDim2.new(0, 200, 0, 35)
-TextLabel_18.Font = Enum.Font.GothamBlack
-TextLabel_18.Text = "Nikolai"
-TextLabel_18.TextColor3 = Color3.fromRGB(154, 0, 77)
-TextLabel_18.TextSize = 26.000
-TextLabel_18.TextWrapped = true
+TextLabel_48.Parent = Changelog
+TextLabel_48.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_48.BackgroundTransparency = 1.000
+TextLabel_48.Position = UDim2.new(0.0759493634, 0, 0.0679749474, 0)
+TextLabel_48.Size = UDim2.new(0, 200, 0, 35)
+TextLabel_48.Font = Enum.Font.GothamBlack
+TextLabel_48.Text = "Nikolai"
+TextLabel_48.TextColor3 = Color3.fromRGB(154, 0, 77)
+TextLabel_48.TextSize = 26.000
+TextLabel_48.TextWrapped = true
 
 close_2.Name = "close"
 close_2.Parent = Changelog
@@ -826,7 +1587,125 @@ close_2.ImageRectSize = Vector2.new(24, 24)
 
 -- Scripts:
 
-local function LLIFOUM_fake_script() -- GunButton.LocalScript 
+local function BQOI_fake_script() -- InfJump.LocalScript 
+	local script = Instance.new('LocalScript', InfJump)
+
+	
+	
+	toggle = false
+	script.Parent.MouseButton1Down:connect(function()
+	
+		if toggle == true then 
+			toggle = false 
+		else
+			toggle = true
+		end
+		if toggle == true then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(154, 0, 77)
+		end
+		if toggle == false then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+		end
+	
+		if toggle == true then
+			_G.JumpHeight = 50;
+	
+			function Action(Object, Function) if Object ~= nil then Function(Object); end end
+	
+			UIS.InputBegan:connect(function(UserInput)
+				if UserInput.UserInputType == Enum.UserInputType.Keyboard and UserInput.KeyCode == Enum.KeyCode.Space then
+					Action(Player.Character.Humanoid, function(self)
+						if self:GetState() == Enum.HumanoidStateType.Jumping or self:GetState() == Enum.HumanoidStateType.Freefall then
+							Action(self.Parent.HumanoidRootPart, function(self)
+								self.Velocity = Vector3.new(0, _G.JumpHeight, 0);
+							end)
+						end
+					end)
+				end
+			end)
+		end
+		if toggle == false then
+		_G.JumpHeight = 0;
+	
+		function Action(Object, Function) if Object ~= nil then Function(Object); end end
+	
+		UIS.InputBegan:connect(function(UserInput)
+			if UserInput.UserInputType == Enum.UserInputType.Keyboard and UserInput.KeyCode == Enum.KeyCode.Space then
+				Action(Player.Character.Humanoid, function(self)
+					if self:GetState() == Enum.HumanoidStateType.Jumping or self:GetState() == Enum.HumanoidStateType.Freefall then
+						Action(self.Parent.HumanoidRootPart, function(self)
+							self.Velocity = Vector3.new(0, _G.JumpHeight, 0);
+						end)
+					end
+				end)
+			end
+		end)
+		end
+	end)
+end
+coroutine.wrap(BQOI_fake_script)()
+local function IAVQRI_fake_script() -- Ctrl.LocalScript 
+	local script = Instance.new('LocalScript', Ctrl)
+
+	
+	
+	toggle = false
+	script.Parent.MouseButton1Down:connect(function()
+	
+		if toggle == true then 
+			toggle = false 
+		else
+			toggle = true
+		end
+		if toggle == true then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(154, 0, 77)
+		end
+		if toggle == false then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+		end
+	
+		if toggle == true then
+			local Input = game:GetService("UserInputService")
+			local Plr = game.Players.LocalPlayer
+			local Mouse = Plr:GetMouse()
+	
+			function To(position)
+				local Chr = Plr.Character
+				if Chr ~= nil then
+					Chr:MoveTo(position)
+				end
+			end
+	
+			Input.InputBegan:Connect(function(input)
+				if input.UserInputType == Enum.UserInputType.MouseButton1 and Input:IsKeyDown(Enum.KeyCode.LeftControl) then
+					To(Mouse.Hit.p)
+				end
+			end)
+	
+		end
+		if toggle == false then
+			local Input = game:GetService("UserInputService")
+			local Plr = game.Players.LocalPlayer
+			local Mouse = Plr:GetMouse()
+	
+			function To(position)
+				local Chr = Plr.Character
+				if Chr ~= nil then
+					Chr:MoveTo(position)
+				end
+			end
+	
+			Input.InputBegan:Connect(function(input)
+				if input.UserInputType == Enum.UserInputType.MouseButton1 and Input:IsKeyDown(Enum.KeyCode.Ampersand) then
+					To(Mouse.Hit.p)
+				end
+			end)
+	
+		end
+	end)
+end
+coroutine.wrap(IAVQRI_fake_script)()
+local function WPFRXTO_fake_script() -- GunButton.LocalScript 
 	local script = Instance.new('LocalScript', GunButton)
 
 	-- Gun Button
@@ -839,18 +1718,55 @@ local function LLIFOUM_fake_script() -- GunButton.LocalScript
 		script.Parent.TextColor3 = Color3.fromRGB(154, 0, 77)
 		script.Parent.Framegun.Visible = true
 		script.Parent.Parent.VisualsButton.BorderSizePixel = 0
+		script.Parent.Parent.SettingsButton.BorderSizePixel = 0
 		script.Parent.Parent.MainButton.BorderSizePixel = 0
 		script.Parent.Parent.MainButton.Framemain.Visible = false
 		script.Parent.Parent.VisualsButton.Framevis.Visible = false
+		script.Parent.Parent.SettingsButton.Settingsvis.Visible = false
 		script.Parent.Parent.VisualsButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 		script.Parent.Parent.MainButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+		script.Parent.Parent.SettingsButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 	
 	end
 	
 	button.Activated:Connect(onButtonActivated)
 end
-coroutine.wrap(LLIFOUM_fake_script)()
-local function ZNVTX_fake_script() -- ShadowsB.LocalScript 
+coroutine.wrap(WPFRXTO_fake_script)()
+local function MSXXJP_fake_script() -- EnableB.LocalScript 
+	local script = Instance.new('LocalScript', EnableB)
+
+	toggle = false
+	script.Parent.MouseButton1Down:connect(function()
+	
+		if toggle == true then 
+			toggle = false 
+		else
+			toggle = true
+		end
+		if toggle == true then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(154, 0, 77)
+		end
+		if toggle == false then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+		end
+	
+		if toggle == true then
+			
+			local refreshrate = 0.03
+			_G.toggled = true
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/venosu/kat/main/head.lua", true))()
+		end
+		if toggle == false then 
+			
+			local refreshrate = 0.01
+			_G.toggled = false
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/venosu/kat/main/head.lua", true))()
+		end
+	end)
+	
+end
+coroutine.wrap(MSXXJP_fake_script)()
+local function MTIYRS_fake_script() -- ShadowsB.LocalScript 
 	local script = Instance.new('LocalScript', ShadowsB)
 
 	
@@ -880,8 +1796,8 @@ local function ZNVTX_fake_script() -- ShadowsB.LocalScript
 		end
 	end)
 end
-coroutine.wrap(ZNVTX_fake_script)()
-local function SNWXJL_fake_script() -- arrow_drop_down.Dropdown 
+coroutine.wrap(MTIYRS_fake_script)()
+local function ADOJ_fake_script() -- arrow_drop_down.Dropdown 
 	local script = Instance.new('LocalScript', arrow_drop_down)
 
 	
@@ -896,8 +1812,8 @@ local function SNWXJL_fake_script() -- arrow_drop_down.Dropdown
 	end)
 	
 end
-coroutine.wrap(SNWXJL_fake_script)()
-local function VUUQW_fake_script() -- arrow_drop_down.Arrow 
+coroutine.wrap(ADOJ_fake_script)()
+local function LEKF_fake_script() -- arrow_drop_down.Arrow 
 	local script = Instance.new('LocalScript', arrow_drop_down)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -907,8 +1823,8 @@ local function VUUQW_fake_script() -- arrow_drop_down.Arrow
 	end)
 	
 end
-coroutine.wrap(VUUQW_fake_script)()
-local function XJYRRLP_fake_script() -- Vibe.LocalScript 
+coroutine.wrap(LEKF_fake_script)()
+local function VPDWZOL_fake_script() -- Vibe.LocalScript 
 	local script = Instance.new('LocalScript', Vibe)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -933,8 +1849,8 @@ local function XJYRRLP_fake_script() -- Vibe.LocalScript
 	end)
 	
 end
-coroutine.wrap(XJYRRLP_fake_script)()
-local function YYRP_fake_script() -- Minecraft.LocalScript 
+coroutine.wrap(VPDWZOL_fake_script)()
+local function VOCPYW_fake_script() -- Minecraft.LocalScript 
 	local script = Instance.new('LocalScript', Minecraft)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -960,8 +1876,8 @@ local function YYRP_fake_script() -- Minecraft.LocalScript
 	end)
 	
 end
-coroutine.wrap(YYRP_fake_script)()
-local function HWLOELS_fake_script() -- Nebula.LocalScript 
+coroutine.wrap(VOCPYW_fake_script)()
+local function ZCNBFDF_fake_script() -- Nebula.LocalScript 
 	local script = Instance.new('LocalScript', Nebula)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -986,8 +1902,8 @@ local function HWLOELS_fake_script() -- Nebula.LocalScript
 	end)
 	
 end
-coroutine.wrap(HWLOELS_fake_script)()
-local function HDFMV_fake_script() -- DarkNight.LocalScript 
+coroutine.wrap(ZCNBFDF_fake_script)()
+local function XIJII_fake_script() -- DarkNight.LocalScript 
 	local script = Instance.new('LocalScript', DarkNight)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1012,8 +1928,8 @@ local function HDFMV_fake_script() -- DarkNight.LocalScript
 	
 	
 end
-coroutine.wrap(HDFMV_fake_script)()
-local function QJKXHX_fake_script() -- arrow_drop_up.Arrow 
+coroutine.wrap(XIJII_fake_script)()
+local function MAIPFL_fake_script() -- arrow_drop_up.Arrow 
 	local script = Instance.new('LocalScript', arrow_drop_up)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1023,8 +1939,8 @@ local function QJKXHX_fake_script() -- arrow_drop_up.Arrow
 	end)
 	
 end
-coroutine.wrap(QJKXHX_fake_script)()
-local function VZAQXG_fake_script() -- arrow_drop_up.Dropdown 
+coroutine.wrap(MAIPFL_fake_script)()
+local function EYCM_fake_script() -- arrow_drop_up.Dropdown 
 	local script = Instance.new('LocalScript', arrow_drop_up)
 
 	
@@ -1039,8 +1955,8 @@ local function VZAQXG_fake_script() -- arrow_drop_up.Dropdown
 	end)
 	
 end
-coroutine.wrap(VZAQXG_fake_script)()
-local function DORL_fake_script() -- Day.LocalScript 
+coroutine.wrap(EYCM_fake_script)()
+local function OSKIH_fake_script() -- Day.LocalScript 
 	local script = Instance.new('LocalScript', Day)
 
 	
@@ -1071,16 +1987,8 @@ local function DORL_fake_script() -- Day.LocalScript
 		end
 	end)
 end
-coroutine.wrap(DORL_fake_script)()
-local function LFNLSV_fake_script() -- RemoveTextures.LocalScript 
-	local script = Instance.new('LocalScript', RemoveTextures)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Parent.Confirm.Visible = true
-		end)
-end
-coroutine.wrap(LFNLSV_fake_script)()
-local function UCWU_fake_script() -- check.LocalScript 
+coroutine.wrap(OSKIH_fake_script)()
+local function GGHD_fake_script() -- check.LocalScript 
 	local script = Instance.new('LocalScript', check)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1089,16 +1997,293 @@ local function UCWU_fake_script() -- check.LocalScript
 	end)
 	
 end
-coroutine.wrap(UCWU_fake_script)()
-local function XMRMO_fake_script() -- close.LocalScript 
+coroutine.wrap(GGHD_fake_script)()
+local function HKFRK_fake_script() -- close.LocalScript 
 	local script = Instance.new('LocalScript', close)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Confirm.Visible = false
 	end)
 end
-coroutine.wrap(XMRMO_fake_script)()
-local function BDAIKX_fake_script() -- MainButton.LocalScript 
+coroutine.wrap(HKFRK_fake_script)()
+local function PRDN_fake_script() -- RemoveTextures.LocalScript 
+	local script = Instance.new('LocalScript', RemoveTextures)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local children = game:GetService("Workspace").WorldIgnore.DamageParts:GetChildren()
+	
+		for i,v in pairs(children) do
+			v:Destroy()
+		end
+	
+	
+		local descendants = game:GetService("Workspace").WorldIgnore.Ignore:GetDescendants()
+	
+		for i,v in pairs(descendants) do
+			if v.Name == "Water" then
+				v:Destroy()
+	
+			end
+	
+			local Descendants = game:GetService("Workspace").WorldIgnore.MapEffects:GetDescendants()
+	
+			for i,v in pairs(Descendants) do
+				if v.Name == "WaterPosition" then
+					v:Destroy()
+	
+				end
+	
+			end
+		end
+	end)
+end
+coroutine.wrap(PRDN_fake_script)()
+local function FFSM_fake_script() -- ShadowsB_2.LocalScript 
+	local script = Instance.new('LocalScript', ShadowsB_2)
+
+	
+	script.Parent.MouseButton1Click:connect(function()
+		local tool1 = Instance.new("HopperBin",game.Players.LocalPlayer.Backpack)
+		local tool2 = Instance.new("HopperBin",game.Players.LocalPlayer.Backpack)
+		local tool3 = Instance.new("HopperBin",game.Players.LocalPlayer.Backpack)
+		local tool4 = Instance.new("HopperBin",game.Players.LocalPlayer.Backpack)
+		local tool5 = Instance.new("HopperBin",game.Players.LocalPlayer.Backpack)
+		tool1.BinType = "Clone"
+		tool2.BinType = "GameTool"
+		tool3.BinType = "Hammer"
+		tool4.BinType = "Script"
+		tool5.BinType = "Grab"
+	end)
+	
+	
+end
+coroutine.wrap(FFSM_fake_script)()
+local function XPNZ_fake_script() -- ShadowsB_3.LocalScript 
+	local script = Instance.new('LocalScript', ShadowsB_3)
+
+	
+	script.Parent.MouseButton1Click:connect(function()
+		local vu = game:GetService("VirtualUser")
+		game:GetService("Players").LocalPlayer.Idled:connect(function()
+			vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+			wait(1)
+			vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+		end)
+	end)
+	
+	
+end
+coroutine.wrap(XPNZ_fake_script)()
+local function RDDOR_fake_script() -- EnableB_2.LocalScript 
+	local script = Instance.new('LocalScript', EnableB_2)
+
+	toggle = false
+	script.Parent.MouseButton1Down:connect(function()
+	
+		if toggle == true then 
+			toggle = false 
+		else
+			toggle = true
+		end
+		if toggle == true then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(154, 0, 77)
+		end
+		if toggle == false then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+		end
+	
+		if toggle == true then
+			local cons = {
+				[10] = 0,
+				[30] = 0.01
+			}
+	
+			local KnifeClient = game.Players.LocalPlayer.Character:FindFirstChild('KnifeClient', true)
+	
+			if KnifeClient then
+				local KnifeClientS = getsenv(KnifeClient)
+	
+				table.foreach(cons, function(i,v)
+					setconstant(KnifeClientS.inputReleased, i, v)
+				end)
+	
+				local old = KnifeClientS.PlayAnimation
+	
+				KnifeClientS.PlayAnimation = newcclosure(function(...)
+					local Args = {...}
+	
+					if (Args[1] == 'Grab' or Args[1] == 'Charge' or string.find(Args[1], 'Slash')) then
+						Args[2] = 0.05
+						return old(unpack(Args))
+					end
+	
+					return old(...)
+				end)
+			end
+	
+			game.Players.LocalPlayer.Character.ChildAdded:Connect(function(Child)
+				if Child.Name == 'Knife' then
+					local Element = getsenv(Child:FindFirstChild('KnifeClient', true))
+	
+					table.foreach(cons, function(i,v)
+						setconstant(Element.inputReleased, i, v)
+					end)
+	
+					local old = Element.PlayAnimation
+	
+					Element.PlayAnimation = newcclosure(function(...)
+						local Args = {...}
+	
+						if (Args[1] == 'Grab' or Args[1] == 'Charge' or string.find(Args[1], 'Slash')) then
+							Args[2] = 0.05
+							return old(unpack(Args))
+						end
+	
+						return old(...)
+					end)
+				end
+			end)
+			
+		end
+		if toggle == false then 
+			local cons = {
+				[10] = 0,
+				[30] = 999
+			}
+	
+			local KnifeClient = game.Players.LocalPlayer.Character:FindFirstChild('KnifeClient', true)
+	
+			if KnifeClient then
+				local KnifeClientS = getsenv(KnifeClient)
+	
+				table.foreach(cons, function(i,v)
+					setconstant(KnifeClientS.inputReleased, i, v)
+				end)
+	
+				local old = KnifeClientS.PlayAnimation
+	
+				KnifeClientS.PlayAnimation = newcclosure(function(...)
+					local Args = {...}
+	
+					if (Args[1] == 'Grab' or Args[1] == 'Charge' or string.find(Args[1], 'Slash')) then
+						Args[2] = 999
+						return old(unpack(Args))
+					end
+	
+					return old(...)
+				end)
+			end
+	
+			game.Players.LocalPlayer.Character.ChildAdded:Connect(function(Child)
+				if Child.Name == 'Knife' then
+					local Element = getsenv(Child:FindFirstChild('KnifeClient', true))
+	
+					table.foreach(cons, function(i,v)
+						setconstant(Element.inputReleased, i, v)
+					end)
+	
+					local old = Element.PlayAnimation
+	
+					Element.PlayAnimation = newcclosure(function(...)
+						local Args = {...}
+	
+						if (Args[1] == 'Grab' or Args[1] == 'Charge' or string.find(Args[1], 'Slash')) then
+							Args[2] = 999
+							return old(unpack(Args))
+						end
+	
+						return old(...)
+					end)
+				end
+			end)
+	
+		end
+	end)
+	
+end
+coroutine.wrap(RDDOR_fake_script)()
+local function YKMXI_fake_script() -- EnableB_4.LocalScript 
+	local script = Instance.new('LocalScript', EnableB_4)
+
+	toggle = false
+	script.Parent.MouseButton1Down:connect(function()
+	
+		if toggle == true then 
+			toggle = false 
+		else
+			toggle = true
+		end
+		if toggle == true then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(154, 0, 77)
+		end
+		if toggle == false then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+		end
+	
+		if toggle == true then
+			
+			function Ammo() 
+				for i, v in next, getgc(true) do 
+					if type(v) == "table" and rawget(v, "LoadedAmmo") then 
+						v.LoadedAmmo = 999
+					end
+				end
+			end
+	
+			while wait(1) do
+				Ammo()
+			end
+	
+		end
+		if toggle == false then 
+			
+			function Ammo() 
+				for i, v in next, getgc(true) do 
+					if type(v) == "table" and rawget(v, "LoadedAmmo") then 
+						v.LoadedAmmo = 3
+					end
+				end
+			end
+			
+		end
+	end)
+	
+end
+coroutine.wrap(YKMXI_fake_script)()
+local function CTLL_fake_script() -- EnableB_5.LocalScript 
+	local script = Instance.new('LocalScript', EnableB_5)
+
+	toggle = false
+	script.Parent.MouseButton1Down:connect(function()
+	
+		if toggle == true then 
+			toggle = false 
+		else
+			toggle = true
+		end
+		if toggle == true then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(154, 0, 77)
+		end
+		if toggle == false then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+		end
+	
+		if toggle == true then
+			
+			getgenv().FireRateWaitTime = 0.25
+			loadstring(game:HttpGet('https://rentry.co/t7iu9/raw'))()
+	
+		end
+		if toggle == false then 
+			
+			getgenv().FireRateWaitTime = 1.3333333333333333
+			loadstring(game:HttpGet('https://rentry.co/t7iu9/raw'))()
+		end
+	end)
+	
+end
+coroutine.wrap(CTLL_fake_script)()
+local function GQKK_fake_script() -- MainButton.LocalScript 
 	local script = Instance.new('LocalScript', MainButton)
 
 	-- Main Button
@@ -1113,18 +2298,2392 @@ local function BDAIKX_fake_script() -- MainButton.LocalScript
 		script.Parent.Framemain.Visible = true
 		script.Parent.Parent.GunButton.BorderSizePixel = 0
 		script.Parent.Parent.VisualsButton.BorderSizePixel = 0
+		script.Parent.Parent.SettingsButton.BorderSizePixel = 0
 		script.Parent.Parent.GunButton.Framegun.Visible = false
+		script.Parent.Parent.SettingsButton.Settingsvis.Visible = false
 		script.Parent.Parent.VisualsButton.Framevis.Visible = false
 		script.Parent.Parent.GunButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 		script.Parent.Parent.VisualsButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+		script.Parent.Parent.SettingsButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 	
 	end
 	
 	button.Activated:Connect(onButtonActivated)
 	
 end
-coroutine.wrap(BDAIKX_fake_script)()
-local function ZUTRV_fake_script() -- VisualsButton.LocalScript 
+coroutine.wrap(GQKK_fake_script)()
+local function XXIDE_fake_script() -- Skeleton.LocalScript 
+	local script = Instance.new('LocalScript', Skeleton)
+
+	
+	
+	toggle = false
+	script.Parent.MouseButton1Down:connect(function()
+	
+		if toggle == true then 
+			toggle = false 
+		else
+			toggle = true
+		end
+		if toggle == true then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(154, 0, 77)
+		end
+		if toggle == false then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+		end
+	
+		if toggle == true then
+			if not executed_already then
+	
+				if game.PlaceId == 292439477 then -- phantom forces characters fix
+					local replication;
+	
+					for i,v in next, getgc(true) do
+						if type(v) == "table" and rawget(v,'getbodyparts') then
+							replication = v;
+						end
+					end
+	
+					local characterparts = debug.getupvalue(replication.getbodyparts, 1)
+					local player = game:GetService("Players").LocalPlayer
+	
+					function updater()
+						for person,bodyparts in next, characterparts do
+							local character = bodyparts['head'].Parent;
+							if not person.Character or character.Name ~= person.Name then
+								character.Name = person.Name;
+								person.Character = character;
+							end
+						end
+						local character = player.Character;
+						if character and character.Name == "Player" then
+							character.Name = player.Name;
+						end
+					end
+	
+					game:GetService("RunService"):BindToRenderStep("CharacterUpdater", 1, updater)
+				end
+	
+				getgenv().executed_already = true;
+				getgenv().skeleton_esp = true;
+				local plrs = game:GetService("Players")
+				local localplayer = plrs.LocalPlayer;
+				local camera = game:GetService("Workspace").CurrentCamera;
+				local enemy_color = Color3.fromRGB(154, 0, 77)
+				local team_color = Color3.fromRGB(154, 0, 77)
+	
+				local function createESP(plr)
+					local shead = Drawing.new("Line")
+					shead.Thickness = 1;
+					shead.Color = enemy_color;
+	
+					local srarm = Drawing.new("Line")
+					srarm.Thickness = 1;
+					srarm.Color = enemy_color;
+	
+					local slarm = Drawing.new("Line")
+					slarm.Thickness = 1;
+					slarm.Color = enemy_color;
+	
+					local srleg = Drawing.new("Line")
+					srleg.Thickness = 1;
+					srleg.Color = enemy_color;
+	
+					local slleg = Drawing.new("Line")
+					slleg.Thickness = 1;
+					slleg.Color = enemy_color;
+	
+					local name = plr.Name;
+	
+					function esp_func()
+						if not skeleton_esp then
+							if shead.Visible then
+								shead.Visible = false;
+							end
+							if srarm.Visible then
+								srarm.Visible = false;
+							end
+							if slarm.Visible then
+								slarm.Visible = false;
+							end
+							if srleg.Visible then
+								srleg.Visible = false;
+							end
+							if slleg.Visible then
+								slleg.Visible = false;
+							end
+							return;
+						end
+						if plr then
+							if not localplayer.Character then shead.Visible = false; srarm.Visible = false; slarm.Visible = false; srleg.Visible = false; slleg.Visible = false; return end
+							if not plr.Character then shead.Visible = false; srarm.Visible = false; slarm.Visible = false; srleg.Visible = false; slleg.Visible = false; return end
+							if not plr.Character.Head then shead.Visible = false; srarm.Visible = false; slarm.Visible = false; srleg.Visible = false; slleg.Visible = false; return end
+							if (camera.CFrame.p - plr.Character.Head.CFrame.p).magnitude >= 1500 then shead.Visible = false; srarm.Visible = false; slarm.Visible = false; srleg.Visible = false; slleg.Visible = false; return end
+	
+							local char = plr.Character;
+	
+							local head = char["Head"];
+							local torso = char["Torso"];
+							local rarm = char["Right Arm"];
+							local larm = char["Left Arm"];
+							local rleg = char["Right Leg"];
+							local lleg = char["Left Leg"];
+							local p1 = head.CFrame.Position;
+							local p2 = torso.CFrame.Position;
+							local p3 = rarm.CFrame.Position;
+							local p4 = larm.CFrame.Position;
+							local p5 = rleg.CFrame.Position;
+							local p6 = lleg.CFrame.Position;
+	
+							local sp1,v1 = camera:WorldToViewportPoint(p1)
+							local sp2,v2 = camera:WorldToViewportPoint(p2)
+							local sp3,v3 = camera:WorldToViewportPoint(p3)
+							local sp4,v4 = camera:WorldToViewportPoint(p4)
+							local sp5,v5 = camera:WorldToViewportPoint(p5)
+							local sp6,v6 = camera:WorldToViewportPoint(p6)
+	
+							if skeleton_esp and v1 then
+								shead.From = Vector2.new(sp1.X, sp1.Y)
+								shead.To = Vector2.new(sp2.X, sp2.Y)
+	
+								srarm.From = Vector2.new(sp2.X, sp2.Y)
+								srarm.To = Vector2.new(sp3.X, sp3.Y)
+	
+								slarm.From = Vector2.new(sp2.X, sp2.Y)
+								slarm.To = Vector2.new(sp4.X, sp4.Y)
+	
+								srleg.From = Vector2.new(sp2.X, sp2.Y)
+								srleg.To = Vector2.new(sp5.X, sp5.Y)
+	
+								slleg.From = Vector2.new(sp2.X, sp2.Y)
+								slleg.To = Vector2.new(sp6.X, sp6.Y)
+	
+								shead.Visible = true;
+								srarm.Visible = true;
+								slarm.Visible = true;
+								srleg.Visible = true;
+								slleg.Visible = true;
+							elseif not v1 then
+								shead.Visible = false;
+								srarm.Visible = false;
+								slarm.Visible = false;
+								srleg.Visible = false;
+								slleg.Visible = false;
+							end
+	
+							if plr.Team ~= localplayer.Team and shead.Color == team_color then
+								shead.Color = enemy_color;
+							elseif plr.Team == localplayer.Team and shead.Color == enemy_color then
+								shead.Color = team_color;
+							end
+	
+							if plr.Team ~= localplayer.Team and srarm.Color == team_color then
+								srarm.Color = enemy_color;
+							elseif plr.Team == localplayer.Team and srarm.Color == enemy_color then
+								srarm.Color = team_color;
+							end
+	
+							if plr.Team ~= localplayer.Team and slarm.Color == team_color then
+								slarm.Color = enemy_color;
+							elseif plr.Team == localplayer.Team and slarm.Color == enemy_color then
+								slarm.Color = team_color;
+							end
+	
+							if plr.Team ~= localplayer.Team and srleg.Color == team_color then
+								srleg.Color = enemy_color;
+							elseif plr.Team == localplayer.Team and srleg.Color == enemy_color then
+								srleg.Color = team_color;
+							end
+	
+							if plr.Team ~= localplayer.Team and slleg.Color == team_color then
+								slleg.Color = enemy_color;
+							elseif plr.Team == localplayer.Team and slleg.Color == enemy_color then
+								slleg.Color = team_color;
+							end
+						else
+							game:GetService("RunService"):UnbindFromRenderStep("ESP_" .. name)
+							shead.Visible = false;
+							shead:Destroy()
+	
+							srarm.Visible = false;
+							srarm:Destroy()
+	
+							slarm.Visible = false;
+							slarm:Destroy()
+	
+							srleg.Visible = false;
+							srleg:Destroy()
+	
+							slleg.Visible = false;
+							slleg:Destroy()
+						end
+					end
+	
+					game:GetService("RunService"):BindToRenderStep("ESP_" .. name, 1, esp_func)
+				end
+	
+	
+				for _,plr in next, plrs:GetPlayers() do
+					if plr ~= localplayer then
+						createESP(plr)
+					end
+				end
+	
+				plrs.PlayerAdded:connect(function(plr)
+					createESP(plr)
+				end)
+	
+				return;
+			end
+	
+			skeleton_esp = not skeleton_esp;
+	
+		end
+		if toggle == false then
+			if not executed_already then
+	
+				if game.PlaceId == 292439477 then -- phantom forces characters fix
+					local replication;
+	
+					for i,v in next, getgc(true) do
+						if type(v) == "table" and rawget(v,'getbodyparts') then
+							replication = v;
+						end
+					end
+	
+					local characterparts = debug.getupvalue(replication.getbodyparts, 1)
+					local player = game:GetService("Players").LocalPlayer
+	
+					function updater()
+						for person,bodyparts in next, characterparts do
+							local character = bodyparts['head'].Parent;
+							if not person.Character or character.Name ~= person.Name then
+								character.Name = person.Name;
+								person.Character = character;
+							end
+						end
+						local character = player.Character;
+						if character and character.Name == "Player" then
+							character.Name = player.Name;
+						end
+					end
+	
+					game:GetService("RunService"):BindToRenderStep("CharacterUpdater", 1, updater)
+				end
+	
+				getgenv().executed_already = true;
+				getgenv().skeleton_esp = false;
+				local plrs = game:GetService("Players")
+				local localplayer = plrs.LocalPlayer;
+				local camera = game:GetService("Workspace").CurrentCamera;
+				local enemy_color = Color3.fromRGB(154, 0, 77)
+				local team_color = Color3.fromRGB(154, 0, 77)
+	
+				local function createESP(plr)
+					local shead = Drawing.new("Line")
+					shead.Thickness = 1;
+					shead.Color = enemy_color;
+	
+					local srarm = Drawing.new("Line")
+					srarm.Thickness = 1;
+					srarm.Color = enemy_color;
+	
+					local slarm = Drawing.new("Line")
+					slarm.Thickness = 1;
+					slarm.Color = enemy_color;
+	
+					local srleg = Drawing.new("Line")
+					srleg.Thickness = 1;
+					srleg.Color = enemy_color;
+	
+					local slleg = Drawing.new("Line")
+					slleg.Thickness = 1;
+					slleg.Color = enemy_color;
+	
+					local name = plr.Name;
+	
+					function esp_func()
+						if not skeleton_esp then
+							if shead.Visible then
+								shead.Visible = false;
+							end
+							if srarm.Visible then
+								srarm.Visible = false;
+							end
+							if slarm.Visible then
+								slarm.Visible = false;
+							end
+							if srleg.Visible then
+								srleg.Visible = false;
+							end
+							if slleg.Visible then
+								slleg.Visible = false;
+							end
+							return;
+						end
+						if plr then
+							if not localplayer.Character then shead.Visible = false; srarm.Visible = false; slarm.Visible = false; srleg.Visible = false; slleg.Visible = false; return end
+							if not plr.Character then shead.Visible = false; srarm.Visible = false; slarm.Visible = false; srleg.Visible = false; slleg.Visible = false; return end
+							if not plr.Character.Head then shead.Visible = false; srarm.Visible = false; slarm.Visible = false; srleg.Visible = false; slleg.Visible = false; return end
+							if (camera.CFrame.p - plr.Character.Head.CFrame.p).magnitude >= 1500 then shead.Visible = false; srarm.Visible = false; slarm.Visible = false; srleg.Visible = false; slleg.Visible = false; return end
+	
+							local char = plr.Character;
+	
+							local head = char["Head"];
+							local torso = char["Torso"];
+							local rarm = char["Right Arm"];
+							local larm = char["Left Arm"];
+							local rleg = char["Right Leg"];
+							local lleg = char["Left Leg"];
+							local p1 = head.CFrame.Position;
+							local p2 = torso.CFrame.Position;
+							local p3 = rarm.CFrame.Position;
+							local p4 = larm.CFrame.Position;
+							local p5 = rleg.CFrame.Position;
+							local p6 = lleg.CFrame.Position;
+	
+							local sp1,v1 = camera:WorldToViewportPoint(p1)
+							local sp2,v2 = camera:WorldToViewportPoint(p2)
+							local sp3,v3 = camera:WorldToViewportPoint(p3)
+							local sp4,v4 = camera:WorldToViewportPoint(p4)
+							local sp5,v5 = camera:WorldToViewportPoint(p5)
+							local sp6,v6 = camera:WorldToViewportPoint(p6)
+	
+							if skeleton_esp and v1 then
+								shead.From = Vector2.new(sp1.X, sp1.Y)
+								shead.To = Vector2.new(sp2.X, sp2.Y)
+	
+								srarm.From = Vector2.new(sp2.X, sp2.Y)
+								srarm.To = Vector2.new(sp3.X, sp3.Y)
+	
+								slarm.From = Vector2.new(sp2.X, sp2.Y)
+								slarm.To = Vector2.new(sp4.X, sp4.Y)
+	
+								srleg.From = Vector2.new(sp2.X, sp2.Y)
+								srleg.To = Vector2.new(sp5.X, sp5.Y)
+	
+								slleg.From = Vector2.new(sp2.X, sp2.Y)
+								slleg.To = Vector2.new(sp6.X, sp6.Y)
+	
+								shead.Visible = true;
+								srarm.Visible = true;
+								slarm.Visible = true;
+								srleg.Visible = true;
+								slleg.Visible = true;
+							elseif not v1 then
+								shead.Visible = false;
+								srarm.Visible = false;
+								slarm.Visible = false;
+								srleg.Visible = false;
+								slleg.Visible = false;
+							end
+	
+							if plr.Team ~= localplayer.Team and shead.Color == team_color then
+								shead.Color = enemy_color;
+							elseif plr.Team == localplayer.Team and shead.Color == enemy_color then
+								shead.Color = team_color;
+							end
+	
+							if plr.Team ~= localplayer.Team and srarm.Color == team_color then
+								srarm.Color = enemy_color;
+							elseif plr.Team == localplayer.Team and srarm.Color == enemy_color then
+								srarm.Color = team_color;
+							end
+	
+							if plr.Team ~= localplayer.Team and slarm.Color == team_color then
+								slarm.Color = enemy_color;
+							elseif plr.Team == localplayer.Team and slarm.Color == enemy_color then
+								slarm.Color = team_color;
+							end
+	
+							if plr.Team ~= localplayer.Team and srleg.Color == team_color then
+								srleg.Color = enemy_color;
+							elseif plr.Team == localplayer.Team and srleg.Color == enemy_color then
+								srleg.Color = team_color;
+							end
+	
+							if plr.Team ~= localplayer.Team and slleg.Color == team_color then
+								slleg.Color = enemy_color;
+							elseif plr.Team == localplayer.Team and slleg.Color == enemy_color then
+								slleg.Color = team_color;
+							end
+						else
+							game:GetService("RunService"):UnbindFromRenderStep("ESP_" .. name)
+							shead.Visible = false;
+							shead:Destroy()
+	
+							srarm.Visible = false;
+							srarm:Destroy()
+	
+							slarm.Visible = false;
+							slarm:Destroy()
+	
+							srleg.Visible = false;
+							srleg:Destroy()
+	
+							slleg.Visible = false;
+							slleg:Destroy()
+						end
+					end
+	
+					game:GetService("RunService"):BindToRenderStep("ESP_" .. name, 1, esp_func)
+				end
+	
+	
+				for _,plr in next, plrs:GetPlayers() do
+					if plr ~= localplayer then
+						createESP(plr)
+					end
+				end
+	
+				plrs.PlayerAdded:connect(function(plr)
+					createESP(plr)
+				end)
+	
+				return;
+			end
+	
+			skeleton_esp = not skeleton_esp;
+	
+		end
+	end)
+end
+coroutine.wrap(XXIDE_fake_script)()
+local function EFKZR_fake_script() -- _3D.LocalScript 
+	local script = Instance.new('LocalScript', _3D)
+
+	
+	
+	toggle = false
+	script.Parent.MouseButton1Down:connect(function()
+	
+		if toggle == true then 
+			toggle = false 
+		else
+			toggle = true
+		end
+		if toggle == true then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(154, 0, 77)
+		end
+		if toggle == false then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+		end
+	
+		if toggle == true then
+			--// Made by Blissful#4992
+			--// Locals:
+			local workspace = game:GetService("Workspace")
+			local player = game:GetService("Players").LocalPlayer
+			local camera = workspace.CurrentCamera
+	
+			--// Settings:
+			local on = true -- Use this if your making gui
+	
+			local Box_Color = Color3.fromRGB(154, 0, 77)
+			local Box_Thickness = 2
+			local Box_Transparency = 1 -- 1 Visible, 0 Not Visible
+	
+			local Tracers = false
+			local Tracer_Color = Color3.fromRGB(255, 0, 0)
+			local Tracer_Thickness = 2
+			local Tracer_Transparency = 1 -- 1 Visible, 0 Not Visible
+	
+			local Autothickness = true -- Makes screen less encumbered
+	
+			local Team_Check = false
+			local red = Color3.fromRGB(227, 52, 52)
+			local green = Color3.fromRGB(88, 217, 24)
+	
+			--// Main Function:
+			for i, v in pairs(game.Players:GetChildren()) do
+				--// Lines for 3D box (12)
+				local line1 = Drawing.new("Line")
+				line1.Visible = false
+				line1.Color = Box_Color
+				line1.Thickness = Box_Thickness
+				line1.Transparency = Box_Transparency
+	
+				local line2 = Drawing.new("Line")
+				line2.Visible = false
+				line2.Color = Box_Color
+				line2.Thickness = Box_Thickness
+				line2.Transparency = Box_Transparency
+	
+				local line3 = Drawing.new("Line")
+				line3.Visible = false
+				line3.Color = Box_Color
+				line3.Thickness = Box_Thickness
+				line3.Transparency = Box_Transparency
+	
+				local line4 = Drawing.new("Line")
+				line4.Visible = false
+				line4.Color = Box_Color
+				line4.Thickness = Box_Thickness
+				line4.Transparency = Box_Transparency
+	
+				local line5 = Drawing.new("Line")
+				line5.Visible = false
+				line5.Color = Box_Color
+				line5.Thickness = Box_Thickness
+				line5.Transparency = Box_Transparency
+	
+				local line6 = Drawing.new("Line")
+				line6.Visible = false
+				line6.Color = Box_Color
+				line6.Thickness = Box_Thickness
+				line6.Transparency = Box_Transparency
+	
+				local line7 = Drawing.new("Line")
+				line7.Visible = false
+				line7.Color = Box_Color
+				line7.Thickness = Box_Thickness
+				line7.Transparency = Box_Transparency
+	
+				local line8 = Drawing.new("Line")
+				line8.Visible = false
+				line8.Color = Box_Color
+				line8.Thickness = Box_Thickness
+				line8.Transparency = Box_Transparency
+	
+				local line9 = Drawing.new("Line")
+				line9.Visible = false
+				line9.Color = Box_Color
+				line9.Thickness = Box_Thickness
+				line9.Transparency = Box_Transparency
+	
+				local line10 = Drawing.new("Line")
+				line10.Visible = false
+				line10.Color = Box_Color
+				line10.Thickness = Box_Thickness
+				line10.Transparency = Box_Transparency
+	
+				local line11 = Drawing.new("Line")
+				line11.Visible = false
+				line11.Color = Box_Color
+				line11.Thickness = Box_Thickness
+				line11.Transparency = Box_Transparency
+	
+				local line12 = Drawing.new("Line")
+				line12.Visible = false
+				line12.Color = Box_Color
+				line12.Thickness = Box_Thickness
+				line12.Transparency = Box_Transparency
+	
+				local Tracer = Drawing.new("Line")
+				Tracer.Visible = false
+				Tracer.Color = Tracer_Color
+				Tracer.Thickness = Tracer_Thickness
+				Tracer.Transparency = Tracer_Transparency
+	
+				--// Updates ESP (lines) in render loop
+				local function ESP()
+					local connection
+					connection = game:GetService("RunService").RenderStepped:Connect(function()
+						if on and v.Character ~= nil and v.Character:FindFirstChild("Humanoid") ~= nil and v.Character:FindFirstChild("HumanoidRootPart") ~= nil and v.Name ~= player.Name  and v.Character.Humanoid.Health > 0 then
+							local pos, vis = camera:WorldToViewportPoint(v.Character.HumanoidRootPart.Position)
+							if vis then
+								local Scale = v.Character.Head.Size.Y/2
+								local Size = Vector3.new(2, 3, 1.5) * (Scale * 2) -- Change this for different box size
+	
+								local Top1 = camera:WorldToViewportPoint((v.Character.HumanoidRootPart.CFrame * CFrame.new(-Size.X, Size.Y, -Size.Z)).p)
+								local Top2 = camera:WorldToViewportPoint((v.Character.HumanoidRootPart.CFrame * CFrame.new(-Size.X, Size.Y, Size.Z)).p)
+								local Top3 = camera:WorldToViewportPoint((v.Character.HumanoidRootPart.CFrame * CFrame.new(Size.X, Size.Y, Size.Z)).p)
+								local Top4 = camera:WorldToViewportPoint((v.Character.HumanoidRootPart.CFrame * CFrame.new(Size.X, Size.Y, -Size.Z)).p)
+	
+								local Bottom1 = camera:WorldToViewportPoint((v.Character.HumanoidRootPart.CFrame * CFrame.new(-Size.X, -Size.Y, -Size.Z)).p)
+								local Bottom2 = camera:WorldToViewportPoint((v.Character.HumanoidRootPart.CFrame * CFrame.new(-Size.X, -Size.Y, Size.Z)).p)
+								local Bottom3 = camera:WorldToViewportPoint((v.Character.HumanoidRootPart.CFrame * CFrame.new(Size.X, -Size.Y, Size.Z)).p)
+								local Bottom4 = camera:WorldToViewportPoint((v.Character.HumanoidRootPart.CFrame * CFrame.new(Size.X, -Size.Y, -Size.Z)).p)
+	
+								--// Top:
+								line1.From = Vector2.new(Top1.X, Top1.Y)
+								line1.To = Vector2.new(Top2.X, Top2.Y)
+	
+								line2.From = Vector2.new(Top2.X, Top2.Y)
+								line2.To = Vector2.new(Top3.X, Top3.Y)
+	
+								line3.From = Vector2.new(Top3.X, Top3.Y)
+								line3.To = Vector2.new(Top4.X, Top4.Y)
+	
+								line4.From = Vector2.new(Top4.X, Top4.Y)
+								line4.To = Vector2.new(Top1.X, Top1.Y)
+	
+								--// Bottom:
+								line5.From = Vector2.new(Bottom1.X, Bottom1.Y)
+								line5.To = Vector2.new(Bottom2.X, Bottom2.Y)
+	
+								line6.From = Vector2.new(Bottom2.X, Bottom2.Y)
+								line6.To = Vector2.new(Bottom3.X, Bottom3.Y)
+	
+								line7.From = Vector2.new(Bottom3.X, Bottom3.Y)
+								line7.To = Vector2.new(Bottom4.X, Bottom4.Y)
+	
+								line8.From = Vector2.new(Bottom4.X, Bottom4.Y)
+								line8.To = Vector2.new(Bottom1.X, Bottom1.Y)
+	
+								--//S ides:
+								line9.From = Vector2.new(Bottom1.X, Bottom1.Y)
+								line9.To = Vector2.new(Top1.X, Top1.Y)
+	
+								line10.From = Vector2.new(Bottom2.X, Bottom2.Y)
+								line10.To = Vector2.new(Top2.X, Top2.Y)
+	
+								line11.From = Vector2.new(Bottom3.X, Bottom3.Y)
+								line11.To = Vector2.new(Top3.X, Top3.Y)
+	
+								line12.From = Vector2.new(Bottom4.X, Bottom4.Y)
+								line12.To = Vector2.new(Top4.X, Top4.Y)
+	
+								--// Tracer:
+								if Tracers then
+									local trace = camera:WorldToViewportPoint((v.Character.HumanoidRootPart.CFrame * CFrame.new(0, -Size.Y, 0)).p)
+	
+									Tracer.From = Vector2.new(camera.ViewportSize.X/2, camera.ViewportSize.Y)
+									Tracer.To = Vector2.new(trace.X, trace.Y)
+								end
+	
+								--// Teamcheck:
+								if Team_Check then
+									if v.TeamColor == player.TeamColor then
+										line1.Color = green
+										line2.Color = green
+										line3.Color = green
+										line4.Color = green
+										line5.Color = green
+										line6.Color = green
+										line7.Color = green
+										line8.Color = green
+										line9.Color = green
+										line10.Color = green
+										line11.Color = green
+										line12.Color = green
+										Tracer.Color = green
+									else 
+										line1.Color = red
+										line2.Color = red
+										line3.Color = red
+										line4.Color = red
+										line5.Color = red
+										line6.Color = red
+										line7.Color = red
+										line8.Color = red
+										line9.Color = red
+										line10.Color = red
+										line11.Color = red
+										line12.Color = red
+										Tracer.Color = red
+									end
+								end
+	
+								--// Autothickness:
+								if Autothickness then
+									local distance = (player.Character.HumanoidRootPart.Position - v.Character.HumanoidRootPart.Position).magnitude
+									local value = math.clamp(1/distance*100, 0.1, 4) --0.1 is min thickness, 6 is max
+									line1.Thickness = value
+									line2.Thickness = value
+									line3.Thickness = value
+									line4.Thickness = value
+									line5.Thickness = value
+									line6.Thickness = value
+									line7.Thickness = value
+									line8.Thickness = value
+									line9.Thickness = value
+									line10.Thickness = value
+									line11.Thickness = value
+									line12.Thickness = value
+								else 
+									line1.Thickness = Box_Thickness
+									line2.Thickness = Box_Thickness
+									line3.Thickness = Box_Thickness
+									line4.Thickness = Box_Thickness
+									line5.Thickness = Box_Thickness
+									line6.Thickness = Box_Thickness
+									line7.Thickness = Box_Thickness
+									line8.Thickness = Box_Thickness
+									line9.Thickness = Box_Thickness
+									line10.Thickness = Box_Thickness
+									line11.Thickness = Box_Thickness
+									line12.Thickness = Box_Thickness
+								end
+	
+								line1.Visible = true
+								line2.Visible = true
+								line3.Visible = true
+								line4.Visible = true
+								line5.Visible = true
+								line6.Visible = true
+								line7.Visible = true
+								line8.Visible = true
+								line9.Visible = true
+								line10.Visible = true
+								line11.Visible = true
+								line12.Visible = true
+								if Tracers then
+									Tracer.Visible = true
+								end
+							else 
+								line1.Visible = false
+								line2.Visible = false
+								line3.Visible = false
+								line4.Visible = false
+								line5.Visible = false
+								line6.Visible = false
+								line7.Visible = false
+								line8.Visible = false
+								line9.Visible = false
+								line10.Visible = false
+								line11.Visible = false
+								line12.Visible = false
+								Tracer.Visible = false
+							end
+						else 
+							line1.Visible = false
+							line2.Visible = false
+							line3.Visible = false
+							line4.Visible = false
+							line5.Visible = false
+							line6.Visible = false
+							line7.Visible = false
+							line8.Visible = false
+							line9.Visible = false
+							line10.Visible = false
+							line11.Visible = false
+							line12.Visible = false
+							Tracer.Visible = false
+							if game.Players:FindFirstChild(v.Name) == nil then
+								connection:Disconnect()
+							end
+						end
+					end)
+				end
+				coroutine.wrap(ESP)()
+			end
+	
+			game.Players.PlayerAdded:Connect(function(newplr)
+				--// Lines for 3D box (12)
+				local line1 = Drawing.new("Line")
+				line1.Visible = false
+				line1.Color = Box_Color
+				line1.Thickness = Box_Thickness
+				line1.Transparency = Box_Transparency
+	
+				local line2 = Drawing.new("Line")
+				line2.Visible = false
+				line2.Color = Box_Color
+				line2.Thickness = Box_Thickness
+				line2.Transparency = Box_Transparency
+	
+				local line3 = Drawing.new("Line")
+				line3.Visible = false
+				line3.Color = Box_Color
+				line3.Thickness = Box_Thickness
+				line3.Transparency = Box_Transparency
+	
+				local line4 = Drawing.new("Line")
+				line4.Visible = false
+				line4.Color = Box_Color
+				line4.Thickness = Box_Thickness
+				line4.Transparency = Box_Transparency
+	
+				local line5 = Drawing.new("Line")
+				line5.Visible = false
+				line5.Color = Box_Color
+				line5.Thickness = Box_Thickness
+				line5.Transparency = Box_Transparency
+	
+				local line6 = Drawing.new("Line")
+				line6.Visible = false
+				line6.Color = Box_Color
+				line6.Thickness = Box_Thickness
+				line6.Transparency = Box_Transparency
+	
+				local line7 = Drawing.new("Line")
+				line7.Visible = false
+				line7.Color = Box_Color
+				line7.Thickness = Box_Thickness
+				line7.Transparency = Box_Transparency
+	
+				local line8 = Drawing.new("Line")
+				line8.Visible = false
+				line8.Color = Box_Color
+				line8.Thickness = Box_Thickness
+				line8.Transparency = Box_Transparency
+	
+				local line9 = Drawing.new("Line")
+				line9.Visible = false
+				line9.Color = Box_Color
+				line9.Thickness = Box_Thickness
+				line9.Transparency = Box_Transparency
+	
+				local line10 = Drawing.new("Line")
+				line10.Visible = false
+				line10.Color = Box_Color
+				line10.Thickness = Box_Thickness
+				line10.Transparency = Box_Transparency
+	
+				local line11 = Drawing.new("Line")
+				line11.Visible = false
+				line11.Color = Box_Color
+				line11.Thickness = Box_Thickness
+				line11.Transparency = Box_Transparency
+	
+				local line12 = Drawing.new("Line")
+				line12.Visible = false
+				line12.Color = Box_Color
+				line12.Thickness = Box_Thickness
+				line12.Transparency = Box_Transparency
+	
+				local Tracer = Drawing.new("Line")
+				Tracer.Visible = false
+				Tracer.Color = Tracer_Color
+				Tracer.Thickness = Tracer_Thickness
+				Tracer.Transparency = Tracer_Transparency
+	
+				--// Updates ESP (lines) in render loop
+				local function ESP()
+					local connection
+					connection = game:GetService("RunService").RenderStepped:Connect(function()
+						if on and newplr.Character ~= nil and newplr.Character:FindFirstChild("Humanoid") ~= nil and newplr.Character:FindFirstChild("HumanoidRootPart") ~= nil and newplr.Name ~= player.Name  and newplr.Character.Humanoid.Health > 0 then
+							local pos, vis = camera:WorldToViewportPoint(newplr.Character.HumanoidRootPart.Position)
+							if vis then
+								local Scale = newplr.Character.Head.Size.Y/2
+								local Size = Vector3.new(2, 3, 1.5) * (Scale * 2) -- Change this for different box size
+	
+								local Top1 = camera:WorldToViewportPoint((newplr.Character.HumanoidRootPart.CFrame * CFrame.new(-Size.X, Size.Y, -Size.Z)).p)
+								local Top2 = camera:WorldToViewportPoint((newplr.Character.HumanoidRootPart.CFrame * CFrame.new(-Size.X, Size.Y, Size.Z)).p)
+								local Top3 = camera:WorldToViewportPoint((newplr.Character.HumanoidRootPart.CFrame * CFrame.new(Size.X, Size.Y, Size.Z)).p)
+								local Top4 = camera:WorldToViewportPoint((newplr.Character.HumanoidRootPart.CFrame * CFrame.new(Size.X, Size.Y, -Size.Z)).p)
+	
+								local Bottom1 = camera:WorldToViewportPoint((newplr.Character.HumanoidRootPart.CFrame * CFrame.new(-Size.X, -Size.Y, -Size.Z)).p)
+								local Bottom2 = camera:WorldToViewportPoint((newplr.Character.HumanoidRootPart.CFrame * CFrame.new(-Size.X, -Size.Y, Size.Z)).p)
+								local Bottom3 = camera:WorldToViewportPoint((newplr.Character.HumanoidRootPart.CFrame * CFrame.new(Size.X, -Size.Y, Size.Z)).p)
+								local Bottom4 = camera:WorldToViewportPoint((newplr.Character.HumanoidRootPart.CFrame * CFrame.new(Size.X, -Size.Y, -Size.Z)).p)
+	
+								--// Top:
+								line1.From = Vector2.new(Top1.X, Top1.Y)
+								line1.To = Vector2.new(Top2.X, Top2.Y)
+	
+								line2.From = Vector2.new(Top2.X, Top2.Y)
+								line2.To = Vector2.new(Top3.X, Top3.Y)
+	
+								line3.From = Vector2.new(Top3.X, Top3.Y)
+								line3.To = Vector2.new(Top4.X, Top4.Y)
+	
+								line4.From = Vector2.new(Top4.X, Top4.Y)
+								line4.To = Vector2.new(Top1.X, Top1.Y)
+	
+								--// Bottom:
+								line5.From = Vector2.new(Bottom1.X, Bottom1.Y)
+								line5.To = Vector2.new(Bottom2.X, Bottom2.Y)
+	
+								line6.From = Vector2.new(Bottom2.X, Bottom2.Y)
+								line6.To = Vector2.new(Bottom3.X, Bottom3.Y)
+	
+								line7.From = Vector2.new(Bottom3.X, Bottom3.Y)
+								line7.To = Vector2.new(Bottom4.X, Bottom4.Y)
+	
+								line8.From = Vector2.new(Bottom4.X, Bottom4.Y)
+								line8.To = Vector2.new(Bottom1.X, Bottom1.Y)
+	
+								--//S ides:
+								line9.From = Vector2.new(Bottom1.X, Bottom1.Y)
+								line9.To = Vector2.new(Top1.X, Top1.Y)
+	
+								line10.From = Vector2.new(Bottom2.X, Bottom2.Y)
+								line10.To = Vector2.new(Top2.X, Top2.Y)
+	
+								line11.From = Vector2.new(Bottom3.X, Bottom3.Y)
+								line11.To = Vector2.new(Top3.X, Top3.Y)
+	
+								line12.From = Vector2.new(Bottom4.X, Bottom4.Y)
+								line12.To = Vector2.new(Top4.X, Top4.Y)
+	
+								--// Tracer:
+								if Tracers then
+									local trace = camera:WorldToViewportPoint((newplr.Character.HumanoidRootPart.CFrame * CFrame.new(0, -Size.Y, 0)).p)
+	
+									Tracer.From = Vector2.new(camera.ViewportSize.X/2, camera.ViewportSize.Y)
+									Tracer.To = Vector2.new(trace.X, trace.Y)
+								end
+	
+								--// Teamcheck:
+								if Team_Check then
+									if newplr.TeamColor == player.TeamColor then
+										line1.Color = green
+										line2.Color = green
+										line3.Color = green
+										line4.Color = green
+										line5.Color = green
+										line6.Color = green
+										line7.Color = green
+										line8.Color = green
+										line9.Color = green
+										line10.Color = green
+										line11.Color = green
+										line12.Color = green
+										Tracer.Color = green
+									else 
+										line1.Color = red
+										line2.Color = red
+										line3.Color = red
+										line4.Color = red
+										line5.Color = red
+										line6.Color = red
+										line7.Color = red
+										line8.Color = red
+										line9.Color = red
+										line10.Color = red
+										line11.Color = red
+										line12.Color = red
+										Tracer.Color = red
+									end
+								end
+	
+								--// Autothickness:
+								if Autothickness then
+									local distance = (player.Character.HumanoidRootPart.Position - newplr.Character.HumanoidRootPart.Position).magnitude
+									local value = math.clamp(1/distance*100, 0.1, 4) --0.1 is min thickness, 6 is max
+									line1.Thickness = value
+									line2.Thickness = value
+									line3.Thickness = value
+									line4.Thickness = value
+									line5.Thickness = value
+									line6.Thickness = value
+									line7.Thickness = value
+									line8.Thickness = value
+									line9.Thickness = value
+									line10.Thickness = value
+									line11.Thickness = value
+									line12.Thickness = value
+								else 
+									line1.Thickness = Box_Thickness
+									line2.Thickness = Box_Thickness
+									line3.Thickness = Box_Thickness
+									line4.Thickness = Box_Thickness
+									line5.Thickness = Box_Thickness
+									line6.Thickness = Box_Thickness
+									line7.Thickness = Box_Thickness
+									line8.Thickness = Box_Thickness
+									line9.Thickness = Box_Thickness
+									line10.Thickness = Box_Thickness
+									line11.Thickness = Box_Thickness
+									line12.Thickness = Box_Thickness
+								end
+	
+								line1.Visible = true
+								line2.Visible = true
+								line3.Visible = true
+								line4.Visible = true
+								line5.Visible = true
+								line6.Visible = true
+								line7.Visible = true
+								line8.Visible = true
+								line9.Visible = true
+								line10.Visible = true
+								line11.Visible = true
+								line12.Visible = true
+								if Tracers then
+									Tracer.Visible = true
+								end
+							else 
+								line1.Visible = false
+								line2.Visible = false
+								line3.Visible = false
+								line4.Visible = false
+								line5.Visible = false
+								line6.Visible = false
+								line7.Visible = false
+								line8.Visible = false
+								line9.Visible = false
+								line10.Visible = false
+								line11.Visible = false
+								line12.Visible = false
+								Tracer.Visible = false
+							end
+						else 
+							line1.Visible = false
+							line2.Visible = false
+							line3.Visible = false
+							line4.Visible = false
+							line5.Visible = false
+							line6.Visible = false
+							line7.Visible = false
+							line8.Visible = false
+							line9.Visible = false
+							line10.Visible = false
+							line11.Visible = false
+							line12.Visible = false
+							Tracer.Visible = false
+							if game.Players:FindFirstChild(newplr.Name) == nil then
+								connection:Disconnect()
+							end
+						end
+					end)
+				end
+				coroutine.wrap(ESP)()
+			end)
+			
+			end
+	
+		if toggle == false then
+			
+			
+			end
+	
+	end)
+end
+coroutine.wrap(EFKZR_fake_script)()
+local function RDCHFI_fake_script() -- _2D.LocalScript 
+	local script = Instance.new('LocalScript', _2D)
+
+	toggle = false
+	script.Parent.MouseButton1Down:connect(function()
+	
+		if toggle == true then 
+			toggle = false 
+		else
+			toggle = true
+		end
+		if toggle == true then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(154, 0, 77)
+		end
+		if toggle == false then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+		end
+	
+		if toggle == true then
+			
+			local Player = game:GetService("Players").LocalPlayer
+			local Camera = game:GetService("Workspace").CurrentCamera
+			local Mouse = Player:GetMouse()
+	
+			local function Dist(pointA, pointB) 
+				return math.sqrt(math.pow(pointA.X - pointB.X, 2) + math.pow(pointA.Y - pointB.Y, 2))
+			end
+	
+			local function GetClosest(points, dest)
+				local min  = math.huge 
+				local closest = nil
+				for _,v in pairs(points) do
+					local dist = Dist(v, dest)
+					if dist < min then
+						min = dist
+						closest = v
+					end
+				end
+				return closest
+			end
+	
+			local function DrawESP(plr)
+				local Box = Drawing.new("Quad")
+				Box.Visible = false
+				Box.PointA = Vector2.new(0, 0)
+				Box.PointB = Vector2.new(0, 0)
+				Box.PointC = Vector2.new(0, 0)
+				Box.PointD = Vector2.new(0, 0)
+				Box.Color = Color3.fromRGB(154, 0, 77)
+				Box.Thickness = 2
+				Box.Transparency = 1
+	
+				local function Update()
+					local c
+					c = game:GetService("RunService").RenderStepped:Connect(function()
+						if plr.Character ~= nil and plr.Character:FindFirstChildOfClass("Humanoid") ~= nil and plr.Character:FindFirstChild("HumanoidRootPart") ~= nil and plr.Character:FindFirstChildOfClass("Humanoid").Health > 0 and plr.Character:FindFirstChild("Head") ~= nil then
+							local pos, vis = Camera:WorldToViewportPoint(plr.Character.HumanoidRootPart.Position)
+							if vis then 
+								local points = {}
+								local c = 0
+								for _,v in pairs(plr.Character:GetChildren()) do
+									if v:IsA("BasePart") then
+										c = c + 1
+										local p = Camera:WorldToViewportPoint(v.Position)
+										if v.Name == "HumanoidRootPart" then
+											p = Camera:WorldToViewportPoint((v.CFrame * CFrame.new(0, 0, -v.Size.Z)).p)
+										elseif v.Name == "Head" then
+											p = Camera:WorldToViewportPoint((v.CFrame * CFrame.new(0, v.Size.Y/2, v.Size.Z/1.25)).p)
+										elseif string.match(v.Name, "Left") then
+											p = Camera:WorldToViewportPoint((v.CFrame * CFrame.new(-v.Size.X/2, 0, 0)).p)
+										elseif string.match(v.Name, "Right") then
+											p = Camera:WorldToViewportPoint((v.CFrame * CFrame.new(v.Size.X/2, 0, 0)).p)
+										end
+										points[c] = p
+									end
+								end
+								local Left = GetClosest(points, Vector2.new(0, pos.Y))
+								local Right = GetClosest(points, Vector2.new(Camera.ViewportSize.X, pos.Y))
+								local Top = GetClosest(points, Vector2.new(pos.X, 0))
+								local Bottom = GetClosest(points, Vector2.new(pos.X, Camera.ViewportSize.Y))
+	
+								if Left ~= nil and Right ~= nil and Top ~= nil and Bottom ~= nil then
+									Box.PointA = Vector2.new(Right.X, Top.Y)
+									Box.PointB = Vector2.new(Left.X, Top.Y)
+									Box.PointC = Vector2.new(Left.X, Bottom.Y)
+									Box.PointD = Vector2.new(Right.X, Bottom.Y)
+	
+									Box.Visible = true
+								else 
+									Box.Visible = false
+								end
+							else 
+								Box.Visible = false
+							end
+						else
+							Box.Visible = false
+							if game.Players:FindFirstChild(plr.Name) == nil then
+								c:Disconnect()
+							end
+						end
+					end)
+				end
+				coroutine.wrap(Update)()
+			end
+	
+			for _,v in pairs(game:GetService("Players"):GetChildren()) do
+				if v.Name ~= Player.Name then 
+					DrawESP(v)
+				end
+			end
+	
+			game:GetService("Players").PlayerAdded:Connect(function(v)
+				DrawESP(v)
+			end)
+	
+		end
+	
+		if toggle == false then
+			
+			local Player = game:GetService("Players").LocalPlayer
+			local Camera = game:GetService("Workspace").CurrentCamera
+			local Mouse = Player:GetMouse()
+	
+			local function Dist(pointA, pointB)
+				return math.sqrt(math.pow(pointA.X - pointB.X, 2) + math.pow(pointA.Y - pointB.Y, 2))
+			end
+	
+			local function GetClosest(points, dest)
+				local min  = math.huge 
+				local closest = nil
+				for _,v in pairs(points) do
+					local dist = Dist(v, dest)
+					if dist < min then
+						min = dist
+						closest = v
+					end
+				end
+				return closest
+			end
+	
+			local function DrawESP(plr)
+				local Box = Drawing.new("Quad")
+				Box.Visible = false
+				Box.PointA = Vector2.new(0, 0)
+				Box.PointB = Vector2.new(0, 0)
+				Box.PointC = Vector2.new(0, 0)
+				Box.PointD = Vector2.new(0, 0)
+				Box.Color = Color3.fromRGB(255, 255, 255)
+				Box.Thickness = 2
+				Box.Transparency = 1
+	
+				local function Update()
+					local c
+					c = game:GetService("RunService").RenderStepped:Connect(function()
+						if plr.Character ~= nil and plr.Character:FindFirstChildOfClass("Humanoid") ~= nil and plr.Character:FindFirstChild("HumanoidRootPart") ~= nil and plr.Character:FindFirstChildOfClass("Humanoid").Health > 0 and plr.Character:FindFirstChild("Head") ~= nil then
+							local pos, vis = Camera:WorldToViewportPoint(plr.Character.HumanoidRootPart.Position)
+							if vis then 
+								local points = {}
+								local c = 0
+								for _,v in pairs(plr.Character:GetChildren()) do
+									if v:IsA("BasePart") then
+										c = c + 1
+										local p = Camera:WorldToViewportPoint(v.Position)
+										if v.Name == "HumanoidRootPart" then
+											p = Camera:WorldToViewportPoint((v.CFrame * CFrame.new(0, 0, -v.Size.Z)).p)
+										elseif v.Name == "Head" then
+											p = Camera:WorldToViewportPoint((v.CFrame * CFrame.new(0, v.Size.Y/2, v.Size.Z/1.25)).p)
+										elseif string.match(v.Name, "Left") then
+											p = Camera:WorldToViewportPoint((v.CFrame * CFrame.new(-v.Size.X/2, 0, 0)).p)
+										elseif string.match(v.Name, "Right") then
+											p = Camera:WorldToViewportPoint((v.CFrame * CFrame.new(v.Size.X/2, 0, 0)).p)
+										end
+										points[c] = p
+									end
+								end
+								local Left = GetClosest(points, Vector2.new(0, pos.Y))
+								local Right = GetClosest(points, Vector2.new(Camera.ViewportSize.X, pos.Y))
+								local Top = GetClosest(points, Vector2.new(pos.X, 0))
+								local Bottom = GetClosest(points, Vector2.new(pos.X, Camera.ViewportSize.Y))
+	
+								if Left ~= nil and Right ~= nil and Top ~= nil and Bottom ~= nil then
+									Box.PointA = Vector2.new(Right.X, Top.Y)
+									Box.PointB = Vector2.new(Left.X, Top.Y)
+									Box.PointC = Vector2.new(Left.X, Bottom.Y)
+									Box.PointD = Vector2.new(Right.X, Bottom.Y)
+	
+									Box.Visible = false
+								else 
+									Box.Visible = false
+								end
+							else 
+								Box.Visible = false
+							end
+						else
+							Box.Visible = false
+							if game.Players:FindFirstChild(plr.Name) == nil then
+								c:Disconnect()
+							end
+						end
+					end)
+				end
+				coroutine.wrap(Update)()
+			end
+	
+			for _,v in pairs(game:GetService("Players"):GetChildren()) do
+				if v.Name ~= Player.Name then 
+					DrawESP(v)
+				end
+			end
+	
+			game:GetService("Players").PlayerAdded:Connect(function(v)
+				DrawESP(v)
+			end)
+	
+		end
+	
+	end)
+end
+coroutine.wrap(RDCHFI_fake_script)()
+local function XIOCXF_fake_script() -- Tracers.LocalScript 
+	local script = Instance.new('LocalScript', Tracers)
+
+	
+	
+	toggle = false
+	script.Parent.MouseButton1Down:connect(function()
+	
+		if toggle == true then 
+			toggle = false 
+		else
+			toggle = true
+		end
+		if toggle == true then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(154, 0, 77)
+		end
+		if toggle == false then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+		end
+	
+		if toggle == true then
+			--// Made by Blissful#4992
+			--// Locals:
+			local workspace = game:GetService("Workspace")
+			local player = game:GetService("Players").LocalPlayer
+			local camera = workspace.CurrentCamera
+	
+			--// Settings:
+			local on = true -- Use this if your making gui
+	
+			local Box_Color = Color3.fromRGB(154, 0, 77)
+			local Box_Thickness = 0
+			local Box_Transparency = 0 -- 1 Visible, 0 Not Visible
+	
+			local Tracers = true
+			local Tracer_Color = Color3.fromRGB(154, 0, 77)
+			local Tracer_Thickness = 2
+			local Tracer_Transparency = 1 -- 1 Visible, 0 Not Visible
+	
+			local Autothickness = true -- Makes screen less encumbered
+	
+			local Team_Check = false
+			local red = Color3.fromRGB(227, 52, 52)
+			local green = Color3.fromRGB(88, 217, 24)
+	
+			--// Main Function:
+			for i, v in pairs(game.Players:GetChildren()) do
+				--// Lines for 3D box (12)
+				local line1 = Drawing.new("Line")
+				line1.Visible = false
+				line1.Color = Box_Color
+				line1.Thickness = Box_Thickness
+				line1.Transparency = Box_Transparency
+	
+				local line2 = Drawing.new("Line")
+				line2.Visible = false
+				line2.Color = Box_Color
+				line2.Thickness = Box_Thickness
+				line2.Transparency = Box_Transparency
+	
+				local line3 = Drawing.new("Line")
+				line3.Visible = false
+				line3.Color = Box_Color
+				line3.Thickness = Box_Thickness
+				line3.Transparency = Box_Transparency
+	
+				local line4 = Drawing.new("Line")
+				line4.Visible = false
+				line4.Color = Box_Color
+				line4.Thickness = Box_Thickness
+				line4.Transparency = Box_Transparency
+	
+				local line5 = Drawing.new("Line")
+				line5.Visible = false
+				line5.Color = Box_Color
+				line5.Thickness = Box_Thickness
+				line5.Transparency = Box_Transparency
+	
+				local line6 = Drawing.new("Line")
+				line6.Visible = false
+				line6.Color = Box_Color
+				line6.Thickness = Box_Thickness
+				line6.Transparency = Box_Transparency
+	
+				local line7 = Drawing.new("Line")
+				line7.Visible = false
+				line7.Color = Box_Color
+				line7.Thickness = Box_Thickness
+				line7.Transparency = Box_Transparency
+	
+				local line8 = Drawing.new("Line")
+				line8.Visible = false
+				line8.Color = Box_Color
+				line8.Thickness = Box_Thickness
+				line8.Transparency = Box_Transparency
+	
+				local line9 = Drawing.new("Line")
+				line9.Visible = false
+				line9.Color = Box_Color
+				line9.Thickness = Box_Thickness
+				line9.Transparency = Box_Transparency
+	
+				local line10 = Drawing.new("Line")
+				line10.Visible = false
+				line10.Color = Box_Color
+				line10.Thickness = Box_Thickness
+				line10.Transparency = Box_Transparency
+	
+				local line11 = Drawing.new("Line")
+				line11.Visible = false
+				line11.Color = Box_Color
+				line11.Thickness = Box_Thickness
+				line11.Transparency = Box_Transparency
+	
+				local line12 = Drawing.new("Line")
+				line12.Visible = false
+				line12.Color = Box_Color
+				line12.Thickness = Box_Thickness
+				line12.Transparency = Box_Transparency
+	
+				local Tracer = Drawing.new("Line")
+				Tracer.Visible = false
+				Tracer.Color = Tracer_Color
+				Tracer.Thickness = Tracer_Thickness
+				Tracer.Transparency = Tracer_Transparency
+	
+				--// Updates ESP (lines) in render loop
+				local function ESP()
+					local connection
+					connection = game:GetService("RunService").RenderStepped:Connect(function()
+						if on and v.Character ~= nil and v.Character:FindFirstChild("Humanoid") ~= nil and v.Character:FindFirstChild("HumanoidRootPart") ~= nil and v.Name ~= player.Name  and v.Character.Humanoid.Health > 0 then
+							local pos, vis = camera:WorldToViewportPoint(v.Character.HumanoidRootPart.Position)
+							if vis then
+								local Scale = v.Character.Head.Size.Y/2
+								local Size = Vector3.new(2, 3, 1.5) * (Scale * 2) -- Change this for different box size
+	
+								local Top1 = camera:WorldToViewportPoint((v.Character.HumanoidRootPart.CFrame * CFrame.new(-Size.X, Size.Y, -Size.Z)).p)
+								local Top2 = camera:WorldToViewportPoint((v.Character.HumanoidRootPart.CFrame * CFrame.new(-Size.X, Size.Y, Size.Z)).p)
+								local Top3 = camera:WorldToViewportPoint((v.Character.HumanoidRootPart.CFrame * CFrame.new(Size.X, Size.Y, Size.Z)).p)
+								local Top4 = camera:WorldToViewportPoint((v.Character.HumanoidRootPart.CFrame * CFrame.new(Size.X, Size.Y, -Size.Z)).p)
+	
+								local Bottom1 = camera:WorldToViewportPoint((v.Character.HumanoidRootPart.CFrame * CFrame.new(-Size.X, -Size.Y, -Size.Z)).p)
+								local Bottom2 = camera:WorldToViewportPoint((v.Character.HumanoidRootPart.CFrame * CFrame.new(-Size.X, -Size.Y, Size.Z)).p)
+								local Bottom3 = camera:WorldToViewportPoint((v.Character.HumanoidRootPart.CFrame * CFrame.new(Size.X, -Size.Y, Size.Z)).p)
+								local Bottom4 = camera:WorldToViewportPoint((v.Character.HumanoidRootPart.CFrame * CFrame.new(Size.X, -Size.Y, -Size.Z)).p)
+	
+								--// Top:
+								line1.From = Vector2.new(Top1.X, Top1.Y)
+								line1.To = Vector2.new(Top2.X, Top2.Y)
+	
+								line2.From = Vector2.new(Top2.X, Top2.Y)
+								line2.To = Vector2.new(Top3.X, Top3.Y)
+	
+								line3.From = Vector2.new(Top3.X, Top3.Y)
+								line3.To = Vector2.new(Top4.X, Top4.Y)
+	
+								line4.From = Vector2.new(Top4.X, Top4.Y)
+								line4.To = Vector2.new(Top1.X, Top1.Y)
+	
+								--// Bottom:
+								line5.From = Vector2.new(Bottom1.X, Bottom1.Y)
+								line5.To = Vector2.new(Bottom2.X, Bottom2.Y)
+	
+								line6.From = Vector2.new(Bottom2.X, Bottom2.Y)
+								line6.To = Vector2.new(Bottom3.X, Bottom3.Y)
+	
+								line7.From = Vector2.new(Bottom3.X, Bottom3.Y)
+								line7.To = Vector2.new(Bottom4.X, Bottom4.Y)
+	
+								line8.From = Vector2.new(Bottom4.X, Bottom4.Y)
+								line8.To = Vector2.new(Bottom1.X, Bottom1.Y)
+	
+								--//S ides:
+								line9.From = Vector2.new(Bottom1.X, Bottom1.Y)
+								line9.To = Vector2.new(Top1.X, Top1.Y)
+	
+								line10.From = Vector2.new(Bottom2.X, Bottom2.Y)
+								line10.To = Vector2.new(Top2.X, Top2.Y)
+	
+								line11.From = Vector2.new(Bottom3.X, Bottom3.Y)
+								line11.To = Vector2.new(Top3.X, Top3.Y)
+	
+								line12.From = Vector2.new(Bottom4.X, Bottom4.Y)
+								line12.To = Vector2.new(Top4.X, Top4.Y)
+	
+								--// Tracer:
+								if Tracers then
+									local trace = camera:WorldToViewportPoint((v.Character.HumanoidRootPart.CFrame * CFrame.new(0, -Size.Y, 0)).p)
+	
+									Tracer.From = Vector2.new(camera.ViewportSize.X/2, camera.ViewportSize.Y)
+									Tracer.To = Vector2.new(trace.X, trace.Y)
+								end
+	
+								--// Teamcheck:
+								if Team_Check then
+									if v.TeamColor == player.TeamColor then
+										line1.Color = green
+										line2.Color = green
+										line3.Color = green
+										line4.Color = green
+										line5.Color = green
+										line6.Color = green
+										line7.Color = green
+										line8.Color = green
+										line9.Color = green
+										line10.Color = green
+										line11.Color = green
+										line12.Color = green
+										Tracer.Color = green
+									else 
+										line1.Color = red
+										line2.Color = red
+										line3.Color = red
+										line4.Color = red
+										line5.Color = red
+										line6.Color = red
+										line7.Color = red
+										line8.Color = red
+										line9.Color = red
+										line10.Color = red
+										line11.Color = red
+										line12.Color = red
+										Tracer.Color = red
+									end
+								end
+	
+								--// Autothickness:
+								if Autothickness then
+									local distance = (player.Character.HumanoidRootPart.Position - v.Character.HumanoidRootPart.Position).magnitude
+									local value = math.clamp(1/distance*100, 0.1, 4) --0.1 is min thickness, 6 is max
+									line1.Thickness = value
+									line2.Thickness = value
+									line3.Thickness = value
+									line4.Thickness = value
+									line5.Thickness = value
+									line6.Thickness = value
+									line7.Thickness = value
+									line8.Thickness = value
+									line9.Thickness = value
+									line10.Thickness = value
+									line11.Thickness = value
+									line12.Thickness = value
+								else 
+									line1.Thickness = Box_Thickness
+									line2.Thickness = Box_Thickness
+									line3.Thickness = Box_Thickness
+									line4.Thickness = Box_Thickness
+									line5.Thickness = Box_Thickness
+									line6.Thickness = Box_Thickness
+									line7.Thickness = Box_Thickness
+									line8.Thickness = Box_Thickness
+									line9.Thickness = Box_Thickness
+									line10.Thickness = Box_Thickness
+									line11.Thickness = Box_Thickness
+									line12.Thickness = Box_Thickness
+								end
+	
+								line1.Visible = true
+								line2.Visible = true
+								line3.Visible = true
+								line4.Visible = true
+								line5.Visible = true
+								line6.Visible = true
+								line7.Visible = true
+								line8.Visible = true
+								line9.Visible = true
+								line10.Visible = true
+								line11.Visible = true
+								line12.Visible = true
+								if Tracers then
+									Tracer.Visible = true
+								end
+							else 
+								line1.Visible = false
+								line2.Visible = false
+								line3.Visible = false
+								line4.Visible = false
+								line5.Visible = false
+								line6.Visible = false
+								line7.Visible = false
+								line8.Visible = false
+								line9.Visible = false
+								line10.Visible = false
+								line11.Visible = false
+								line12.Visible = false
+								Tracer.Visible = false
+							end
+						else 
+							line1.Visible = false
+							line2.Visible = false
+							line3.Visible = false
+							line4.Visible = false
+							line5.Visible = false
+							line6.Visible = false
+							line7.Visible = false
+							line8.Visible = false
+							line9.Visible = false
+							line10.Visible = false
+							line11.Visible = false
+							line12.Visible = false
+							Tracer.Visible = false
+							if game.Players:FindFirstChild(v.Name) == nil then
+								connection:Disconnect()
+							end
+						end
+					end)
+				end
+				coroutine.wrap(ESP)()
+			end
+	
+			game.Players.PlayerAdded:Connect(function(newplr)
+				--// Lines for 3D box (12)
+				local line1 = Drawing.new("Line")
+				line1.Visible = false
+				line1.Color = Box_Color
+				line1.Thickness = Box_Thickness
+				line1.Transparency = Box_Transparency
+	
+				local line2 = Drawing.new("Line")
+				line2.Visible = false
+				line2.Color = Box_Color
+				line2.Thickness = Box_Thickness
+				line2.Transparency = Box_Transparency
+	
+				local line3 = Drawing.new("Line")
+				line3.Visible = false
+				line3.Color = Box_Color
+				line3.Thickness = Box_Thickness
+				line3.Transparency = Box_Transparency
+	
+				local line4 = Drawing.new("Line")
+				line4.Visible = false
+				line4.Color = Box_Color
+				line4.Thickness = Box_Thickness
+				line4.Transparency = Box_Transparency
+	
+				local line5 = Drawing.new("Line")
+				line5.Visible = false
+				line5.Color = Box_Color
+				line5.Thickness = Box_Thickness
+				line5.Transparency = Box_Transparency
+	
+				local line6 = Drawing.new("Line")
+				line6.Visible = false
+				line6.Color = Box_Color
+				line6.Thickness = Box_Thickness
+				line6.Transparency = Box_Transparency
+	
+				local line7 = Drawing.new("Line")
+				line7.Visible = false
+				line7.Color = Box_Color
+				line7.Thickness = Box_Thickness
+				line7.Transparency = Box_Transparency
+	
+				local line8 = Drawing.new("Line")
+				line8.Visible = false
+				line8.Color = Box_Color
+				line8.Thickness = Box_Thickness
+				line8.Transparency = Box_Transparency
+	
+				local line9 = Drawing.new("Line")
+				line9.Visible = false
+				line9.Color = Box_Color
+				line9.Thickness = Box_Thickness
+				line9.Transparency = Box_Transparency
+	
+				local line10 = Drawing.new("Line")
+				line10.Visible = false
+				line10.Color = Box_Color
+				line10.Thickness = Box_Thickness
+				line10.Transparency = Box_Transparency
+	
+				local line11 = Drawing.new("Line")
+				line11.Visible = false
+				line11.Color = Box_Color
+				line11.Thickness = Box_Thickness
+				line11.Transparency = Box_Transparency
+	
+				local line12 = Drawing.new("Line")
+				line12.Visible = false
+				line12.Color = Box_Color
+				line12.Thickness = Box_Thickness
+				line12.Transparency = Box_Transparency
+	
+				local Tracer = Drawing.new("Line")
+				Tracer.Visible = false
+				Tracer.Color = Tracer_Color
+				Tracer.Thickness = Tracer_Thickness
+				Tracer.Transparency = Tracer_Transparency
+	
+				--// Updates ESP (lines) in render loop
+				local function ESP()
+					local connection
+					connection = game:GetService("RunService").RenderStepped:Connect(function()
+						if on and newplr.Character ~= nil and newplr.Character:FindFirstChild("Humanoid") ~= nil and newplr.Character:FindFirstChild("HumanoidRootPart") ~= nil and newplr.Name ~= player.Name  and newplr.Character.Humanoid.Health > 0 then
+							local pos, vis = camera:WorldToViewportPoint(newplr.Character.HumanoidRootPart.Position)
+							if vis then
+								local Scale = newplr.Character.Head.Size.Y/2
+								local Size = Vector3.new(2, 3, 1.5) * (Scale * 2) -- Change this for different box size
+	
+								local Top1 = camera:WorldToViewportPoint((newplr.Character.HumanoidRootPart.CFrame * CFrame.new(-Size.X, Size.Y, -Size.Z)).p)
+								local Top2 = camera:WorldToViewportPoint((newplr.Character.HumanoidRootPart.CFrame * CFrame.new(-Size.X, Size.Y, Size.Z)).p)
+								local Top3 = camera:WorldToViewportPoint((newplr.Character.HumanoidRootPart.CFrame * CFrame.new(Size.X, Size.Y, Size.Z)).p)
+								local Top4 = camera:WorldToViewportPoint((newplr.Character.HumanoidRootPart.CFrame * CFrame.new(Size.X, Size.Y, -Size.Z)).p)
+	
+								local Bottom1 = camera:WorldToViewportPoint((newplr.Character.HumanoidRootPart.CFrame * CFrame.new(-Size.X, -Size.Y, -Size.Z)).p)
+								local Bottom2 = camera:WorldToViewportPoint((newplr.Character.HumanoidRootPart.CFrame * CFrame.new(-Size.X, -Size.Y, Size.Z)).p)
+								local Bottom3 = camera:WorldToViewportPoint((newplr.Character.HumanoidRootPart.CFrame * CFrame.new(Size.X, -Size.Y, Size.Z)).p)
+								local Bottom4 = camera:WorldToViewportPoint((newplr.Character.HumanoidRootPart.CFrame * CFrame.new(Size.X, -Size.Y, -Size.Z)).p)
+	
+								--// Top:
+								line1.From = Vector2.new(Top1.X, Top1.Y)
+								line1.To = Vector2.new(Top2.X, Top2.Y)
+	
+								line2.From = Vector2.new(Top2.X, Top2.Y)
+								line2.To = Vector2.new(Top3.X, Top3.Y)
+	
+								line3.From = Vector2.new(Top3.X, Top3.Y)
+								line3.To = Vector2.new(Top4.X, Top4.Y)
+	
+								line4.From = Vector2.new(Top4.X, Top4.Y)
+								line4.To = Vector2.new(Top1.X, Top1.Y)
+	
+								--// Bottom:
+								line5.From = Vector2.new(Bottom1.X, Bottom1.Y)
+								line5.To = Vector2.new(Bottom2.X, Bottom2.Y)
+	
+								line6.From = Vector2.new(Bottom2.X, Bottom2.Y)
+								line6.To = Vector2.new(Bottom3.X, Bottom3.Y)
+	
+								line7.From = Vector2.new(Bottom3.X, Bottom3.Y)
+								line7.To = Vector2.new(Bottom4.X, Bottom4.Y)
+	
+								line8.From = Vector2.new(Bottom4.X, Bottom4.Y)
+								line8.To = Vector2.new(Bottom1.X, Bottom1.Y)
+	
+								--//S ides:
+								line9.From = Vector2.new(Bottom1.X, Bottom1.Y)
+								line9.To = Vector2.new(Top1.X, Top1.Y)
+	
+								line10.From = Vector2.new(Bottom2.X, Bottom2.Y)
+								line10.To = Vector2.new(Top2.X, Top2.Y)
+	
+								line11.From = Vector2.new(Bottom3.X, Bottom3.Y)
+								line11.To = Vector2.new(Top3.X, Top3.Y)
+	
+								line12.From = Vector2.new(Bottom4.X, Bottom4.Y)
+								line12.To = Vector2.new(Top4.X, Top4.Y)
+	
+								--// Tracer:
+								if Tracers then
+									local trace = camera:WorldToViewportPoint((newplr.Character.HumanoidRootPart.CFrame * CFrame.new(0, -Size.Y, 0)).p)
+	
+									Tracer.From = Vector2.new(camera.ViewportSize.X/2, camera.ViewportSize.Y)
+									Tracer.To = Vector2.new(trace.X, trace.Y)
+								end
+	
+								--// Teamcheck:
+								if Team_Check then
+									if newplr.TeamColor == player.TeamColor then
+										line1.Color = green
+										line2.Color = green
+										line3.Color = green
+										line4.Color = green
+										line5.Color = green
+										line6.Color = green
+										line7.Color = green
+										line8.Color = green
+										line9.Color = green
+										line10.Color = green
+										line11.Color = green
+										line12.Color = green
+										Tracer.Color = green
+									else 
+										line1.Color = red
+										line2.Color = red
+										line3.Color = red
+										line4.Color = red
+										line5.Color = red
+										line6.Color = red
+										line7.Color = red
+										line8.Color = red
+										line9.Color = red
+										line10.Color = red
+										line11.Color = red
+										line12.Color = red
+										Tracer.Color = red
+									end
+								end
+	
+								--// Autothickness:
+								if Autothickness then
+									local distance = (player.Character.HumanoidRootPart.Position - newplr.Character.HumanoidRootPart.Position).magnitude
+									local value = math.clamp(1/distance*100, 0.1, 4) --0.1 is min thickness, 6 is max
+									line1.Thickness = value
+									line2.Thickness = value
+									line3.Thickness = value
+									line4.Thickness = value
+									line5.Thickness = value
+									line6.Thickness = value
+									line7.Thickness = value
+									line8.Thickness = value
+									line9.Thickness = value
+									line10.Thickness = value
+									line11.Thickness = value
+									line12.Thickness = value
+								else 
+									line1.Thickness = Box_Thickness
+									line2.Thickness = Box_Thickness
+									line3.Thickness = Box_Thickness
+									line4.Thickness = Box_Thickness
+									line5.Thickness = Box_Thickness
+									line6.Thickness = Box_Thickness
+									line7.Thickness = Box_Thickness
+									line8.Thickness = Box_Thickness
+									line9.Thickness = Box_Thickness
+									line10.Thickness = Box_Thickness
+									line11.Thickness = Box_Thickness
+									line12.Thickness = Box_Thickness
+								end
+	
+								line1.Visible = true
+								line2.Visible = true
+								line3.Visible = true
+								line4.Visible = true
+								line5.Visible = true
+								line6.Visible = true
+								line7.Visible = true
+								line8.Visible = true
+								line9.Visible = true
+								line10.Visible = true
+								line11.Visible = true
+								line12.Visible = true
+								if Tracers then
+									Tracer.Visible = true
+								end
+							else 
+								line1.Visible = false
+								line2.Visible = false
+								line3.Visible = false
+								line4.Visible = false
+								line5.Visible = false
+								line6.Visible = false
+								line7.Visible = false
+								line8.Visible = false
+								line9.Visible = false
+								line10.Visible = false
+								line11.Visible = false
+								line12.Visible = false
+								Tracer.Visible = false
+							end
+						else 
+							line1.Visible = false
+							line2.Visible = false
+							line3.Visible = false
+							line4.Visible = false
+							line5.Visible = false
+							line6.Visible = false
+							line7.Visible = false
+							line8.Visible = false
+							line9.Visible = false
+							line10.Visible = false
+							line11.Visible = false
+							line12.Visible = false
+							Tracer.Visible = false
+							if game.Players:FindFirstChild(newplr.Name) == nil then
+								connection:Disconnect()
+							end
+						end
+					end)
+				end
+				coroutine.wrap(ESP)()
+			end)
+		end
+		if toggle == false then
+			--// Made by Blissful#4992
+			--// Locals:
+			local workspace = game:GetService("Workspace")
+			local player = game:GetService("Players").LocalPlayer
+			local camera = workspace.CurrentCamera
+	
+			--// Settings:
+			local on = false -- Use this if your making gui
+	
+			local Box_Color = Color3.fromRGB(255, 0, 0)
+			local Box_Thickness = 0
+			local Box_Transparency = 0 -- 1 Visible, 0 Not Visible
+	
+			local Tracers = false
+			local Tracer_Color = Color3.fromRGB(255, 0, 0)
+			local Tracer_Thickness = 2
+			local Tracer_Transparency = 1 -- 1 Visible, 0 Not Visible
+	
+			local Autothickness = true -- Makes screen less encumbered
+	
+			local Team_Check = false
+			local red = Color3.fromRGB(227, 52, 52)
+			local green = Color3.fromRGB(88, 217, 24)
+	
+			--// Main Function:
+			for i, v in pairs(game.Players:GetChildren()) do
+				--// Lines for 3D box (12)
+				local line1 = Drawing.new("Line")
+				line1.Visible = false
+				line1.Color = Box_Color
+				line1.Thickness = Box_Thickness
+				line1.Transparency = Box_Transparency
+	
+				local line2 = Drawing.new("Line")
+				line2.Visible = false
+				line2.Color = Box_Color
+				line2.Thickness = Box_Thickness
+				line2.Transparency = Box_Transparency
+	
+				local line3 = Drawing.new("Line")
+				line3.Visible = false
+				line3.Color = Box_Color
+				line3.Thickness = Box_Thickness
+				line3.Transparency = Box_Transparency
+	
+				local line4 = Drawing.new("Line")
+				line4.Visible = false
+				line4.Color = Box_Color
+				line4.Thickness = Box_Thickness
+				line4.Transparency = Box_Transparency
+	
+				local line5 = Drawing.new("Line")
+				line5.Visible = false
+				line5.Color = Box_Color
+				line5.Thickness = Box_Thickness
+				line5.Transparency = Box_Transparency
+	
+				local line6 = Drawing.new("Line")
+				line6.Visible = false
+				line6.Color = Box_Color
+				line6.Thickness = Box_Thickness
+				line6.Transparency = Box_Transparency
+	
+				local line7 = Drawing.new("Line")
+				line7.Visible = false
+				line7.Color = Box_Color
+				line7.Thickness = Box_Thickness
+				line7.Transparency = Box_Transparency
+	
+				local line8 = Drawing.new("Line")
+				line8.Visible = false
+				line8.Color = Box_Color
+				line8.Thickness = Box_Thickness
+				line8.Transparency = Box_Transparency
+	
+				local line9 = Drawing.new("Line")
+				line9.Visible = false
+				line9.Color = Box_Color
+				line9.Thickness = Box_Thickness
+				line9.Transparency = Box_Transparency
+	
+				local line10 = Drawing.new("Line")
+				line10.Visible = false
+				line10.Color = Box_Color
+				line10.Thickness = Box_Thickness
+				line10.Transparency = Box_Transparency
+	
+				local line11 = Drawing.new("Line")
+				line11.Visible = false
+				line11.Color = Box_Color
+				line11.Thickness = Box_Thickness
+				line11.Transparency = Box_Transparency
+	
+				local line12 = Drawing.new("Line")
+				line12.Visible = false
+				line12.Color = Box_Color
+				line12.Thickness = Box_Thickness
+				line12.Transparency = Box_Transparency
+	
+				local Tracer = Drawing.new("Line")
+				Tracer.Visible = false
+				Tracer.Color = Tracer_Color
+				Tracer.Thickness = Tracer_Thickness
+				Tracer.Transparency = Tracer_Transparency
+	
+				--// Updates ESP (lines) in render loop
+				local function ESP()
+					local connection
+					connection = game:GetService("RunService").RenderStepped:Connect(function()
+						if on and v.Character ~= nil and v.Character:FindFirstChild("Humanoid") ~= nil and v.Character:FindFirstChild("HumanoidRootPart") ~= nil and v.Name ~= player.Name  and v.Character.Humanoid.Health > 0 then
+							local pos, vis = camera:WorldToViewportPoint(v.Character.HumanoidRootPart.Position)
+							if vis then
+								local Scale = v.Character.Head.Size.Y/2
+								local Size = Vector3.new(2, 3, 1.5) * (Scale * 2) -- Change this for different box size
+	
+								local Top1 = camera:WorldToViewportPoint((v.Character.HumanoidRootPart.CFrame * CFrame.new(-Size.X, Size.Y, -Size.Z)).p)
+								local Top2 = camera:WorldToViewportPoint((v.Character.HumanoidRootPart.CFrame * CFrame.new(-Size.X, Size.Y, Size.Z)).p)
+								local Top3 = camera:WorldToViewportPoint((v.Character.HumanoidRootPart.CFrame * CFrame.new(Size.X, Size.Y, Size.Z)).p)
+								local Top4 = camera:WorldToViewportPoint((v.Character.HumanoidRootPart.CFrame * CFrame.new(Size.X, Size.Y, -Size.Z)).p)
+	
+								local Bottom1 = camera:WorldToViewportPoint((v.Character.HumanoidRootPart.CFrame * CFrame.new(-Size.X, -Size.Y, -Size.Z)).p)
+								local Bottom2 = camera:WorldToViewportPoint((v.Character.HumanoidRootPart.CFrame * CFrame.new(-Size.X, -Size.Y, Size.Z)).p)
+								local Bottom3 = camera:WorldToViewportPoint((v.Character.HumanoidRootPart.CFrame * CFrame.new(Size.X, -Size.Y, Size.Z)).p)
+								local Bottom4 = camera:WorldToViewportPoint((v.Character.HumanoidRootPart.CFrame * CFrame.new(Size.X, -Size.Y, -Size.Z)).p)
+	
+								--// Top:
+								line1.From = Vector2.new(Top1.X, Top1.Y)
+								line1.To = Vector2.new(Top2.X, Top2.Y)
+	
+								line2.From = Vector2.new(Top2.X, Top2.Y)
+								line2.To = Vector2.new(Top3.X, Top3.Y)
+	
+								line3.From = Vector2.new(Top3.X, Top3.Y)
+								line3.To = Vector2.new(Top4.X, Top4.Y)
+	
+								line4.From = Vector2.new(Top4.X, Top4.Y)
+								line4.To = Vector2.new(Top1.X, Top1.Y)
+	
+								--// Bottom:
+								line5.From = Vector2.new(Bottom1.X, Bottom1.Y)
+								line5.To = Vector2.new(Bottom2.X, Bottom2.Y)
+	
+								line6.From = Vector2.new(Bottom2.X, Bottom2.Y)
+								line6.To = Vector2.new(Bottom3.X, Bottom3.Y)
+	
+								line7.From = Vector2.new(Bottom3.X, Bottom3.Y)
+								line7.To = Vector2.new(Bottom4.X, Bottom4.Y)
+	
+								line8.From = Vector2.new(Bottom4.X, Bottom4.Y)
+								line8.To = Vector2.new(Bottom1.X, Bottom1.Y)
+	
+								--//S ides:
+								line9.From = Vector2.new(Bottom1.X, Bottom1.Y)
+								line9.To = Vector2.new(Top1.X, Top1.Y)
+	
+								line10.From = Vector2.new(Bottom2.X, Bottom2.Y)
+								line10.To = Vector2.new(Top2.X, Top2.Y)
+	
+								line11.From = Vector2.new(Bottom3.X, Bottom3.Y)
+								line11.To = Vector2.new(Top3.X, Top3.Y)
+	
+								line12.From = Vector2.new(Bottom4.X, Bottom4.Y)
+								line12.To = Vector2.new(Top4.X, Top4.Y)
+	
+								--// Tracer:
+								if Tracers then
+									local trace = camera:WorldToViewportPoint((v.Character.HumanoidRootPart.CFrame * CFrame.new(0, -Size.Y, 0)).p)
+	
+									Tracer.From = Vector2.new(camera.ViewportSize.X/2, camera.ViewportSize.Y)
+									Tracer.To = Vector2.new(trace.X, trace.Y)
+								end
+	
+								--// Teamcheck:
+								if Team_Check then
+									if v.TeamColor == player.TeamColor then
+										line1.Color = green
+										line2.Color = green
+										line3.Color = green
+										line4.Color = green
+										line5.Color = green
+										line6.Color = green
+										line7.Color = green
+										line8.Color = green
+										line9.Color = green
+										line10.Color = green
+										line11.Color = green
+										line12.Color = green
+										Tracer.Color = green
+									else 
+										line1.Color = red
+										line2.Color = red
+										line3.Color = red
+										line4.Color = red
+										line5.Color = red
+										line6.Color = red
+										line7.Color = red
+										line8.Color = red
+										line9.Color = red
+										line10.Color = red
+										line11.Color = red
+										line12.Color = red
+										Tracer.Color = red
+									end
+								end
+	
+								--// Autothickness:
+								if Autothickness then
+									local distance = (player.Character.HumanoidRootPart.Position - v.Character.HumanoidRootPart.Position).magnitude
+									local value = math.clamp(1/distance*100, 0.1, 4) --0.1 is min thickness, 6 is max
+									line1.Thickness = value
+									line2.Thickness = value
+									line3.Thickness = value
+									line4.Thickness = value
+									line5.Thickness = value
+									line6.Thickness = value
+									line7.Thickness = value
+									line8.Thickness = value
+									line9.Thickness = value
+									line10.Thickness = value
+									line11.Thickness = value
+									line12.Thickness = value
+								else 
+									line1.Thickness = Box_Thickness
+									line2.Thickness = Box_Thickness
+									line3.Thickness = Box_Thickness
+									line4.Thickness = Box_Thickness
+									line5.Thickness = Box_Thickness
+									line6.Thickness = Box_Thickness
+									line7.Thickness = Box_Thickness
+									line8.Thickness = Box_Thickness
+									line9.Thickness = Box_Thickness
+									line10.Thickness = Box_Thickness
+									line11.Thickness = Box_Thickness
+									line12.Thickness = Box_Thickness
+								end
+	
+								line1.Visible = true
+								line2.Visible = true
+								line3.Visible = true
+								line4.Visible = true
+								line5.Visible = true
+								line6.Visible = true
+								line7.Visible = true
+								line8.Visible = true
+								line9.Visible = true
+								line10.Visible = true
+								line11.Visible = true
+								line12.Visible = true
+								if Tracers then
+									Tracer.Visible = true
+								end
+							else 
+								line1.Visible = false
+								line2.Visible = false
+								line3.Visible = false
+								line4.Visible = false
+								line5.Visible = false
+								line6.Visible = false
+								line7.Visible = false
+								line8.Visible = false
+								line9.Visible = false
+								line10.Visible = false
+								line11.Visible = false
+								line12.Visible = false
+								Tracer.Visible = false
+							end
+						else 
+							line1.Visible = false
+							line2.Visible = false
+							line3.Visible = false
+							line4.Visible = false
+							line5.Visible = false
+							line6.Visible = false
+							line7.Visible = false
+							line8.Visible = false
+							line9.Visible = false
+							line10.Visible = false
+							line11.Visible = false
+							line12.Visible = false
+							Tracer.Visible = false
+							if game.Players:FindFirstChild(v.Name) == nil then
+								connection:Disconnect()
+							end
+						end
+					end)
+				end
+				coroutine.wrap(ESP)()
+			end
+	
+			game.Players.PlayerAdded:Connect(function(newplr)
+				--// Lines for 3D box (12)
+				local line1 = Drawing.new("Line")
+				line1.Visible = false
+				line1.Color = Box_Color
+				line1.Thickness = Box_Thickness
+				line1.Transparency = Box_Transparency
+	
+				local line2 = Drawing.new("Line")
+				line2.Visible = false
+				line2.Color = Box_Color
+				line2.Thickness = Box_Thickness
+				line2.Transparency = Box_Transparency
+	
+				local line3 = Drawing.new("Line")
+				line3.Visible = false
+				line3.Color = Box_Color
+				line3.Thickness = Box_Thickness
+				line3.Transparency = Box_Transparency
+	
+				local line4 = Drawing.new("Line")
+				line4.Visible = false
+				line4.Color = Box_Color
+				line4.Thickness = Box_Thickness
+				line4.Transparency = Box_Transparency
+	
+				local line5 = Drawing.new("Line")
+				line5.Visible = false
+				line5.Color = Box_Color
+				line5.Thickness = Box_Thickness
+				line5.Transparency = Box_Transparency
+	
+				local line6 = Drawing.new("Line")
+				line6.Visible = false
+				line6.Color = Box_Color
+				line6.Thickness = Box_Thickness
+				line6.Transparency = Box_Transparency
+	
+				local line7 = Drawing.new("Line")
+				line7.Visible = false
+				line7.Color = Box_Color
+				line7.Thickness = Box_Thickness
+				line7.Transparency = Box_Transparency
+	
+				local line8 = Drawing.new("Line")
+				line8.Visible = false
+				line8.Color = Box_Color
+				line8.Thickness = Box_Thickness
+				line8.Transparency = Box_Transparency
+	
+				local line9 = Drawing.new("Line")
+				line9.Visible = false
+				line9.Color = Box_Color
+				line9.Thickness = Box_Thickness
+				line9.Transparency = Box_Transparency
+	
+				local line10 = Drawing.new("Line")
+				line10.Visible = false
+				line10.Color = Box_Color
+				line10.Thickness = Box_Thickness
+				line10.Transparency = Box_Transparency
+	
+				local line11 = Drawing.new("Line")
+				line11.Visible = false
+				line11.Color = Box_Color
+				line11.Thickness = Box_Thickness
+				line11.Transparency = Box_Transparency
+	
+				local line12 = Drawing.new("Line")
+				line12.Visible = false
+				line12.Color = Box_Color
+				line12.Thickness = Box_Thickness
+				line12.Transparency = Box_Transparency
+	
+				local Tracer = Drawing.new("Line")
+				Tracer.Visible = false
+				Tracer.Color = Tracer_Color
+				Tracer.Thickness = Tracer_Thickness
+				Tracer.Transparency = Tracer_Transparency
+	
+				--// Updates ESP (lines) in render loop
+				local function ESP()
+					local connection
+					connection = game:GetService("RunService").RenderStepped:Connect(function()
+						if on and newplr.Character ~= nil and newplr.Character:FindFirstChild("Humanoid") ~= nil and newplr.Character:FindFirstChild("HumanoidRootPart") ~= nil and newplr.Name ~= player.Name  and newplr.Character.Humanoid.Health > 0 then
+							local pos, vis = camera:WorldToViewportPoint(newplr.Character.HumanoidRootPart.Position)
+							if vis then
+								local Scale = newplr.Character.Head.Size.Y/2
+								local Size = Vector3.new(2, 3, 1.5) * (Scale * 2) -- Change this for different box size
+	
+								local Top1 = camera:WorldToViewportPoint((newplr.Character.HumanoidRootPart.CFrame * CFrame.new(-Size.X, Size.Y, -Size.Z)).p)
+								local Top2 = camera:WorldToViewportPoint((newplr.Character.HumanoidRootPart.CFrame * CFrame.new(-Size.X, Size.Y, Size.Z)).p)
+								local Top3 = camera:WorldToViewportPoint((newplr.Character.HumanoidRootPart.CFrame * CFrame.new(Size.X, Size.Y, Size.Z)).p)
+								local Top4 = camera:WorldToViewportPoint((newplr.Character.HumanoidRootPart.CFrame * CFrame.new(Size.X, Size.Y, -Size.Z)).p)
+	
+								local Bottom1 = camera:WorldToViewportPoint((newplr.Character.HumanoidRootPart.CFrame * CFrame.new(-Size.X, -Size.Y, -Size.Z)).p)
+								local Bottom2 = camera:WorldToViewportPoint((newplr.Character.HumanoidRootPart.CFrame * CFrame.new(-Size.X, -Size.Y, Size.Z)).p)
+								local Bottom3 = camera:WorldToViewportPoint((newplr.Character.HumanoidRootPart.CFrame * CFrame.new(Size.X, -Size.Y, Size.Z)).p)
+								local Bottom4 = camera:WorldToViewportPoint((newplr.Character.HumanoidRootPart.CFrame * CFrame.new(Size.X, -Size.Y, -Size.Z)).p)
+	
+								--// Top:
+								line1.From = Vector2.new(Top1.X, Top1.Y)
+								line1.To = Vector2.new(Top2.X, Top2.Y)
+	
+								line2.From = Vector2.new(Top2.X, Top2.Y)
+								line2.To = Vector2.new(Top3.X, Top3.Y)
+	
+								line3.From = Vector2.new(Top3.X, Top3.Y)
+								line3.To = Vector2.new(Top4.X, Top4.Y)
+	
+								line4.From = Vector2.new(Top4.X, Top4.Y)
+								line4.To = Vector2.new(Top1.X, Top1.Y)
+	
+								--// Bottom:
+								line5.From = Vector2.new(Bottom1.X, Bottom1.Y)
+								line5.To = Vector2.new(Bottom2.X, Bottom2.Y)
+	
+								line6.From = Vector2.new(Bottom2.X, Bottom2.Y)
+								line6.To = Vector2.new(Bottom3.X, Bottom3.Y)
+	
+								line7.From = Vector2.new(Bottom3.X, Bottom3.Y)
+								line7.To = Vector2.new(Bottom4.X, Bottom4.Y)
+	
+								line8.From = Vector2.new(Bottom4.X, Bottom4.Y)
+								line8.To = Vector2.new(Bottom1.X, Bottom1.Y)
+	
+								--//S ides:
+								line9.From = Vector2.new(Bottom1.X, Bottom1.Y)
+								line9.To = Vector2.new(Top1.X, Top1.Y)
+	
+								line10.From = Vector2.new(Bottom2.X, Bottom2.Y)
+								line10.To = Vector2.new(Top2.X, Top2.Y)
+	
+								line11.From = Vector2.new(Bottom3.X, Bottom3.Y)
+								line11.To = Vector2.new(Top3.X, Top3.Y)
+	
+								line12.From = Vector2.new(Bottom4.X, Bottom4.Y)
+								line12.To = Vector2.new(Top4.X, Top4.Y)
+	
+								--// Tracer:
+								if Tracers then
+									local trace = camera:WorldToViewportPoint((newplr.Character.HumanoidRootPart.CFrame * CFrame.new(0, -Size.Y, 0)).p)
+	
+									Tracer.From = Vector2.new(camera.ViewportSize.X/2, camera.ViewportSize.Y)
+									Tracer.To = Vector2.new(trace.X, trace.Y)
+								end
+	
+								--// Teamcheck:
+								if Team_Check then
+									if newplr.TeamColor == player.TeamColor then
+										line1.Color = green
+										line2.Color = green
+										line3.Color = green
+										line4.Color = green
+										line5.Color = green
+										line6.Color = green
+										line7.Color = green
+										line8.Color = green
+										line9.Color = green
+										line10.Color = green
+										line11.Color = green
+										line12.Color = green
+										Tracer.Color = green
+									else 
+										line1.Color = red
+										line2.Color = red
+										line3.Color = red
+										line4.Color = red
+										line5.Color = red
+										line6.Color = red
+										line7.Color = red
+										line8.Color = red
+										line9.Color = red
+										line10.Color = red
+										line11.Color = red
+										line12.Color = red
+										Tracer.Color = red
+									end
+								end
+	
+								--// Autothickness:
+								if Autothickness then
+									local distance = (player.Character.HumanoidRootPart.Position - newplr.Character.HumanoidRootPart.Position).magnitude
+									local value = math.clamp(1/distance*100, 0.1, 4) --0.1 is min thickness, 6 is max
+									line1.Thickness = value
+									line2.Thickness = value
+									line3.Thickness = value
+									line4.Thickness = value
+									line5.Thickness = value
+									line6.Thickness = value
+									line7.Thickness = value
+									line8.Thickness = value
+									line9.Thickness = value
+									line10.Thickness = value
+									line11.Thickness = value
+									line12.Thickness = value
+								else 
+									line1.Thickness = Box_Thickness
+									line2.Thickness = Box_Thickness
+									line3.Thickness = Box_Thickness
+									line4.Thickness = Box_Thickness
+									line5.Thickness = Box_Thickness
+									line6.Thickness = Box_Thickness
+									line7.Thickness = Box_Thickness
+									line8.Thickness = Box_Thickness
+									line9.Thickness = Box_Thickness
+									line10.Thickness = Box_Thickness
+									line11.Thickness = Box_Thickness
+									line12.Thickness = Box_Thickness
+								end
+	
+								line1.Visible = true
+								line2.Visible = true
+								line3.Visible = true
+								line4.Visible = true
+								line5.Visible = true
+								line6.Visible = true
+								line7.Visible = true
+								line8.Visible = true
+								line9.Visible = true
+								line10.Visible = true
+								line11.Visible = true
+								line12.Visible = true
+								if Tracers then
+									Tracer.Visible = true
+								end
+							else 
+								line1.Visible = false
+								line2.Visible = false
+								line3.Visible = false
+								line4.Visible = false
+								line5.Visible = false
+								line6.Visible = false
+								line7.Visible = false
+								line8.Visible = false
+								line9.Visible = false
+								line10.Visible = false
+								line11.Visible = false
+								line12.Visible = false
+								Tracer.Visible = false
+							end
+						else 
+							line1.Visible = false
+							line2.Visible = false
+							line3.Visible = false
+							line4.Visible = false
+							line5.Visible = false
+							line6.Visible = false
+							line7.Visible = false
+							line8.Visible = false
+							line9.Visible = false
+							line10.Visible = false
+							line11.Visible = false
+							line12.Visible = false
+							Tracer.Visible = false
+							if game.Players:FindFirstChild(newplr.Name) == nil then
+								connection:Disconnect()
+							end
+						end
+					end)
+				end
+				coroutine.wrap(ESP)()
+			end)
+		end
+	end)
+end
+coroutine.wrap(XIOCXF_fake_script)()
+local function NGXAN_fake_script() -- VisualsButton.LocalScript 
 	local script = Instance.new('LocalScript', VisualsButton)
 
 	-- Visuals Button
@@ -1138,18 +4697,137 @@ local function ZUTRV_fake_script() -- VisualsButton.LocalScript
 		script.Parent.Framevis.Visible = true
 		script.Parent.Parent.MainButton.BorderSizePixel = 0
 		script.Parent.Parent.GunButton.BorderSizePixel = 0
+		script.Parent.Parent.SettingsButton.BorderSizePixel = 0
 		script.Parent.Parent.MainButton.Framemain.Visible = false
 		script.Parent.Parent.GunButton.Framegun.Visible = false
+		script.Parent.Parent.SettingsButton.Settingsvis.Visible = false
 		script.Parent.Parent.GunButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 		script.Parent.Parent.MainButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+		script.Parent.Parent.SettingsButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 	
 	
 	end
 	
 	button.Activated:Connect(onButtonActivated)
 end
-coroutine.wrap(ZUTRV_fake_script)()
-local function QAZLNG_fake_script() -- Core.Draggable 
+coroutine.wrap(NGXAN_fake_script)()
+local function TDFF_fake_script() -- EnableB_6.LocalScript 
+	local script = Instance.new('LocalScript', EnableB_6)
+
+	print("Hello world!")
+	
+end
+coroutine.wrap(TDFF_fake_script)()
+local function RAEGZFU_fake_script() -- EnableB_7.LocalScript 
+	local script = Instance.new('LocalScript', EnableB_7)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Core.BorderColor3 = Color3.fromRGB(220, 147, 0)
+		script.Parent.Parent.Parent.Parent.Settingsvis.BorderColor3 = Color3.fromRGB(220, 147, 0)
+		script.Parent.Parent.Parent.Parent.Parent.MainButton.Framemain.BorderColor3 = Color3.fromRGB(220, 147, 0)
+		script.Parent.Parent.Parent.Parent.Parent.GunButton.Framegun.BorderColor3 = Color3.fromRGB(220, 147, 0)
+		script.Parent.Parent.Parent.Parent.Parent.VisualsButton.Framevis.BorderColor3 = Color3.fromRGB(220, 147, 0)
+		script.Parent.Parent.Parent.Parent.Parent.SettingsButton.Settingsvis.BorderColor3 = Color3.fromRGB(220, 147, 0)
+		script.Parent.Parent.Parent.Parent.Parent.MainButton.BorderColor3 = Color3.fromRGB(220, 147, 0)
+		script.Parent.Parent.Parent.Parent.Parent.SettingsButton.BorderColor3 = Color3.fromRGB(220, 147, 0)
+		script.Parent.Parent.Parent.Parent.Parent.VisualsButton.BorderColor3 = Color3.fromRGB(220, 147, 0)
+		script.Parent.Parent.Parent.Parent.Parent.GunButton.BorderColor3 = Color3.fromRGB(220, 147, 0)
+		
+		script.Parent.Parent.Parent.Parent.Parent.MainButton.TextColor3 = Color3.fromRGB(220, 147, 0)
+		script.Parent.Parent.Parent.Parent.Parent.MainButton.TextColor3 = Color3.fromRGB(220, 147, 0)
+		script.Parent.Parent.Parent.Parent.Parent.MainButton.TextColor3 = Color3.fromRGB(220, 147, 0)
+		script.Parent.Parent.Parent.Parent.Parent.MainButton.TextColor3 = Color3.fromRGB(220, 147, 0)
+	
+	end)
+end
+coroutine.wrap(RAEGZFU_fake_script)()
+local function YYJREZ_fake_script() -- DestroyB.LocalScript 
+	local script = Instance.new('LocalScript', DestroyB)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		
+		script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Core:Destroy()
+		script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Changelog:Destroy()
+	end)
+	
+end
+coroutine.wrap(YYJREZ_fake_script)()
+local function WJCTDOB_fake_script() -- DestroyB_2.LocalScript 
+	local script = Instance.new('LocalScript', DestroyB_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		wait(2)
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/NikoNoice/BoostFPS/main/Textures'))() 
+	end)
+	
+end
+coroutine.wrap(WJCTDOB_fake_script)()
+local function ABSWN_fake_script() -- DestroyB_3.LocalScript 
+	local script = Instance.new('LocalScript', DestroyB_3)
+
+	
+		toggle = false
+		script.Parent.MouseButton1Down:connect(function()
+	
+			if toggle == true then 
+				toggle = false 
+			else
+				toggle = true
+			end
+			if toggle == true then 
+				script.Parent.BackgroundColor3 = Color3.fromRGB(154, 0, 77)
+			end
+			if toggle == false then 
+				script.Parent.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+			end
+	
+			if toggle == true then
+				script.Parent.Parent.Parent.Parent.Parent.Parent.HUD.Visible = true
+			end
+			if toggle == false then 
+				script.Parent.Parent.Parent.Parent.Parent.Parent.HUD.Visible = false
+			end
+		end)
+end
+coroutine.wrap(ABSWN_fake_script)()
+local function XHEO_fake_script() -- TextLabel_42.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_42)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Core:Destroy()
+	end)
+	
+end
+coroutine.wrap(XHEO_fake_script)()
+local function FGSKWTB_fake_script() -- SettingsButton.LocalScript 
+	local script = Instance.new('LocalScript', SettingsButton)
+
+	-- Visuals Button
+	
+	local button = script.Parent
+	
+	local function onButtonActivated()
+		print("Button activated!")
+		script.Parent.BorderSizePixel = 1
+		script.Parent.TextColor3 = Color3.fromRGB(154, 0, 77)
+		script.Parent.Settingsvis.Visible = true
+		script.Parent.Parent.MainButton.BorderSizePixel = 0
+		script.Parent.Parent.VisualsButton.BorderSizePixel = 0
+		script.Parent.Parent.GunButton.BorderSizePixel = 0
+		script.Parent.Parent.MainButton.Framemain.Visible = false
+		script.Parent.Parent.GunButton.Framegun.Visible = false
+		script.Parent.Parent.VisualsButton.Framevis.Visible = false
+		script.Parent.Parent.GunButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+		script.Parent.Parent.MainButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+		script.Parent.Parent.VisualsButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+	
+	
+	end
+	
+	button.Activated:Connect(onButtonActivated)
+end
+coroutine.wrap(FGSKWTB_fake_script)()
+local function CLPRB_fake_script() -- Core.Draggable 
 	local script = Instance.new('LocalScript', Core)
 
 	local UIS = game:GetService('UserInputService')
@@ -1223,8 +4901,8 @@ local function QAZLNG_fake_script() -- Core.Draggable
 	end)
 	
 end
-coroutine.wrap(QAZLNG_fake_script)()
-local function YEEZYH_fake_script() -- Core.Keybind 
+coroutine.wrap(CLPRB_fake_script)()
+local function DDPXSM_fake_script() -- Core.Keybind 
 	local script = Instance.new('LocalScript', Core)
 
 	local frame = script.Parent.Parent.Core
@@ -1246,8 +4924,26 @@ local function YEEZYH_fake_script() -- Core.Keybind
 		end
 	end)
 end
-coroutine.wrap(YEEZYH_fake_script)()
-local function FZOIYTI_fake_script() -- close_2.LocalScript 
+coroutine.wrap(DDPXSM_fake_script)()
+local function DZDNFA_fake_script() -- TextLabel_45.FPSCounterScript 
+	local script = Instance.new('LocalScript', TextLabel_45)
+
+	local fps = 0
+	local rs = game:GetService'RunService'
+	
+	function updateFPS()
+		fps = fps + 1
+	end
+	
+	rs.RenderStepped:connect(updateFPS)
+	
+	while wait'1' do
+		script.Parent.Text = fps ..""
+		fps = 0
+	end
+end
+coroutine.wrap(DZDNFA_fake_script)()
+local function SXIT_fake_script() -- close_2.LocalScript 
 	local script = Instance.new('LocalScript', close_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1256,4 +4952,4 @@ local function FZOIYTI_fake_script() -- close_2.LocalScript
 		script.Parent.Parent.Parent.Changelog:Destroy()
 	end)
 end
-coroutine.wrap(FZOIYTI_fake_script)()
+coroutine.wrap(SXIT_fake_script)()
